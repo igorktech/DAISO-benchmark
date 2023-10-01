@@ -1,0 +1,1502 @@
+Speaker,Utterance,Dialogue_Act,Dialogue_Act_ISO
+b,it's at in um i've just had exactly calls um to a female member of staff in the office and somebody seems to be heavy breathing now they're all in um within a space of a minute with each one but um when i've tried to do it's saying number withheld is there any way we can trace that caller right right yeah it it's the main number that comes in but uh the female officers they answer it first and then they'll divert it through to us it is yeah right yeah okay then thanks very much thanks bye,identifySelf,
+a,hello there,greet,greeting
+b,um i've just had exactly calls um to a female member of staff in the office,inform,inform
+b,and somebody seems to be heavy breathing,inform,inform
+b,now,init,discourse
+b,but um when i've tried to do it's saying number withheld is there any way we can trace that caller right right yeah it it's the main number that comes in but uh the female officers they answer it first and then they'll divert it through to us it is yeah right yeah okay then thanks very much thanks bye,inform,inform
+b,it's saying number withheld,inform,inform
+b,is there any way we can trace that caller,reqInfo,directive
+a,right,backch,feedback
+a,oh dear,backch,feedback
+a,right,backch,feedback
+a,right,init,discourse
+a,we wouldn't be able to trace them now once once the call's been made,answ,answer
+a,we can't put trace it back to a withheld number,answElab,inform
+b,right,ackn,feedback
+a,i mean if you know it were to persist,inform,inform
+a,we then could get our nuisance call bureau to put a trace on the line to see where it's coming from,inform,inform
+a,it's to one is it,reqInfo,directive
+a,to the main number there or is it an extension,reqInfo,directive
+b,right,backch,feedback
+b,yeah,answ,answer
+b,it it's the main number that comes in,answElab,inform
+b,but uh the female officers they answer it first,answElab,inform
+b,and then they'll divert it through to us,answElab,inform
+a,right,backch,feedback
+a,yeah yeah,ackn,feedback
+a,i understand,ackn,feedback
+a,right,ackn,feedback
+a,is it's a business line i presume is it,reqInfo,directive
+b,it is,answ,answer
+b,yeah,answ,answer
+a,you can have a word with business on,suggest,directive
+a,you know once the call's gone we can't sort of trace it,inform,inform
+a,but the nuisance call bureau might be able to help in that direction but if you speak to business on they'll be able to advise you more and then perhaps put you through to nuisance calls alright thanks bye,expressPossibility,inform
+a,but if you speak to business on they'll be able to advise you more and then perhaps put you through to nuisance calls alright thanks bye,suggest,directive
+b,right,backch,feedback
+b,yeah,ackn,feedback
+a,they'll be able to advise you more and then perhaps put you through to nuisance calls,inform,inform
+b,okay then thanks very much thanks bye,ackn,feedback
+b,thanks very much,thank,thanking
+a,alright,ackn,feedback
+b,thanks,thank,thanking
+b,bye,bye,goodbye
+a,thanks,thank,thanking
+a,bye,bye,goodbye
+b,oh yes um,ackn,feedback
+b,oh now,init,discourse
+b,good morning,greet,greeting
+b,i'm on hello yeah and um i've just had um two phone calls from the same people and i explained that they rung the wrong number but when our phone rang it made a different um sound it didn't use use use the usual ringing tone that's what i thought but uh but um a while back we did have a second number on the same line uh yes but we got it to be we asked for it to be taken off yeah it's double double yeah missus place} oh that should that was that was months ago cos we never we never ever used in the end we never used it so i think we must have had it on for about maybe months at the most but i i thought the man i spoke to took it off must have been two couple of months ago at the least,inform,inform
+b,hello,greet,greeting
+a,hello,greet,greeting
+b,yeah,ackn,feedback
+b,and um i've just had um two phone calls from the same people,inform,inform
+b,and i explained that they rung the wrong number,inform,inform
+b,but when our phone rang,refer,
+b,it made a different um sound,inform,inform
+b,it didn't use use use the usual ringing tone,inform,inform
+a,yeah,backch,feedback
+a,oh gosh,exclaim,
+a,that's strange,expressOpinion,inform
+b,that's what i thought,expressOpinion,inform
+b,but uh but um a while back,refer,
+b,we did have a second number on the same line,inform,inform
+a,for the Callsign,reqInfo,directive
+b,uh yes,answ,answer
+b,but we got it to be we asked for it to be taken off,inform,inform
+a,right,ackn,feedback
+a,i'll just check that for you,informIntent,commissive
+a,can i just take your customer number,reqInfo,directive
+b,yeah,answ,answer
+b,it's double double yeah missus place} oh that should that was that was months ago cos we never we never ever used in the end we never used it so i think we must have had it on for about maybe months at the most but i i thought the man i spoke to took it off must have been two couple of months ago at the least,answElab,inform
+a,yeah,backch,feedback
+a,yeah,backch,feedback
+a,that's lovely,appreciate,feedback
+a,right,ackn,feedback
+a,just bear with me,hold,turn
+a,now,init,discourse
+a,i've got your details in front of me,inform,inform
+a,would you just confirm your full name address and post code please,reqInfo,directive
+b,yeah,answ,answer
+b,missus place} oh that should that was that was months ago cos we never we never ever used in the end we never used it so i think we must have had it on for about maybe months at the most but i i thought the man i spoke to took it off must have been two couple of months ago at the least,answElab,inform
+a,right,ackn,feedback
+a,the Callsign's actually showing as still operational,inform,inform
+a,now,init,discourse
+a,i can remove that for you,offer,commissive
+a,i think that's what that is,expressOpinion,inform
+a,that's very strange isn't it,expressOpinion,inform
+b,oh that should that was that was months ago cos we never we never ever used in the end we never used it so i think we must have had it on for about maybe months at the most but i i thought the man i spoke to took it off must have been two couple of months ago at the least,answ,answer
+b,cos we never we never ever used in the end,inform,inform
+b,we never used it,inform,inform
+b,so i think we must have had it on for about maybe months at the most but i i thought the man i spoke to took it off must have been two couple of months ago at the least,expressOpinion,inform
+b,but i i thought the man i spoke to took it off,expressOpinion,inform
+b,must have been two couple of months ago at the least,inform,inform
+a,how strange,exclaim,
+a,right,init,discourse
+a,just bear with me one moment,hold,turn
+b,hello,greet,greeting
+b,uh this is a mister this is me first bill i've had in the salesman right that have done the agreement with you told me there'd be no connection fee i've received a bill in for pound and only a pound of that is calls,identifySelf,
+a,yes mister and how can i help you right yes right,ackn,feedback
+a,and how can i help you,offer,commissive
+b,the salesman right that have done the agreement with you told me there'd be no connection fee,inform,inform
+b,i've received a bill in for pound and only a pound of that is calls,inform,inform
+a,right,backch,feedback
+a,yes,backch,feedback
+a,right,backch,feedback
+b,hello,greet,greeting
+b,i'm sounds as if if there's a bit of a party going on there this morning no lots of oh a oh it sounded like joy and activity and uh happiness i've just been talking to a colleague of yours called in uh engineering or where's repairs or faults or whatever it was and he told me you're just the person to help me we last week we arranged the number we were at was disconnected and we were moving to a different house and we asked for a new number to be activated as from seven o'clock yesterday morning the new number is,identifySelf,
+b,sounds as if if there's a bit of a party going on there this morning,expressOpinion,inform
+a,no,negate,disagreement
+b,no lots of oh a oh it sounded like joy and activity and uh happiness i've just been talking to a colleague of yours called in uh engineering or where's repairs or faults or whatever it was and he told me you're just the person to help me we last week we arranged the number we were at was disconnected and we were moving to a different house and we asked for a new number to be activated as from seven o'clock yesterday morning the new number is,confirm,answer
+a,are you talking about there's a buzz on the line,reqInfo,directive
+b,oh a oh it sounded like joy and activity and uh happiness,inform,inform
+a,oh i wish i wish how can i help you right,expressWish,inform
+a,i wish how can i help you right,expressWish,inform
+a,how can i help you,offer,commissive
+b,i've just been talking to a colleague of yours called in uh engineering or where's repairs or faults or whatever it was,inform,inform
+b,and he told me you're just the person to help me,inform,inform
+a,right,ackn,feedback
+b,we last week we arranged the number we were at was disconnected,inform,inform
+b,and we were moving to a different house,inform,inform
+b,and we asked for a new number to be activated as from seven o'clock yesterday morning the new number is,inform,inform
+b,the new number is,inform,inform
+b,hi love,greet,greeting
+b,yeah um,ackn,feedback
+b,i'm just phoning up to see if i've got the right phone bill,inform,inform
+b,as i've got to pay today,inform,inform
+a,oh right okay,ackn,feedback
+a,have you got your account number there please,reqInfo,directive
+b,uh,backch,feedback
+b,um the account,refer,
+b,lets see uh,selfTalk,
+a,double thank you uh no that's fine could you just confirm o double,echo,feedback
+b,yeah,ackn,feedback
+b,yeah,ackn,feedback
+a,thank you,thank,thanking
+b,uh uh do do i need the rest now,reqInfo,directive
+a,uh no,answ,answer
+a,that's fine,accept,agreement
+a,could you just confirm o double,reqInfo,directive
+b,okay thanks,backch,feedback
+b,uh double uh sorry love,answ,answer
+b,sorry love,expressRegret,apology
+b,hi,greet,greeting
+b,um i'd like to report a fault um on a phone line,inform,inform
+a,oh right,ackn,feedback
+a,you need to dial for that,inform,inform
+a,that's the fault department,inform,inform
+b,okay,ackn,feedback
+b,thanks a lot,thank,thanking
+b,bye,bye,goodbye
+a,alright,init,discourse
+a,byebye,bye,goodbye
+a,thank you for calling my name is can i take your telephone number please just one moment i'll get your details can i take your full name and address please right have you actually got your customer number with you we have a problem with our computer at the moment and we can't actually access uh with the telephone number have you got the customer number there,thank,thanking
+a,my name is can i take your telephone number please just one moment i'll get your details can i take your full name and address please right have you actually got your customer number with you we have a problem with our computer at the moment and we can't actually access uh with the telephone number have you got the customer number there,identifySelf,
+a,can i take your telephone number please,reqInfo,directive
+b,yeah,answ,answer
+a,just one moment,hold,turn
+a,i'll get your details,informIntent,commissive
+b,okay,ackn,feedback
+a,can i take your full name and address please,reqInfo,directive
+b,yeah,answ,answer
+a,right,ackn,feedback
+a,have you actually got your customer number with you we have a problem with our computer at the moment and we can't actually access uh with the telephone number have you got the customer number there,reqInfo,directive
+a,we have a problem with our computer at the moment,inform,inform
+a,and we can't actually access uh with the telephone number,inform,inform
+a,have you got the customer number there,reqInfo,directive
+b,oh right,backch,feedback
+b,if you hang on,hold,turn
+b,i'll get a bill,informIntent,commissive
+b,um i want the complaints section please,direct,directive
+b,um i spoke to somebody uh Monday named,inform,inform
+b,and yesterday a lady called rang me back about to apologise,inform,inform
+b,and said it'll never happen again and blah blah blah,inform,inform
+b,well,init,discourse
+b,it has,inform,inform
+a,right,backch,feedback
+a,yeah,backch,feedback
+a,yeah,backch,feedback
+a,right,backch,feedback
+a,oh right,ackn,feedback
+a,yeah,ackn,feedback
+b,is this the freephone number,reqInfo,directive
+a,this is the which is customer service,answ,answer
+b,yeah,ackn,feedback
+b,just let me just hang on just a second,hold,turn
+b,so i can make sure i've dialled if you still remain reu reu reu reu yeah it's free on right well is there see i don't where she rang from where are you you're at,inform,inform
+b,it's free on right well is there see i don't where she rang from where are you you're at,confirm,answer
+a,yeah,backch,feedback
+a,that's right yeah correct,ackn,feedback
+b,right,ackn,feedback
+b,well,init,discourse
+b,is there,reqInfo,directive
+a,not in this uh um office she isn't,answElab,inform
+b,see,init,discourse
+b,i don't where she rang from,inform,inform
+b,where are you,reqInfo,directive
+a,we're at yeah,answ,answer
+b,you're at,confirm,answer
+a,yeah,ackn,feedback
+b,oh good morning,greet,greeting
+b,um my lady friend um had one of these Freespell phones,inform,inform
+b,um Freedline uh i think it is uh she's having pardon yeah yeah,inform,inform
+b,uh she's having,inform,inform
+a,yeah,backch,feedback
+a,Freestyle Freestyle yeah,correct,
+b,pardon,pardon,apology
+a,Freestyle yeah,confirm,answer
+b,yeah yeah,ackn,feedback
+a,that's it,ackn,feedback
+a,yeah no no we're doing a trial to try and you know make the system better so so you're part of the trial how can i help you sir yep uh hmm yeah yeah thank you sir i'll just get your details thanks i have your details in front of me could you confirm your full name and address including the postcode please,ackn,feedback
+b,i expected minutes talking to machines,inform,inform
+a,no no,negate,disagreement
+a,we're doing a trial to try and you know make the system better,inform,inform
+a,so,init,discourse
+a,so you're part of the trial how can i help you sir yep uh hmm yeah yeah thank you sir i'll just get your details thanks i have your details in front of me could you confirm your full name and address including the postcode please,confirm,answer
+a,how can i help you sir,offer,commissive
+b,oh good,backch,feedback
+b,that'll suit me,accept,agreement
+b,if you've got a screen um,inform,inform
+b,it might benefit you by putting me up on it,suggest,directive
+b,my telephone number is yes um,inform,inform
+a,yep uh hmm,backch,feedback
+a,yeah,ackn,feedback
+a,yeah,ackn,feedback
+a,thank you sir,thank,thanking
+a,i'll just get your details thanks i have your details in front of me could you confirm your full name and address including the postcode please,informIntent,commissive
+a,thanks,thank,thanking
+a,i have your details in front of me,inform,inform
+a,could you confirm your full name and address including the postcode please,reqInfo,directive
+b,yes,ackn,feedback
+b,oh hello,greet,greeting
+b,could i report a fault on a line please,direct,directive
+a,yep,accept,agreement
+a,you need to ring that's it thank you bye,inform,inform
+a,that's it,ackn,feedback
+b,thank you,thank,thanking
+a,thank you,thank,thanking
+a,bye,bye,goodbye
+b,good morning,greet,greeting
+a,morning sir,greet,greeting
+b,i don't know whether you're the department i want,reqInfo,directive
+b,but i tried or different departments yesterday and couldn't get no answer,inform,inform
+a,right,ackn,feedback
+a,so,init,discourse
+b,we want we want a telephone disconnected,direct,directive
+b,yeah,ackn,feedback
+b,hello,greet,greeting
+b,um i just wanted to know if you could review like,direct,directive
+b,we pay pound on a direct debit every uh month,inform,inform
+b,but we've decided that we're gonna use you for um like the line rental,inform,inform
+b,but that we're not gonna make any calls with you,inform,inform
+a,right,backch,feedback
+a,oh right,ackn,feedback
+a,okay right,ackn,feedback
+a,did you still want to pay by direct debit or,reqDirect,directive
+b,yes,direct,directive
+b,i did,directElab,directive
+a,yeah right,accept,agreement
+a,can i take your telephone number please,reqInfo,directive
+b,yeah,answ,answer
+b,it's yeah it's missus number,answElab,inform
+a,yeah,ackn,feedback
+a,yeah,ackn,feedback
+a,thank you can you just confirm the name and address for me please yeah and the postcode,thank,thanking
+a,can you just confirm the name and address for me please,reqInfo,directive
+b,yeah,answ,answer
+b,it's missus number,answElab,inform
+a,yeah,ackn,feedback
+b,number,answElab,inform
+a,and the postcode,reqInfo,directive
+b,oh hello i got this letter through about B T Planet Talk B T Planet Talk it's about long distance call cheaper rates well i've rang the number it says on here and it says press for sales and for something else well i pressed for sales and then it just goes dead,greet,greeting
+b,i got this letter through about B T Planet Talk,inform,inform
+a,about what,reqInfo,directive
+a,sorry,pardon,apology
+b,B T Planet Talk,answ,answer
+b,it's about long distance call cheaper rates,inform,inform
+a,yeah,backch,feedback
+a,right,ackn,feedback
+b,well,init,discourse
+b,i've rang the number it says on here,inform,inform
+b,and it says press for sales and for something else,inform,inform
+b,well,init,discourse
+b,i pressed for sales,inform,inform
+b,and then it just goes dead,inform,inform
+b,oh hello um,greet,greeting
+a,sorry about that,expressRegret,apology
+a,i was just i was just about to cough how can i help right uh huh oh that's no problem do you actually have a payment card or would you like me to send you out an a sort of ad hoc counterfoil um well you could pay that over the telephone if you'd like yes certainly i'll transfer you through to um our um uh card payment section just bear with me one moment,inform,inform
+a,how can i help,offer,commissive
+b,um i know my phone bills due well overdue to be paid really,inform,inform
+b,um but i've lost the bill,inform,inform
+b,so,init,discourse
+b,how can i pay,reqInfo,directive
+a,right uh huh,backch,feedback
+a,oh that's no problem,inform,inform
+a,do you actually have a payment card or would you like me to send you out an a sort of ad hoc counterfoil,reqInfo,directive
+b,i've got a switch card,inform,inform
+a,you could pay that over the telephone if you'd like,expressPossibility,inform
+b,can i,reqModal,directive
+a,yes certainly,accept,agreement
+b,yeah fine,accept,agreement
+a,i'll transfer you through to um our um uh card payment section,informIntent,commissive
+a,just bear with me one moment,hold,turn
+b,okay,backch,feedback
+b,thank you,thank,thanking
+b,oh yes,ackn,feedback
+b,good day,greet,greeting
+b,um can i give you the telephone number,reqModal,directive
+a,yes please,accept,agreement
+b,i'm querying uh it's yes it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done,inform,inform
+a,yes yeah,backch,feedback
+a,thank you,thank,thanking
+a,can i confirm the name address and post code there please as well,reqInfo,directive
+b,yes,answ,answer
+b,it's missus in and it's okay i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done,answElab,inform
+a,okay,ackn,feedback
+a,uh missus how can i help you,reqInfo,directive
+b,okay,ackn,feedback
+b,i phoned a few days uh well it was last week to ask you to disconnect that phone and it still has not been done,inform,inform
+b,and it still has not been done,inform,inform
+b,hello there,greet,greeting
+b,i wonder if you could help me,direct,directive
+b,um i've actually received a letter from about my dum my arrears on the my um account,inform,inform
+a,right,ackn,feedback
+b,it is,answ,answer
+b,yes,answElab,inform
+a,okay,ackn,feedback
+a,just bear with me,hold,turn
+a,and i'll put you through to the accounts department,informIntent,commissive
+b,okay lovely,appreciate,feedback
+b,thank you,thank,thanking
+a,thank you,thank,thanking
+a,just bear with me ringing for you now,hold,turn
+b,ah wonder if you can,direct,directive
+b,my name's mister i've just moved into in um i've got a the phone there um but i want it disconnected for a little okay um ah yeah this is the old bill actually it's in a mister uh mister um let's help you out then treble that what you need i'm i'm mister,identifySelf,
+b,i've just moved into in,inform,inform
+b,um i've got a the phone there um,inform,inform
+b,but i want it disconnected for a little,direct,directive
+a,right,backch,feedback
+a,yeah,backch,feedback
+a,right okay,accept,agreement
+a,just bear with me,hold,turn
+b,okay,ackn,feedback
+a,can i take your customer number,reqInfo,directive
+a,from the top right hand side of your bill,reqInfo,directive
+b,ah yeah this is the old bill actually it's in a mister uh mister um let's help you out then treble that what you need i'm i'm mister,ackn,feedback
+b,this is the old bill actually,inform,inform
+b,it's in a mister uh mister um,inform,inform
+b,let's help you out then,informIntent,commissive
+a,yeah,ackn,feedback
+a,right,ackn,feedback
+a,let's have a look at that for you and,informIntent,commissive
+b,that what you need,reqInfo,directive
+a,what was your initial mister,reqInfo,directive
+b,i'm i'm mister,answ,answer
+b,yes,ackn,feedback
+b,hello,greet,greeting
+b,um i'm moving address um and want to arrange from for a line to be installed in my new address,inform,inform
+b,but was wondering if i could take my old number with me,reqModal,directive
+a,yeah,accept,agreement
+a,there is a charge of for that,inform,inform
+a,there is a charge of pounds for taking your number,inform,inform
+b,is there,reqInfo,directive
+a,yes,answ,answer
+b,right,ackn,feedback
+a,um and that's if it can be done,inform,inform
+a,it has to be in within the same exchange area,inform,inform
+b,right,ackn,feedback
+b,and if i if i just used another number,inform,inform
+b,would that be free of charge,reqInfo,directive
+a,yeah,answ,answer
+a,there's no charge if you wanna take over the number that's already there,answElab,inform
+a,or they could give you another number um,expressPossibility,inform
+a,it's just that if you want to retain your number,inform,inform
+a,it's pounds yeah certainly you're welcome byebye,inform,inform
+b,right,ackn,feedback
+b,um i think i might um,expressOpinion,inform
+b,i'll hold on with that and try cable and see if they'll do it with no charge,informIntent,commissive
+b,okay then,ackn,feedback
+b,thanks very much,thank,thanking
+b,bye,bye,goodbye
+a,yeah certainly,accept,agreement
+a,you're welcome,ackn,feedback
+a,byebye,bye,goodbye
+b,you say hello i'm wanna pay some money do i pay you or,confirm,answer
+a,hi,greet,greeting
+b,i'm wanna pay some money,inform,inform
+b,do i pay you or,reqInfo,directive
+b,yes,ackn,feedback
+b,um i'm moving out from my flat,inform,inform
+b,and i'd like to uh cancel my line,direct,directive
+a,oh right,accept,agreement
+a,do you have your account number there please,reqInfo,directive
+b,uh the customer number,reqInfo,directive
+a,yeah please,answ,answer
+a,yeah,ackn,feedback
+a,yes,ackn,feedback
+b,yes,ackn,feedback
+a,lovely,appreciate,feedback
+a,thank you,thank,thanking
+a,yes,ackn,feedback
+a,yeah,ackn,feedback
+a,that's right,ackn,feedback
+b,um i'm wanting a couple of leaflets please,direct,directive
+b,have i rung the right number,reqInfo,directive
+a,oh right,backch,feedback
+b,hello,greet,greeting
+b,i'm interested in getting an additional line run to my property,inform,inform
+a,right okay,ackn,feedback
+a,what would that be for,reqInfo,directive
+b,well,init,discourse
+b,it's just mainly for my husband to use,answ,answer
+a,was it gonna for a an actual telephone or P C fax,reqInfo,directive
+b,oh no,answ,answer
+b,just an actual telephone line,answElab,inform
+a,right,ackn,feedback
+a,um would it be actually under his name then or,reqInfo,directive
+b,uh a just as a oh well,init,discourse
+b,yes,answ,answer
+b,actually it probably it will be best to put it under his name,expressOpinion,inform
+a,right do you actually have a line under your name at the same address do you so you're looking for an extra line for your husband okay um right right what's your address and i'll have a look,ackn,feedback
+a,do you actually have a line under your name at the same address do you,reqInfo,directive
+b,yes,answ,answer
+b,we do,answElab,inform
+a,so,init,discourse
+a,you're looking for an extra line for your husband,confirm,answer
+b,yes,ackn,feedback
+a,okay um right right what's your address and i'll have a look,ackn,feedback
+b,i do actually have i i know the previous owner of this house did actually work from home,inform,inform
+b,so,init,discourse
+b,in one of the rooms,refer,
+b,we do have two other phone points it appears,inform,inform
+a,right,backch,feedback
+a,right,ackn,feedback
+a,what's your address,reqInfo,directive
+a,and i'll have a look,informIntent,commissive
+b,hello,greet,greeting
+b,who's there,reqInfo,directive
+a,my name's yes right what sort of enquiry have you right that's no problem can i just take the customer number on the top there yeah yes that's that's fine okay mister just confirm your address and postcode for me please,identifySelf,
+a,yes,ackn,feedback
+b,hello i'm making enquiry about my bill uh some numbers on it i don't recognise yeah for right,greet,greeting
+b,i'm making enquiry about my bill,inform,inform
+a,right,ackn,feedback
+b,uh some numbers on it i don't recognise,answ,answer
+a,right,ackn,feedback
+a,that's no problem,accept,agreement
+a,can i just take the customer number on the top there,reqInfo,directive
+b,yeah,answ,answer
+a,yeah,ackn,feedback
+a,yes,ackn,feedback
+a,that's that's fine,appreciate,feedback
+a,okay mister just confirm your address and postcode for me please,ackn,feedback
+a,just confirm your address and postcode for me please,reqInfo,directive
+b,hello,greet,greeting
+b,who am i speaking to,reqInfo,directive
+a,hello,answ,answer
+b,is that okay this is mister double,reqInfo,directive
+a,yes,answ,answer
+a,it is,answElab,inform
+b,okay,ackn,feedback
+b,this is mister double,inform,inform
+b,uh yeah,ackn,feedback
+b,i'd just like to know what i have to do to send uh my instrument back from the telephone,reqInfo,directive
+b,i'm being charged pound a quarter for it,inform,inform
+b,and i don't use it now,inform,inform
+b,i got another one,inform,inform
+a,yeah sure,ackn,feedback
+a,and what's your telephone number please,reqInfo,directive
+b,it's yeah it's uh and it's and it's yeah yeah but we've changed it many a time since then yes yeah,answ,answer
+a,yeah,ackn,feedback
+a,yeah,ackn,feedback
+a,thank you and could you confirm the full name and the address including the postcode please and you were renting we've got it down as and old dial phone is that right missus right so we we did modernise the wiring then yeah yeah it's okay i need according to this you've got you're stuck with a dial phone cause it's one of those that you can't take out the wall so we've modernised it but haven't actually updated the records here,thank,thanking
+a,and could you confirm the full name and the address including the postcode please,reqInfo,directive
+b,yeah,answ,answer
+b,it's uh and it's and it's yeah yeah but we've changed it many a time since then yes yeah,answElab,inform
+a,and you were renting,confirm,answer
+a,we've got it down as and old dial phone,inform,inform
+a,is that right missus right so we we did modernise the wiring then yeah yeah it's okay i need according to this you've got you're stuck with a dial phone cause it's one of those that you can't take out the wall so we've modernised it but haven't actually updated the records here,reqInfo,directive
+b,yeah yeah,answ,answer
+b,but we've changed it many a time since then,answElab,inform
+a,right,ackn,feedback
+a,so,init,discourse
+a,we we did modernise the wiring then yeah yeah,reqInfo,directive
+b,yes yeah,answ,answer
+a,it's okay,ackn,feedback
+a,i need,inform,inform
+a,according to this you've got you're stuck with a dial phone cause it's one of those that you can't take out the wall so we've modernised it but haven't actually updated the records here,inform,inform
+a,so,init,discourse
+a,we've modernised it but haven't actually updated the records here,inform,inform
+b,hello,greet,greeting
+b,em i'm speaking on the behalf of my wife um she's she's just been put on the phone in the last couple of days and the thing is like she's she's renting a um a cordless phone off you at the moment but the property she's moved into is there was already a box you know in the flat but the thing is it's very hard to uh get the uh to to plug the adaptor into electric socket where the box is situated in the flat now what's she she's asked me to phone you and ask you would it cost her anything for to put another box into this flat cause she didn't originally apply for a box there was already one here when she asked to be put on the phone oh no couldn't of no she couldn't afford that you know what i mean yes yes no because she wasn't quite sure you know with the phone she's she's buying off of the cordless one if um she could use this phone with without using the adaptor or the,inform,inform
+b,she's she's just been put on the phone in the last couple of days,inform,inform
+a,yeah,ackn,feedback
+b,and the thing is like she's she's renting a um a cordless phone off you at the moment,inform,inform
+a,right,ackn,feedback
+b,but the property she's moved into is there was already a box you know in the flat,inform,inform
+a,right,ackn,feedback
+b,but the thing is it's very hard to uh get the uh to to plug the adaptor into electric socket where the box is situated in the flat,inform,inform
+a,right,ackn,feedback
+b,now,init,discourse
+b,she's asked me to phone you and ask you would it cost her anything for to put another box into this flat cause she didn't originally apply for a box there was already one here when she asked to be put on the phone oh no couldn't of no she couldn't afford that you know what i mean yes yes no because she wasn't quite sure you know with the phone she's she's buying off of the cordless one if um she could use this phone with without using the adaptor or the,reqInfo,directive
+b,cause she didn't originally apply for a box,inform,inform
+b,there was already one here when she asked to be put on the phone,inform,inform
+a,yeah,ackn,feedback
+a,i mean they will actually charge to do that,answ,answer
+a,um but you know it's probably about eighty or ninety pounds as a visit charge,answElab,inform
+a,that's including,answElab,inform
+b,oh no,exclaim,
+b,no,negate,disagreement
+b,she couldn't afford that,inform,inform
+a,sure,ackn,feedback
+a,what i was gonna say was i mean you can actually get this done this sorta thing done yourself for about ten pounds,inform,inform
+a,where you can get yourself an extension kit from any good electrical shop alright,inform,inform
+a,and you you can put the put the socket in where it is now okay,inform,inform
+a,and you can put a phone in there,inform,inform
+a,and then you can just trail it through to whereever else you like in the house and effectively have another socket there,inform,inform
+b,yes,backch,feedback
+b,yes,backch,feedback
+b,no,negate,disagreement
+a,mm,backch,feedback
+a,sure,ackn,feedback
+a,you need to get the power source as well don't you,suggest,directive
+b,listen,init,discourse
+b,i was just speaking to somebody um a minute ago,inform,inform
+b,and i got cut off um,inform,inform
+b,dunno quite what happened there um it's regarding um i'm closing down the line for this house at the moment cause i'm moving tomorrow yes okay it's yeah yes it's mister that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving tomorrow and um and he was just in the process of doing that and he says to me he's just arranged it to be um closed down within the seven days and then the line went dead and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property and i wanted to um take up a line there too it's tomorrow yes i do yeah it's right,expressOpinion,inform
+b,cause i'm moving tomorrow,inform,inform
+a,okay,ackn,feedback
+a,do you want to give me the phone number there first,reqInfo,directive
+a,sorry to interrupt you there,expressRegret,apology
+a,i'll just get the details up yeah,informIntent,commissive
+b,yes,backch,feedback
+b,okay,backch,feedback
+b,it's yeah yes it's mister that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving tomorrow and um and he was just in the process of doing that and he says to me he's just arranged it to be um closed down within the seven days and then the line went dead and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property and i wanted to um take up a line there too it's tomorrow yes i do yeah it's right,answ,answer
+a,yep,backch,feedback
+a,yep,backch,feedback
+a,thank you,thank,thanking
+a,just quickly confirm the name and address there for me,reqInfo,directive
+b,yeah,backch,feedback
+b,yes,ackn,feedback
+b,it's mister,answ,answer
+b,that's yes it was um the thing was cause he was gonna put an urgent request to get it stopped within seven days cause i'm actually moving tomorrow and um and he was just in the process of doing that and he says to me he's just arranged it to be um closed down within the seven days and then the line went dead and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property and i wanted to um take up a line there too it's tomorrow yes i do yeah it's right,answElab,inform
+a,yes,backch,feedback
+a,okay,ackn,feedback
+a,so,init,discourse
+a,just to get the line stopped for whenever or what,reqInfo,directive
+b,yes,answ,answer
+b,it was um the thing was,refer,
+b,cause he was gonna put an urgent request to get it stopped within seven days,inform,inform
+b,cause i'm actually moving tomorrow,inform,inform
+b,and um and he was just in the process of doing that,inform,inform
+b,and he says to me he's just arranged it to be um closed down within the seven days,inform,inform
+b,and then the line went dead,inform,inform
+b,and i was gonna tell him that um on the twenty seventh i'm moving into uh my new permanent property,informIntent,commissive
+b,and i wanted to um take up a line there too,informIntent,commissive
+a,right,backch,feedback
+a,mm,backch,feedback
+a,okay,ackn,feedback
+a,so,init,discourse
+a,when do you want to get this one stopped first of all,reqDirect,directive
+b,it's tomorrow,direct,directive
+a,so,init,discourse
+a,have you actually got the account number with you,reqInfo,directive
+b,yes,answ,answer
+b,i do,answElab,inform
+a,yeah,ackn,feedback
+a,can i just take that yeah,reqInfo,directive
+b,yeah,answ,answer
+b,it's right,answElab,inform
+a,yes,backch,feedback
+a,mm,backch,feedback
+a,that's fine,appreciate,feedback
+a,that's all i need there,inform,inform
+a,so,init,discourse
+a,if i stop that tomorrow say midday,suggest,directive
+a,is that alright do you think,reqInfo,directive
+b,right,backch,feedback
+b,yeah,ackn,feedback
+b,hi,greet,greeting
+b,did you say speaking,reqInfo,directive
+b,oh sorry it was just an enquiry about a bill that was all um what i'm hoping to do i've um i've been in touch with the call my bill service and they've given me sort of a rough estimate of what the bill's likely to be i wonder if you could tell me um there is a um number on there could you tell me how much that call was for is that possible yep it's oh sorry the number from here or the yep double yeah it's uh it's under mister and that's right mm oh right and apparently the bill's being done today or yesterday or something,echo,feedback
+b,sorry,expressRegret,apology
+a,sorry,pardon,apology
+b,it was just an enquiry about a bill that was all,inform,inform
+b,um what i'm hoping to do,refer,
+b,i've um i've been in touch with the call my bill service,inform,inform
+b,and they've given me sort of a rough estimate of what the bill's likely to be,inform,inform
+b,i wonder if you could tell me um,reqInfo,directive
+b,there is a um number on there,inform,inform
+b,could you tell me how much that call was for,reqInfo,directive
+b,is that possible,reqInfo,directive
+a,oh right,backch,feedback
+a,mm,backch,feedback
+a,um do you want to give me the phone number first of all,reqInfo,directive
+b,yep,answ,answer
+b,it's oh sorry the number from here or the yep double yeah it's uh it's under mister and that's right mm oh right and apparently the bill's being done today or yesterday or something,answElab,inform
+b,oh sorry,expressRegret,apology
+b,the number from here or the,reqInfo,directive
+a,yes,backch,feedback
+a,um your phone number,answ,answer
+a,yeah,ackn,feedback
+a,sorry,expressRegret,apology
+b,yep,accept,agreement
+a,yes,backch,feedback
+a,and could you just confirm the name and address there as well,reqInfo,directive
+b,yeah,answ,answer
+b,it's uh it's under mister and that's right mm oh right and apparently the bill's being done today or yesterday or something,answElab,inform
+b,and that's right mm oh right and apparently the bill's being done today or yesterday or something,answElab,inform
+a,right okay,ackn,feedback
+a,what i was gonna say was we don't actually have an amount until you've been billed for it,inform,inform
+a,so,init,discourse
+a,it's only if you um we can request it for you,inform,inform
+a,um all i have all i have is what you've got,inform,inform
+a,it doesn't actually show me a list of all of those,inform,inform
+a,not until you've been sent a bill,confirm,answer
+a,we don't get one either,inform,inform
+b,right,backch,feedback
+b,mm,backch,feedback
+b,oh right,ackn,feedback
+b,and apparently the bill's being done today or yesterday or something,confirm,answer
+a,that's what i was going to say,inform,inform
+a,i mean you could have requested we send a little statement with it on it,inform,inform
+b,oh right,ackn,feedback
+b,i've got a bit of a problem,inform,inform
+b,actually i think you've switched me off,expressOpinion,inform
+b,and i'm a bit annoyed,inform,inform
+b,because i phoned you a couple of months ago and said i had problems paying,inform,inform
+b,and you sent me a payment plan card,inform,inform
+b,now,init,discourse
+b,the bill i've got,refer,
+b,i've paid half off it and the line's absolutely dead,inform,inform
+a,right okay,ackn,feedback
+b,yeah,answ,answer
+b,i'm on a friends number at the moment,inform,inform
+b,but do you want my home number,reqDirect,directive
+a,yes please,direct,directive
+a,your home number,directElab,directive
+b,it's double yes it's missus,inform,inform
+a,and uh can i confirm your name address and post code for me please,reqInfo,directive
+b,yes,answ,answer
+b,it's missus,inform,inform
+a,okay,ackn,feedback
+a,missus uh how can i,reqDirect,directive
+a,right so,init,discourse
+a,can you not make outcoming calls,reqInfo,directive
+b,i was supposed to have a a me line put on,inform,inform
+b,i was told it would be on by lunch time,inform,inform
+b,and it's still not done,inform,inform
+a,right,ackn,feedback
+a,can i take your have you got a order number or a telephone number,reqInfo,directive
+b,it's it's missus for apple okay i cannot believe this because i mean i desperately need that put on today so where would the fault be,answ,answer
+a,let's have a look okay i've got some details in front of me can you confirm your full name and address including postcode please right let's have a look see if there's a start order on this account right okay let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the problem er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but obviously if there is a fault we can't get the line on uh it appears to be at the exchange not at your house or anything like that they're just basically the which is the computer that switches on the line can't switch it so it basically they're just waiting for manual intervention um if you like i if you wouldn't mind waiting on the line for me i'll just ring through,informIntent,commissive
+a,okay,init,discourse
+a,i've got some details in front of me,inform,inform
+a,can you confirm your full name and address including postcode please,reqInfo,directive
+b,it's missus for apple,answ,answer
+a,right,ackn,feedback
+a,let's have a look see if there's a start order on this account right okay let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the problem er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but obviously if there is a fault we can't get the line on uh it appears to be at the exchange not at your house or anything like that they're just basically the which is the computer that switches on the line can't switch it so it basically they're just waiting for manual intervention um if you like i if you wouldn't mind waiting on the line for me i'll just ring through,informIntent,commissive
+a,right okay let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the problem er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but obviously if there is a fault we can't get the line on uh it appears to be at the exchange not at your house or anything like that they're just basically the which is the computer that switches on the line can't switch it so it basically they're just waiting for manual intervention um if you like i if you wouldn't mind waiting on the line for me i'll just ring through,init,discourse
+a,let's come out of this account right there's a provisional order it still hasn't gone on let's have a look why there might be some sort of engineering delay that's caused the problem er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but obviously if there is a fault we can't get the line on uh it appears to be at the exchange not at your house or anything like that they're just basically the which is the computer that switches on the line can't switch it so it basically they're just waiting for manual intervention um if you like i if you wouldn't mind waiting on the line for me i'll just ring through,informIntent,commissive
+a,right,init,discourse
+a,there's a provisional order,inform,inform
+a,it still hasn't gone on,inform,inform
+a,let's have a look why,informIntent,commissive
+a,there might be some sort of engineering delay that's caused the problem,expressPossibility,inform
+a,er let's have look sorry about the delay they're on closure yeah that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but obviously if there is a fault we can't get the line on uh it appears to be at the exchange not at your house or anything like that they're just basically the which is the computer that switches on the line can't switch it so it basically they're just waiting for manual intervention um if you like i if you wouldn't mind waiting on the line for me i'll just ring through,informIntent,commissive
+a,sorry about the delay,expressRegret,apology
+a,they're on closure,inform,inform
+a,yeah,init,discourse
+a,that's wrong yeah they've come up with a line fault when they tried to reconnect it i'm afraid um let's have a look i know but i mean we are trying but obviously if there is a fault we can't get the line on uh it appears to be at the exchange not at your house or anything like that they're just basically the which is the computer that switches on the line can't switch it so it basically they're just waiting for manual intervention um if you like i if you wouldn't mind waiting on the line for me i'll just ring through,expressOpinion,inform
+a,yeah,init,discourse
+a,they've come up with a line fault when they tried to reconnect it i'm afraid,inform,inform
+a,um let's have a look,informIntent,commissive
+b,okay,backch,feedback
+b,i cannot believe this,exclaim,
+b,because i mean i desperately need that put on today,inform,inform
+a,i know,ackn,feedback
+a,but i mean we are trying,inform,inform
+a,but obviously if there is a fault,inform,inform
+a,we can't get the line on,inform,inform
+b,so,init,discourse
+b,where would the fault be,reqInfo,directive
+a,uh it appears to be at the exchange not at your house or anything like that,answ,answer
+a,they're just basically the which is the computer that switches on the line can't switch it,inform,inform
+a,so,init,discourse
+a,it basically they're just waiting for manual intervention um,inform,inform
+a,if you like i if you wouldn't mind waiting on the line for me,hold,turn
+a,i'll just ring through,offer,commissive
+b,yes please,ackn,feedback
+b,um i um need to make an appointment,inform,inform
+b,i i need to have a a new phone,inform,inform
+b,i'm not sure whether i need to have my main phone box moved or an additional socket put it um,expressOpinion,inform
+a,right,ackn,feedback
+a,what is it exactly that you want us to do,reqDirect,directive
+b,basically what i uh what i do is,inform,inform
+b,at the moment the house i moved into um,refer,
+b,the two two phone points that there are are down stairs on the ground floor,inform,inform
+b,um and i have a room up on the third floor which i want to make into my study and i want to put my p c into,inform,inform
+b,um and i need to get the line moved,direct,directive
+b,and i'm not sure for that if i need to get the main box line moved up there or just an extension will do,expressOpinion,inform
+b,i don't honestly know what i need,expressOpinion,inform
+a,mm,backch,feedback
+a,mm,backch,feedback
+a,right okay,accept,agreement
+a,extension is going to be slightly cheaper,inform,inform
+b,right,ackn,feedback
+a,to shift the main socket,refer,
+a,that can only be done by and that does cost pounds,inform,inform
+a,um we can come out and fit an extension socket for you ourselves,expressPossibility,inform
+a,again that's expensive,inform,inform
+a,that's pounds,inform,inform
+b,cor,backch,feedback
+b,mm,backch,feedback
+b,what,exclaim,
+b,more expensive than to move a main box,confirm,answer
+b,that's weird,expressOpinion,inform
+a,it is actually but,accept,agreement
+b,how weird,exclaim,
+b,yeah,ackn,feedback
+a,well,init,discourse
+a,one of the reasons why is because i think um you can actually buy your own extension kits,inform,inform
+a,they're about and if you don't want to do it yourself you could perhaps get an electrician or you know a friend or whoever to do it for you yeah as i say they're only are the kits to buy from shops or we can send them ourselves through the post,inform,inform
+b,right,ackn,feedback
+a,and if you don't want to do it yourself,suggest,directive
+a,you could perhaps get an electrician or you know a friend or whoever to do it for you yeah,suggest,directive
+a,as i say they're only are the kits to buy from shops,inform,inform
+a,or we can send them ourselves through the post,suggest,directive
+b,yeah,backch,feedback
+b,right,ackn,feedback
+b,hi there,greet,greeting
+b,i i wonder if it's possible to change some of the select services that i that i've got,direct,directive
+a,certainly,accept,agreement
+a,is what's um what's your telephone number there please,reqInfo,directive
+b,it's yeah yeah it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring back five or whatever it was called,answ,answer
+b,yeah,backch,feedback
+b,yeah,answ,answer
+b,it's er and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring back five or whatever it was called,answElab,inform
+b,and it's that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring back five or whatever it was called,answElab,inform
+b,that's well what i uh can you see from there what services i've got on i've got um call waiting i've got caller i d and i think i've got ring ring back five or whatever it was called,answElab,inform
+a,okay,ackn,feedback
+a,uh what did you want to uh change with that mister yeah let me have a just waiting for um the computer to warm up,reqDirect,directive
+b,well,init,discourse
+b,can you see from there what services i've got on,reqInfo,directive
+a,yeah,answ,answer
+a,let me have a,informIntent,commissive
+b,i've got um call waiting,inform,inform
+b,i've got caller i d and i think i've got ring ring back five or whatever it was called,inform,inform
+b,and i think i've got ring ring back five or whatever it was called,inform,inform
+a,just waiting for um the computer to warm up,inform,inform
+b,uh hello,greet,greeting
+b,can i speak to someone um about um cards that you can have um,direct,directive
+b,my three children have got a card and they can phone home,inform,inform
+a,oh right yeah,ackn,feedback
+a,Contact Cards yeah,reqInfo,directive
+b,yeah,backch,feedback
+b,a Contact Card,answ,answer
+b,now,init,discourse
+b,um my son 's got a Contact Card,inform,inform
+b,but he can use it for other phone calls,inform,inform
+b,now,init,discourse
+b,what happened,refer,
+b,i had a lot um i phoned up,inform,inform
+b,and i i asked for um how i could put a lock on my phone,inform,inform
+a,right,backch,feedback
+a,right,ackn,feedback
+b,but i didn't realise that when uh you could use you could still use your phone card when you have a lock,inform,inform
+a,yes,ackn,feedback
+a,you can,accept,agreement
+b,well,init,discourse
+b,the result of that is i've just got a pound phone bill,inform,inform
+a,right,ackn,feedback
+a,let me just have a look for you,offer,commissive
+a,have you got your customer number there please,reqInfo,directive
+b,um just hold on,hold,turn
+a,yeah,ackn,feedback
+a,yeah,ackn,feedback
+b,hi um,greet,greeting
+b,if you can try this number for me,direct,directive
+b,cause i keep ringing,inform,inform
+b,and it's engaged i don't know if it's just that they're constantly talking or whether it's just er a fault okay the code is treble and the number's double hmm thank you oh God yeah thank you,inform,inform
+b,i don't know if it's just that they're constantly talking or whether it's just er a fault,expressOpinion,inform
+a,certainly,accept,agreement
+a,i'm sorry,expressRegret,apology
+a,what's the code and number you are dialling,reqInfo,directive
+b,okay,ackn,feedback
+b,the code is treble and the number's double hmm thank you oh God yeah thank you,answ,answer
+b,and the number's double hmm thank you oh God yeah thank you,answElab,inform
+a,thank you just just try the call for you ah that's ringing for you,thank,thanking
+a,just just try the call for you ah that's ringing for you,informIntent,commissive
+b,hmm,backch,feedback
+b,thank you,thank,thanking
+a,ah that's ringing for you,inform,inform
+b,oh God,exclaim,
+b,yeah,ackn,feedback
+b,thank you,thank,thanking
+b,yes,ackn,feedback
+b,i'm looking for um in er in place},direct,directive
+a,what you're looking for a number for them,reqDirect,directive
+b,yeah,accept,agreement
+b,have i got the right,reqInfo,directive
+a,right,backch,feedback
+a,no,answ,answer
+a,you'll need directory enquiries i'm afraid on shall i put you through hold the line please,answElab,inform
+a,shall i put you through,reqDirect,directive
+b,that's great,appreciate,feedback
+b,thanks,thank,thanking
+a,hold the line please,hold,turn
+b,hello,greet,greeting
+b,um i believe someone has just tried a reverse charge call on me,expressOpinion,inform
+b,i just want to find out tell me who it was or connect you with them or something yeah i wasn't actually i was no i was in a different room i know somebody was gonna reverse charge me so i went to the no i went to move when the phone rang so i missed it but i've got no way of getting hold of him cause s come up with nothing that was what i assumed right thanks does that mean there wasn't a reverse charge call tried does that mean there wasn't a reverse charge call tried or no i don't think it was cause i was in the other room right alright thanks a lot anyway yep bye,expressWish,inform
+b,tell me who it was,direct,directive
+a,i mean you would have been told who it was calling when when connected the call,inform,inform
+b,yeah,ackn,feedback
+b,i wasn't actually i was,inform,inform
+a,you weren't aware,confirm,answer
+b,no,ackn,feedback
+b,i was in a different room,inform,inform
+b,i know somebody was gonna reverse charge me,inform,inform
+a,so,init,discourse
+a,you did accept it,confirm,answer
+b,so,init,discourse
+a,from what do you do accept it,reqInfo,directive
+b,no,answ,answer
+b,i went to move when the phone rang so i missed it but i've got no way of getting hold of him cause s come up with nothing that was what i assumed right thanks does that mean there wasn't a reverse charge call tried does that mean there wasn't a reverse charge call tried or no i don't think it was cause i was in the other room right alright thanks a lot anyway yep bye,inform,inform
+b,so,init,discourse
+b,i missed it but i've got no way of getting hold of him cause s come up with nothing that was what i assumed right thanks does that mean there wasn't a reverse charge call tried does that mean there wasn't a reverse charge call tried or no i don't think it was cause i was in the other room right alright thanks a lot anyway yep bye,inform,inform
+b,but,init,discourse
+a,oh you missed it,confirm,answer
+b,i've got no way of getting hold of him,inform,inform
+b,cause s come up with nothing,inform,inform
+a,no,accept,agreement
+a,it wouldn't be,negate,disagreement
+a,because the operator would have connected,inform,inform
+b,that was what i assumed,expressOpinion,inform
+a,i mean i can try and search it for you,offer,commissive
+a,but i'm not sure i'll be able to find it,expressOpinion,inform
+a,because we're on and you've come through to it could have been any other exchange who took the call i'll try and search it for you sir hold the line please sir no i haven't i've got no record of that call sir sorry well it could have been tried but it wasn't connecting was it no so the person would have been told i'm sorry please try later or something like that so they will try again later i suppose okay bye,inform,inform
+a,and you've come through to it could have been any other exchange who took the call i'll try and search it for you sir hold the line please sir no i haven't i've got no record of that call sir sorry well it could have been tried but it wasn't connecting was it no so the person would have been told i'm sorry please try later or something like that so they will try again later i suppose okay bye,inform,inform
+a,it could have been any other exchange who took the call,expressPossibility,inform
+a,i'll try and search it for you sir,informIntent,commissive
+a,hold the line please sir no i haven't i've got no record of that call sir sorry well it could have been tried but it wasn't connecting was it no so the person would have been told i'm sorry please try later or something like that so they will try again later i suppose okay bye,hold,turn
+a,no,negate,disagreement
+a,i haven't i've got no record of that call sir,inform,inform
+b,right thanks,backch,feedback
+b,does that mean there wasn't a reverse charge call tried,reqInfo,directive
+b,does that mean there wasn't a reverse charge call tried or,reqInfo,directive
+a,sorry,backch,feedback
+a,well,init,discourse
+a,it could have been tried,expressPossibility,inform
+a,but it wasn't connecting was it,inform,inform
+b,no,ackn,feedback
+b,i don't think it was cause i was in the other room,expressOpinion,inform
+a,no,negate,disagreement
+a,so,init,discourse
+a,the person would have been told i'm sorry please try later or something like that,inform,inform
+a,so,init,discourse
+a,they will try again later i suppose,expressOpinion,inform
+b,right,ackn,feedback
+b,alright,init,discourse
+b,thanks a lot anyway,thank,thanking
+a,okay,ackn,feedback
+a,bye,bye,goodbye
+b,yep,backch,feedback
+b,bye,bye,goodbye
+b,hello,greet,greeting
+b,um you know um that number that can do like give you an alarm yeah,refer,
+a,yes,ackn,feedback
+a,star star the time star star the time using a twenty four hour clock followed by the hash mark thank you bye,inform,inform
+a,the time,inform,inform
+a,star star,inform,inform
+a,the time using a twenty four hour clock followed by the hash mark,inform,inform
+b,yeah,backch,feedback
+b,okay,ackn,feedback
+b,thanks a lot,thank,thanking
+a,thank you,thank,thanking
+a,bye,bye,goodbye
+b,yeah,ackn,feedback
+b,can you erm arrange a alarm call for me,direct,directive
+a,yes certainly,accept,agreement
+a,what time do you want it for,reqDirect,directive
+b,well,init,discourse
+b,can you tell me how much it is,reqInfo,directive
+a,yeah,answ,answer
+a,it is two eighty,answElab,inform
+b,two eighty,echo,feedback
+b,so um,init,discourse
+a,mm,backch,feedback
+a,unless you book it yourself,inform,inform
+a,have you got a touch tone phone,reqInfo,directive
+b,i've got all the instructions here um,inform,inform
+b,if i do it myself then,inform,inform
+a,yeah,backch,feedback
+b,oh oh right and will it like confirm that i've done it or something star star what time do you want the alarm call for half five six o' clock yeah yes right right and if i want to check it's got here you press star hash hash right and that'll just do it automatically tomorrow morning oh right that's lovely thank you very much then bye,echo,feedback
+a,yeah,ackn,feedback
+a,it's a lot cheaper,expressOpinion,inform
+b,oh right,ackn,feedback
+a,yeah,confirm,answer
+a,much cheaper just press your press the number so i can hear your phone that's that's no problem that is touch tone you should be able to book it from there no problem it will yeah uh uh what do you you dial star star yeah then you'll get a recording and it just tells you to dial in the time followed by the square wait till recording goes off and the dial tone comes back and then do that what time do you want it for six o' clock so you dial for six o' clock and then you press the gate key or the hash key whatever you want to call it and it will confirm what time you booked it for and then you do is hang up and it will call you back at that time that's right my love that's to check to make sure you've got it right yes it certainly will yeah ok you're welcome byebye then,confirm,answer
+a,just press your press the number so i can hear your phone that's that's no problem that is touch tone you should be able to book it from there no problem it will yeah uh uh what do you you dial star star yeah then you'll get a recording and it just tells you to dial in the time followed by the square wait till recording goes off and the dial tone comes back and then do that what time do you want it for six o' clock so you dial for six o' clock and then you press the gate key or the hash key whatever you want to call it and it will confirm what time you booked it for and then you do is hang up and it will call you back at that time that's right my love that's to check to make sure you've got it right yes it certainly will yeah ok you're welcome byebye then,direct,directive
+a,so i can hear your phone that's that's no problem that is touch tone you should be able to book it from there no problem it will yeah uh uh what do you you dial star star yeah then you'll get a recording and it just tells you to dial in the time followed by the square wait till recording goes off and the dial tone comes back and then do that what time do you want it for six o' clock so you dial for six o' clock and then you press the gate key or the hash key whatever you want to call it and it will confirm what time you booked it for and then you do is hang up and it will call you back at that time that's right my love that's to check to make sure you've got it right yes it certainly will yeah ok you're welcome byebye then,inform,inform
+a,that's that's no problem,inform,inform
+a,that is touch tone,inform,inform
+a,you should be able to book it from there no problem,confirm,answer
+b,and will it like confirm that i've done it or something,reqInfo,directive
+a,it will,answ,answer
+a,yeah,answElab,inform
+a,you dial star star,inform,inform
+b,star star,echo,feedback
+a,yeah,ackn,feedback
+a,then you'll get a recording,inform,inform
+a,and it just tells you to dial in the time followed by the square,inform,inform
+a,wait till recording goes off and the dial tone comes back and then do that what time do you want it for six o' clock so you dial for six o' clock and then you press the gate key or the hash key whatever you want to call it and it will confirm what time you booked it for and then you do is hang up and it will call you back at that time that's right my love that's to check to make sure you've got it right yes it certainly will yeah ok you're welcome byebye then,direct,directive
+a,and then do that,direct,directive
+a,what time do you want it for,reqDirect,directive
+b,half five six o' clock,answ,answer
+a,six o' clock,echo,feedback
+a,so,init,discourse
+a,you dial for six o' clock,confirm,answer
+a,and then you press the gate key or the hash key whatever you want to call it,confirm,answer
+b,yeah,backch,feedback
+b,yes,ackn,feedback
+a,and it will confirm what time you booked it for,inform,inform
+b,right,ackn,feedback
+a,and then you do is hang up,inform,inform
+a,and it will call you back at that time that's right my love that's to check to make sure you've got it right yes it certainly will yeah ok you're welcome byebye then,inform,inform
+b,right,ackn,feedback
+b,and if i want to check it's got here,inform,inform
+b,you press star hash hash right and that'll just do it automatically tomorrow morning oh right that's lovely thank you very much then bye,confirm,answer
+a,that's right my love,answ,answer
+a,that's to check to make sure you've got it right yes,answElab,inform
+b,right,ackn,feedback
+b,and that'll just do it automatically tomorrow morning,confirm,answer
+a,it certainly will,ackn,feedback
+a,yeah,ackn,feedback
+b,oh right,ackn,feedback
+b,that's lovely,appreciate,feedback
+a,ok,init,discourse
+b,thank you very much then,thank,thanking
+a,you're welcome,ackn,feedback
+b,bye,bye,goodbye
+a,byebye then,bye,goodbye
+b,hello,greet,greeting
+a,certainly,accept,agreement
+a,for what time,reqInfo,directive
+b,six o'clock please,answ,answer
+a,six o'clock,echo,feedback
+a,oh do you have an answering machine please,reqInfo,directive
+b,yeah,backch,feedback
+b,oh no oh five minutes after ok ok lovely thank you bye,answ,answer
+a,ok right,ackn,feedback
+a,i'm afraid six is fully booked,expressRegret,apology
+a,can we call you five minutes before or after,reqModal,directive
+b,oh five minutes after,accept,agreement
+a,five minutes after,echo,feedback
+b,ok,ackn,feedback
+a,one moment,hold,turn
+a,lets get it confirmed,informIntent,commissive
+a,right,init,discourse
+a,that's done for you,inform,inform
+a,we'll call you at five minutes past six,informIntent,commissive
+b,ok,backch,feedback
+b,lovely,appreciate,feedback
+b,thank you,thank,thanking
+a,thank you,thank,thanking
+b,bye,bye,goodbye
+a,bye,bye,goodbye
+b,uh i've been trying to dial a number um for the last few minutes,inform,inform
+b,and all i'm getting is a continuous tone,inform,inform
+b,could you check the line for me please,direct,directive
+a,i'm sorry about that,expressRegret,apology
+a,try the call for you,informIntent,commissive
+a,what's the code and number you're dialling please,reqInfo,directive
+a,thank you,thank,thanking
+a,your name please,reqInfo,directive
+b,my name's mr thank you ok thank you bye,answ,answer
+a,just try it for you now,informIntent,commissive
+b,thank you ok thank you bye,thank,thanking
+a,sorry,expressRegret,apology
+a,this line is temporarily out of service,inform,inform
+a,please try again later,suggest,directive
+b,ok,accept,agreement
+b,thank you,thank,thanking
+a,thanks,backch,feedback
+a,bye,bye,goodbye
+b,bye,bye,goodbye
+b,uh hello,greet,greeting
+b,um how much would an number cost if i phoned now please,reqInfo,directive
+b,yes please,ackn,feedback
+a,and what's the rest of the number,reqInfo,directive
+b,um pence a minute it's ok oh thanks bye,answ,answer
+a,thank you it's charged at national rate it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh,thank,thanking
+a,it's charged at national rate,answ,answer
+a,it's approximately pence excuse me yes i've got hiccups sorry   what number yeah it's per minute uh,answElab,inform
+a,excuse me,expressRegret,apology
+a,yes,ackn,feedback
+a,sorry,expressRegret,apology
+b,thanks,thank,thanking
+a,what number yeah it's per minute uh,reqInfo,directive
+a,yeah,ackn,feedback
+a,it's per minute uh,inform,inform
+b,bye,backch,feedback
+b,could you tell me the number,reqInfo,directive
+b,have i got the right uh uh number i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah,reqInfo,directive
+b,i want to enquire about a number of the the shuttle have i got the right yeah oh sorry yes uh yes please yeah,reqInfo,directive
+b,have i got the right,reqInfo,directive
+a,right,ackn,feedback
+a,you want to find out the number concerning the shuttle,confirm,answer
+b,yeah,ackn,feedback
+a,right,ackn,feedback
+a,you'll need directory enquiries on,answ,answer
+a,shall i put you through to them,offer,commissive
+b,oh sorry yes,backch,feedback
+b,uh yes please,accept,agreement
+a,certainly,accept,agreement
+a,hold the line please,hold,turn
+b,yeah,backch,feedback
+b,hello,greet,greeting
+b,can you give me the number of please,reqInfo,directive
+a,oh you need directory enquiries on would you like me to connect you,inform,inform
+a,would you like me to connect you,offer,commissive
+b,yes please,accept,agreement
+b,yeah,ackn,feedback
+b,good afternoon can you try this number for me cause well basically i keep getting a message saying sorry the number i'm called is unavailable is that mean it's been disconnected okay it's double it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually,greet,greeting
+b,can you try this number for me,direct,directive
+b,cause well basically i keep getting a message saying sorry the number i'm called is unavailable,inform,inform
+b,is that mean it's been disconnected,reqInfo,directive
+a,it can mean a lot of different things caller,inform,inform
+a,bear with me,hold,turn
+a,and i'll uh try the call for you,informIntent,commissive
+a,what's the code and number that you tried,reqInfo,directive
+b,okay,backch,feedback
+b,it's double it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually,answ,answer
+a,yes,ackn,feedback
+b,it's double yes you haven't got a number which is to that caller by any chance the number which goes to the caller by any chance i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually,inform,inform
+a,double thank you would you like to hold the line there for me please thank you yeah we don't have a caller with that number anymore i'm afraid haven't got what sorry um i can put you through to to see if they have oh no so they haven't got any listing i'm sorry i haven't ok i'm sorry about that they could have changed the number they could have gone ex directory they could have changed to a different telephone company any of those but we wouldn't be able to tell you at all we could they could have just uh not have a phone anymore we don't know ok byebye,echo,feedback
+a,thank you,thank,thanking
+a,would you like to hold the line there for me please,hold,turn
+a,thank you,thank,thanking
+a,yeah,init,discourse
+a,we don't have a caller with that number anymore i'm afraid,inform,inform
+b,yes,backch,feedback
+b,you haven't got a number which is to that caller by any chance,reqInfo,directive
+a,haven't got what sorry,reqInfo,directive
+b,the number which goes to the caller by any chance,answ,answer
+a,um i can put you through to to see if they have,offer,commissive
+b,i've already tried and they've ok then uh uh to change a number out of interest have they changed their number or alright then ok thanks a lot then actually,inform,inform
+b,and they've,inform,inform
+a,oh no,negate,disagreement
+a,so,init,discourse
+a,they haven't got any listing,inform,inform
+a,i'm sorry i haven't,expressRegret,apology
+b,ok then,ackn,feedback
+a,ok,ackn,feedback
+a,i'm sorry about that,expressRegret,apology
+b,uh,backch,feedback
+b,uh to change a number,raiseIssue,
+b,out of interest have they changed their number or,reqInfo,directive
+a,they could have changed the number,answ,answer
+a,they could have gone ex directory,answElab,inform
+a,they could have changed to a different telephone company,answElab,inform
+a,any of those,answElab,inform
+a,but we wouldn't be able to tell you at all,inform,inform
+a,we could they could have just uh not have a phone anymore,expressPossibility,inform
+b,alright then,ackn,feedback
+a,we don't know,inform,inform
+b,ok,init,discourse
+b,thanks a lot then actually,thank,thanking
+a,ok,backch,feedback
+a,byebye,bye,goodbye
+b,hello,greet,greeting
+b,just a quick question really,refer,
+b,how does one cancel the call back service,reqInfo,directive
+a,yes,backch,feedback
+a,what,reqInfo,directive
+a,you booked yourself for reminder calls,reqInfo,directive
+b,no uh i've booked a call back service i rang someone's number then i then i pressed number look a hash is it is it the star oh oh that's right there is one yeah ah ha so press that sorry that key and i love you thank you very much cheers byebye,answ,answer
+b,uh i've booked a call back service,answElab,inform
+b,i rang someone's number,inform,inform
+a,yeah,ackn,feedback
+a,and pressed number right okay to cancel it you need to press hash hash no the hash is like the noughts and crosses box or the gate yeah then and then the that key again ok byebye,complete,
+b,then i then i pressed number look a hash is it is it the star oh oh that's right there is one yeah ah ha so press that sorry that key and i love you thank you very much cheers byebye,inform,inform
+a,right okay,ackn,feedback
+a,to cancel it,complete,
+a,you need to press hash hash,inform,inform
+b,look a hash,refer,
+b,is it is it the star,reqInfo,directive
+a,no,answ,answer
+a,the hash is like the noughts and crosses box or the gate,answElab,inform
+b,oh oh that's right,ackn,feedback
+b,there is one,inform,inform
+b,yeah,ackn,feedback
+b,ah ha,exclaim,
+b,so,init,discourse
+b,press that,confirm,answer
+b,sorry,expressRegret,apology
+a,yeah,backch,feedback
+a,then and then the that key again ok byebye,inform,inform
+a,and then the that key again,inform,inform
+b,that key,echo,feedback
+b,and i love you,appreciate,feedback
+b,thank you very much,thank,thanking
+a,ok,ackn,feedback
+b,cheers,thank,thanking
+b,byebye,bye,goodbye
+a,byebye,bye,goodbye
+b,hello,greet,greeting
+b,i'm having great trouble getting hold of a number,inform,inform
+b,and i wonder if you could try for me please,direct,directive
+a,hello,backch,feedback
+a,thank you,thank,thanking
+a,what number please,reqInfo,directive
+b,its yes now when i dial it i get the unobtainable signal and when i've been through to one of your lady operators and when she tried it we got the ringing tone and then a high pitched buzz so i don't know quite what to do ok oh right thank you it's all right right thank you would you mind ok right so i'll leave it with you ok thank you for your trouble byebye,answ,answer
+a,thank you,thank,thanking
+a,is that yes oh sorry one moment please let me just see what i get when i try well it's cutting off onto network fault it's not giving any anything at all so it does appear there is a problem let me just see if it's reported one moment sorry sorry to keep you waiting no it doesn't show that anything was actually reported so i'll just set it to show up as a fault um right can't test it at the moment do you want me to forward it through to faults not at all ok sorry there does seem to be a problem there if you'd like to try later sorry but yes certainly i'll report it to the engineers sorry thank you you're welcome bye,reqInfo,directive
+b,yes,answ,answer
+b,now,init,discourse
+b,when i dial it,inform,inform
+b,i get the unobtainable signal,inform,inform
+b,and when i've been through to one of your lady operators and when she tried it,inform,inform
+b,we got the ringing tone and then a high pitched buzz,inform,inform
+b,so i don't know quite what to do ok oh right thank you it's all right right thank you would you mind ok right so i'll leave it with you ok thank you for your trouble byebye,init,discourse
+b,i don't know quite what to do,inform,inform
+a,yes,backch,feedback
+a,oh,backch,feedback
+a,sorry,expressRegret,apology
+a,one moment please,hold,turn
+a,let me just see what i get when i try,informIntent,commissive
+b,ok oh right thank you it's all right right thank you would you mind ok right so i'll leave it with you ok thank you for your trouble byebye,accept,agreement
+a,well,init,discourse
+a,it's cutting off onto network fault,inform,inform
+a,it's not giving any anything at all,inform,inform
+a,so,init,discourse
+a,it does appear there is a problem,expressOpinion,inform
+a,let me just see if it's reported,informIntent,commissive
+b,oh,backch,feedback
+b,right,accept,agreement
+a,one moment,hold,turn
+a,sorry,expressRegret,apology
+b,thank you,thank,thanking
+b,it's all right right thank you would you mind ok right so i'll leave it with you ok thank you for your trouble byebye,accept,agreement
+a,it doesn't show that anything was actually reported,inform,inform
+a,so,init,discourse
+a,i'll just set it to show up as a fault,informIntent,commissive
+b,right,ackn,feedback
+b,thank you,thank,thanking
+a,um right,init,discourse
+a,can't test it at the moment,inform,inform
+a,do you want me to forward it through to faults,reqDirect,directive
+b,would you mind,direct,directive
+a,not at all,accept,agreement
+a,ok,init,discourse
+a,sorry,expressRegret,apology
+a,there does seem to be a problem there,expressOpinion,inform
+a,if you'd like to try later,suggest,directive
+a,sorry but,expressRegret,apology
+b,ok,backch,feedback
+b,right,backch,feedback
+b,so,init,discourse
+b,i'll leave it with you,informIntent,commissive
+a,yes certainly,accept,agreement
+a,i'll report it to the engineers,informIntent,commissive
+b,ok,ackn,feedback
+b,thank you for,thank,thanking
+a,sorry,expressRegret,apology
+b,your trouble,thank,thanking
+a,thank you,thank,thanking
+a,you're welcome,ackn,feedback
+b,byebye,bye,goodbye
+a,bye,bye,goodbye
+b,oh hello,greet,greeting
+b,um can you try my line please i've been the number i'm calling from is yep well yeah because i've actually dialled and the call has not been recognised right okay then,direct,directive
+a,what,reqInfo,directive
+a,the the line you're calling from,reqInfo,directive
+b,the number i'm calling from is yep well yeah because i've actually dialled and the call has not been recognised right okay then,inform,inform
+a,yeah,ackn,feedback
+a,is that the one you want testing,reqDirect,directive
+b,yep,direct,directive
+a,right,accept,agreement
+a,you need to speak to would you like me to connect you yeah it's hold the line i'll try and connect you,inform,inform
+a,would you like me to connect you,offer,commissive
+b,well,init,discourse
+b,yeah,accept,agreement
+b,because i've actually dialled and the call has not been recognised right okay then,inform,inform
+b,and the call has not been recognised right okay then,inform,inform
+a,yeah,ackn,feedback
+a,it's hold the line i'll try and connect you,inform,inform
+b,right okay then,ackn,feedback
+a,hold the line,hold,turn
+a,i'll try and connect you,informIntent,commissive
+b,oh can you can you give me the number of the railway station please,reqInfo,directive
+a,well,init,discourse
+a,the code for directory assistance is shall i connect you thank you,inform,inform
+a,shall i connect you,offer,commissive
+b,yes please,accept,agreement
+a,thank you,thank,thanking
+b,er could you help me,direct,directive
+b,i want to send a telegram to how do i do it ah telemessage yes yes many thanks goodbye,informIntent,commissive
+b,how do i do it,reqInfo,directive
+a,yeah,ackn,feedback
+a,we have what we call its a telemessage service now,inform,inform
+a,yes,ackn,feedback
+a,the number is double alright thank you byebye,answ,answer
+b,ah,backch,feedback
+b,telemessage,backch,feedback
+b,yes,backch,feedback
+b,yes,backch,feedback
+b,many thanks,thank,thanking
+a,alright,ackn,feedback
+a,thank you,thank,thanking
+a,byebye,bye,goodbye
+b,goodbye,bye,goodbye
+b,hi,greet,greeting
+b,i'm after the number of er ah ah a family that live in erm in erm um i can remember all the number except the last three digits erm their surname is i wonder if you can help me out is it right well i just wondered if you could help me out okay then er please,reqInfo,directive
+b,um i can remember all the number except the last three digits erm their surname is i wonder if you can help me out is it right well i just wondered if you could help me out okay then er please,inform,inform
+b,erm their surname is i wonder if you can help me out is it right well i just wondered if you could help me out okay then er please,inform,inform
+b,i wonder if you can help me out,reqInfo,directive
+a,mm mm,backch,feedback
+a,you you need for that caller,inform,inform
+b,is it,reqInfo,directive
+b,right,ackn,feedback
+b,well,init,discourse
+b,i just wondered if you could help me out,reqInfo,directive
+a,er no,answ,answer
+a,i don't have access to that information,answElab,inform
+a,you see it's directory enquiries that have all the numbers,answElab,inform
+a,i wouldn't be able to do anything,answElab,inform
+a,shall i put you through,offer,commissive
+b,okay then,backch,feedback
+b,er please,accept,agreement
+a,thank you,thank,thanking
+b,yeah,ackn,feedback
+b,hello,greet,greeting
+b,um i i'd like to make an early morning call please,direct,directive
+a,yes,accept,agreement
+a,for what time,reqInfo,directive
+b,er for about half past five,answ,answer
+a,half past five,echo,feedback
+a,i'll just try and confirm that for you no five thirty's fully booked i'm afraid try five twenty five yeah we can call you at twenty five past five is that alright okay then thank you bye bye,informIntent,commissive
+a,no,refuse,
+a,five thirty's fully booked i'm afraid,expressRegret,apology
+a,try five twenty five,suggest,directive
+a,yeah,init,discourse
+a,we can call you at twenty five past five,inform,inform
+a,is that alright,reqDirect,directive
+b,yeah,direct,directive
+b,that's fine,directElab,directive
+a,okay then,init,discourse
+a,thank you,thank,thanking
+b,okay,init,discourse
+b,thanks a lot,thank,thanking
+b,bye,bye,goodbye
+a,bye bye,bye,goodbye
+b,hi ya alright,greet,greeting
+b,can you tell us how to do the erm pence alarm call please,reqInfo,directive
+a,just press number for me on your phone,direct,directive
+b,yeah,ackn,feedback
+b,i'll press it now,informIntent,commissive
+b,yeah,ackn,feedback
+a,yeah,ackn,feedback
+a,i just need to check you're on the right sort of phone yep that's fine what you need to do is press star star then the time you want to get up by on the twenty four hour clock that's it bye,informIntent,commissive
+a,yep,init,discourse
+a,that's fine,inform,inform
+a,what you need to do is press star star then the time you want to get up by on the twenty four hour clock,inform,inform
+b,then the square,confirm,answer
+b,yeah,ackn,feedback
+a,that's it,ackn,feedback
+b,thanks a lot,thank,thanking
+b,bye,bye,goodbye
+a,bye,bye,goodbye
+b,hello,greet,greeting
+b,could you put me through to telegrams please,direct,directive
+a,er well,init,discourse
+a,i wonder if you could dial that yourself,suggest,directive
+a,it's thank you bye bye,inform,inform
+b,okay then,accept,agreement
+a,thank you,thank,thanking
+a,bye bye,bye,goodbye
+b,bye,bye,goodbye
+b,can you tell me what the code is for please,reqInfo,directive
+a,yeah,answ,answer
+a,yep,ackn,feedback
+b,thank you,thank,thanking
+a,bye now,bye,goodbye
+b,oh good,greet,greeting
+b,um i've just been talking to your other lady on the another line and she said would you check this number out for me please um i keep dialing it and i keep getting it's not available oh they've stopped in the last few weeks have they oh right i'll just have to write a letter it's about a bereavement all right thank you bye,inform,inform
+b,and she said,inform,inform
+b,would you check this number out for me please,direct,directive
+a,what's the number,reqInfo,directive
+a,yeah,backch,feedback
+a,right,ackn,feedback
+a,what's the problem with the number,reqInfo,directive
+b,um i keep dialing it,answ,answer
+b,and i keep getting it's not available,answElab,inform
+a,yeah,ackn,feedback
+a,that line has been stopped,inform,inform
+a,there is no longer a customer with that number,inform,inform
+b,oh they've stopped in the last few weeks have they,reqInfo,directive
+a,yeah,answ,answer
+b,i'll just have to write a letter,informIntent,commissive
+b,it's about a bereavement,inform,inform
+b,all right,ackn,feedback
+b,thank you,thank,thanking
+b,bye,bye,goodbye
+a,no problem,ackn,feedback
+a,bye now,bye,goodbye
+b,hello,greet,greeting
+b,if i want an early early morning call,reqInfo,directive
+a,right,ackn,feedback
+a,if you just you need uh,answ,answer
+a,when you've finished speaking to me,answElab,inform
+a,pick the phone up,answElab,inform
+a,press star double five star,answElab,inform
+a,yeah,backch,feedback
+a,no,negate,disagreement
+a,star star,correct,
+b,i'll write that down,informIntent,commissive
+b,star then and then another star mm um about uh about seven fifteen oh that's the one where there's like a gate yeah i see what you mean mm mm oh i'll just put the little hash down right so that's star star and then there's a oh i see oh i i i i i key the time in here yeah yeah oh i see ah ha oh i suppose really wait till it's properly finished mm mm mm mm mm oh thank you very much thank you bye,confirm,answer
+a,yeah,ackn,feedback
+a,and then star again,inform,inform
+a,yes,ackn,feedback
+a,and then you'll get a recording,inform,inform
+a,the the recording is just telling you what to do,inform,inform
+a,when the recording's finished,refer,
+a,you need to use your keypad,inform,inform
+a,put the time in using the keypad,direct,directive
+a,what time do you want to get up,reqInfo,directive
+b,mm,backch,feedback
+a,so,init,discourse
+a,you just press on the keypad and then,inform,inform
+a,then you follow it with with the hash which is that funny square button,inform,inform
+a,like a noughts and crosses square,inform,inform
+b,yeah,ackn,feedback
+b,i see what you mean,ackn,feedback
+a,and so,init,discourse
+a,it's star star,inform,inform
+a,when the recording's finished telling you what to do,inform,inform
+a,the time using the keypad says it's seven fifteen followed by the hash mm yeah you have to wait until the recording's finished or it if you do it too quickly it won't take it you see and then you need to key the time in and then press the hash yeah on the keypad yeah on your on your keypad so just press so once you've got you've got the um once recording once you've uh got the recording it'll ask tell you to put the time in ok and then you just follow it with the hash and then it'll say you've booked a reminder call for what ever time it'll confirm it if it doesn't confirm it if it doesn't confirm it then you need you would need to try again and perhaps do it a little bit slower which will you know that recording's finished yeah there you'll get a little bleep afterwards so if you hear the bleep then just start putting the time in your welcome thank you byebye,inform,inform
+a,says it's seven fifteen followed by the hash,inform,inform
+b,mm,backch,feedback
+b,mm,backch,feedback
+b,oh i'll just put the little hash down,informIntent,commissive
+b,right,ackn,feedback
+b,so,init,discourse
+b,that's star star,confirm,answer
+b,and then there's a,confirm,answer
+a,mm,backch,feedback
+a,yeah,backch,feedback
+a,you have to wait until the recording's finished or it,inform,inform
+a,if you do it too quickly,inform,inform
+a,it won't take it you see,inform,inform
+a,and then you need to key the time in and then press the hash,inform,inform
+b,oh i see,backch,feedback
+b,oh i i i i i key the time in here,confirm,answer
+a,yeah,ackn,feedback
+a,on the keypad yeah on your on your keypad,inform,inform
+a,so,init,discourse
+a,just press,direct,directive
+a,so,init,discourse
+a,once you've uh got the recording,inform,inform
+a,it'll ask tell you to put the time in ok,inform,inform
+a,and then you just follow it with the hash,inform,inform
+a,and then it'll say you've booked a reminder call for what ever time,inform,inform
+a,it'll confirm it if it doesn't confirm it if it doesn't confirm it then you need you would need to try again and perhaps do it a little bit slower which will you know that recording's finished yeah there you'll get a little bleep afterwards so if you hear the bleep then just start putting the time in your welcome thank you byebye,inform,inform
+a,if it doesn't confirm it if it doesn't confirm it then you need you would need to try again and perhaps do it a little bit slower which will you know that recording's finished yeah there you'll get a little bleep afterwards so if you hear the bleep then just start putting the time in your welcome thank you byebye,inform,inform
+a,if it doesn't confirm it,inform,inform
+a,then you need you would need to try again and perhaps do it a little bit slower which will you know that recording's finished,suggest,directive
+b,yeah yeah,backch,feedback
+b,oh i see,backch,feedback
+b,ah ha,backch,feedback
+b,really wait till it's properly finished,confirm,answer
+a,yeah,ackn,feedback
+a,there you'll get a little bleep afterwards,inform,inform
+a,so,init,discourse
+a,if you hear the bleep,inform,inform
+a,then just start putting the time in,direct,directive
+b,mm,backch,feedback
+b,mm mm mm mm oh,ackn,feedback
+b,thank you very much,thank,thanking
+a,your welcome,ackn,feedback
+b,thank you,thank,thanking
+a,thank you,thank,thanking
+a,byebye,bye,goodbye
+b,bye,bye,goodbye
+b,yes,ackn,feedback
+b,i wonder if you can help me please,direct,directive
+b,um i've got a telephone number,inform,inform
+b,oh i might oh i don't know whether i'm through to the right number,expressOpinion,inform
+b,what it is is i have got um a permanent block on my number going out uh on my phone,inform,inform
+b,and what i want to do is have um where i believe you can have a thing that says that you do not accept incoming calls unless they have the telephone number,expressWish,inform
+a,yes,backch,feedback
+a,yes,ackn,feedback
+a,that yes that you can,inform,inform
+a,let me uh connect you to customer service,informIntent,commissive
+a,and they'll deal with it for you,inform,inform
+b,ok,accept,agreement
+b,thanks,thank,thanking
+a,and you are a residential customer are you,reqInfo,directive
+b,that's right yeah hello actually i've just remembered cos i have some people that come in and when it says um we cannot we the number it is not that it's been withheld but it's the other kind ok yeah ok thanks,answ,answer
+b,hello,greet,greeting
+a,yeah,ackn,feedback
+b,actually i've just remembered cos i have some people that come in and when it says um we cannot we the number,inform,inform
+b,it is not that it's been withheld,inform,inform
+b,but it's the other kind,inform,inform
+a,yes,ackn,feedback
+a,i'll put you through to customer service for more information,informIntent,commissive
+b,ok,backch,feedback
+b,yeah,backch,feedback
+b,ok,ackn,feedback
+b,thanks,thank,thanking
+a,it's ringing for you,inform,inform
+b,hi,greet,greeting
+b,is there something like a directory assistance but more of a business related one,reqInfo,directive
+b,cause i'm looking for recruitment agencies in ah i tried but they weren't very good last time ok is there not a business is that ok thank you bye are you going to connect me or shall i do it ok thanks cheers,inform,inform
+a,yeah,backch,feedback
+a,yeah,answ,answer
+a,that's fine,answElab,inform
+a,i'll put you through to,informIntent,commissive
+a,they should be able to help you,inform,inform
+b,ah i tried,inform,inform
+b,but they weren't very good last time,expressOpinion,inform
+b,ok,init,discourse
+b,is there not a business is that ok thank you bye are you going to connect me or shall i do it ok thanks cheers,reqInfo,directive
+b,is that,reqInfo,directive
+a,um,backch,feedback
+a,yeah,backch,feedback
+a,no no no,answ,answer
+a,it's they'll give they'll give you details of all the recruitment agencies in your area ok pleasure yeah yeah don't worry i'm going to put you through,answElab,inform
+a,they'll give they'll give you details of all the recruitment agencies in your area,inform,inform
+b,ok,ackn,feedback
+a,ok,init,discourse
+b,thank you,thank,thanking
+a,pleasure,ackn,feedback
+b,bye are you going to connect me or shall i do it ok thanks cheers,bye,goodbye
+b,are you going to connect me or shall i do it,reqInfo,directive
+a,yeah yeah,ackn,feedback
+a,don't worry,direct,directive
+a,i'm going to put you through,informIntent,commissive
+b,ok,ackn,feedback
+b,thanks cheers,thank,thanking
+a,no,answ,answer
+a,do you want them,reqDirect,directive
+b,yeah,direct,directive
+a,you need i'll just put you through,inform,inform
+a,i'll just put you through,informIntent,commissive
+b,oh could you give me the number of please,reqInfo,directive
+a,i m afraid you'll need directory enquiries on would you like me to put you through to them hold the line please,inform,inform
+a,would you like me to put you through to them,offer,commissive
+b,yeah please,accept,agreement
+a,hold the line please,hold,turn
+b,eh erm can you tell me do you know where erm this phone box is,reqInfo,directive
+a,and is that local,reqInfo,directive
+a,that's all i'd be able to tell you the area that it's in,inform,inform
+a,i can't tell you more than that,inform,inform
+a,i'm afraid,expressRegret,apology
+b,yeah,backch,feedback
+b,oh okay,backch,feedback
+b,alright then,ackn,feedback
+a,okay,ackn,feedback
+b,can you check this number for me,direct,directive
+a,ok,accept,agreement
+a,what difficulties are you experiencing,reqInfo,directive
+b,well,init,discourse
+b,when i phone up,answ,answer
+b,it does this screeching noise,answElab,inform
+a,okay,ackn,feedback
+a,could i have the code and number please,reqInfo,directive
+a,thank you ok that's actually a fax machine um do you use this number quite regularly what it may be because sometimes you can get phones that are a fax machine as well and all you need to do is move a switch from one side to the other so it's a phone or a fax and they've obviously got the switch in the wrong place that's why it's doing that if you try the call again say tomorrow you might be able to get through okay thank you bye bye,thank,thanking
+a,ok,init,discourse
+a,that's actually a fax machine,inform,inform
+a,um do you use this number quite regularly,reqInfo,directive
+b,oh right,backch,feedback
+b,no,answ,answer
+b,it's the first time i've called it,answElab,inform
+a,what it may be,expressPossibility,inform
+a,because sometimes you can get phones that are a fax machine as well,inform,inform
+a,and all you need to do is move a switch from one side to the other,inform,inform
+a,so it's a phone or a fax,inform,inform
+a,and they've obviously got the switch in the wrong place,inform,inform
+a,that's why it's doing that,inform,inform
+a,if you try the call again say tomorrow,inform,inform
+a,you might be able to get through,expressPossibility,inform
+a,okay,init,discourse
+a,thank you,thank,thanking
+a,bye bye,bye,goodbye
+b,uh huh,backch,feedback
+b,okay then,backch,feedback
+b,bye,answ,answer
+b,please may i have an early morning call,direct,directive
+a,yeah,accept,agreement
+a,what time did you want it for,reqInfo,directive
+b,uh two thirty,answ,answer
+a,two thirty this morning,confirm,answer
+b,yes please,ackn,feedback
+a,ok,ackn,feedback
+a,hold on please right we'll call you at two thirty this morning ok thank you byebye,hold,turn
+a,right,init,discourse
+a,we'll call you at two thirty this morning,informIntent,commissive
+b,thanks very much indeed,thank,thanking
+a,ok,ackn,feedback
+a,thank you,thank,thanking
+b,byebye,bye,goodbye
+a,byebye,bye,goodbye
