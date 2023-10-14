@@ -94,7 +94,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
     # data = datasets.load_dataset('my_dataset', 'second_domain')
     BUILDER_CONFIGS = [
         DAISOConfig(
-            name="",
+            name="dyda",
             description=textwrap.dedent(
                 """\
                 """
@@ -162,8 +162,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
         # By default the archives will be extracted and a path to a cached folder where they are extracted is returned instead of the archive
         data_files = dl_manager.download(self.config.data_url)
         splits = []
-        if "train" in data_files:
-            splits.append(datasets.SplitGenerator(
+        # if "train" in data_files:
+        splits.append(datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 # These kwargs will be passed to _generate_examples
                 gen_kwargs={
@@ -171,8 +171,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
                     "split": "train",
                 },
             ))
-        if "dev" in data_files:
-            datasets.SplitGenerator(
+        # if "dev" in data_files:
+        datasets.SplitGenerator(
                 name=datasets.Split.VALIDATION,
                 # These kwargs will be passed to _generate_examples
                 gen_kwargs={
@@ -180,8 +180,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
                     "split": "dev",
                 },
             )
-        if "test" in data_files:
-            datasets.SplitGenerator(
+        # if "test" in data_files:
+        datasets.SplitGenerator(
                 name=datasets.Split.TEST,
                 # These kwargs will be passed to _generate_examples
                 gen_kwargs={
@@ -195,7 +195,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
     def _generate_examples(self, file, split):
         # TODO: This method handles input defined in _split_generators to yield (key, example) tuples from the dataset.
         df = pd.read_csv(file, delimiter=",", header=0, quotechar='"', dtype=str)[
-            self.config.text_features.keys()
+            self.config.features
         ]
 
         rows = df.to_dict(orient="records")
