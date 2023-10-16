@@ -56,7 +56,7 @@ _URL = "https://raw.githubusercontent.com/igorktech/DAISO-benchmark/dev"
 class DAISOConfig(datasets.BuilderConfig):
     """BuilderConfig for DAISO."""
 
-    def __init__(self, features, data_url, citation, url, **kwargs):
+    def __init__(self, label_classes, features, data_url, citation, url, **kwargs):
         """BuilderConfig for DAISO.
         Args:
           features: `list[string]`, list of the features that will appear in the
@@ -70,7 +70,7 @@ class DAISOConfig(datasets.BuilderConfig):
           **kwargs: keyword arguments forwarded to super.
         """
         super(DAISOConfig, self).__init__(version=_VERSION, **kwargs)
-        # self.label_classes = label_classes
+        self.label_classes = label_classes
         self.features = features
         self.data_url = data_url
         self.citation = citation
@@ -99,6 +99,24 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 """\
                 """
             ),
+            label_classes=
+            {"commissive": {
+                "base": "Commissive",
+                "ISO": "commissive"
+            },
+                "directive": {
+                    "base": "Directive",
+                    "ISO": "directive"
+                },
+                "inform": {
+                    "base": "Inform",
+                    "ISO": "inform"
+                },
+                "question": {
+                    "base": "Question",
+                    "ISO": None
+                }
+            },
             features=[
                 "Utterance",
                 "Dialogue_Act",
@@ -121,7 +139,160 @@ class DAISO(datasets.GeneratorBasedBuilder):
             }"""
             ),
             url="http://yanran.li/dailydialog.html",
-        )
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes={},
+            features=[
+            ],
+            data_url={
+                # "train": _URL + "/dyda/train.csv",
+                # "dev": _URL + "/dyda/dev.csv",
+                # "test": _URL + "/dyda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+
     ]
 
     DEFAULT_CONFIG_NAME = "dyda"  # It's not mandatory to have a default configuration. Just use one if it make sense.
@@ -129,6 +300,10 @@ class DAISO(datasets.GeneratorBasedBuilder):
     def _info(self):
         # TODO: This method specifies the datasets.DatasetInfo object which contains informations and typings for the dataset
         features = {feature: datasets.Value("string") for feature in self.config.features}
+        if self.config.label_classes:
+            features["Label"] = datasets.features.ClassLabel(names=list(self.config.label_classes.keys()))
+            features["Label_ISO"] = datasets.features.ClassLabel(
+                names=[map.get("ISO") for map in self.config.label_classes.values()])
         features["Idx"] = datasets.Value("int32")
         # if self.config.name == "":  # This is the name of the configuration selected in BUILDER_CONFIGS above
         #     features = datasets.Features(
@@ -162,8 +337,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
         # By default the archives will be extracted and a path to a cached folder where they are extracted is returned instead of the archive
         data_files = dl_manager.download(self.config.data_url)
         splits = []
-        # if "train" in data_files:
-        splits.append(datasets.SplitGenerator(
+        if "train" in data_files:
+            splits.append(datasets.SplitGenerator(
                 name=datasets.Split.TRAIN,
                 # These kwargs will be passed to _generate_examples
                 gen_kwargs={
@@ -171,24 +346,24 @@ class DAISO(datasets.GeneratorBasedBuilder):
                     "split": "train",
                 },
             ))
-        # if "dev" in data_files:
-        datasets.SplitGenerator(
+        if "dev" in data_files:
+            splits.append(datasets.SplitGenerator(
                 name=datasets.Split.VALIDATION,
                 # These kwargs will be passed to _generate_examples
                 gen_kwargs={
                     "file": data_files["dev"],
                     "split": "dev",
                 },
-            )
-        # if "test" in data_files:
-        datasets.SplitGenerator(
+            ))
+        if "test" in data_files:
+            splits.append(datasets.SplitGenerator(
                 name=datasets.Split.TEST,
                 # These kwargs will be passed to _generate_examples
                 gen_kwargs={
                     "file": data_files["test"],
                     "split": "test"
                 },
-            )
+            ))
         return splits
 
     # method parameters are unpacked from `gen_kwargs` as given in `_split_generators`
@@ -207,5 +382,6 @@ class DAISO(datasets.GeneratorBasedBuilder):
             if "Dialogue_Act" in example:
                 label = example["Dialogue_Act"]
                 example["Label"] = label
+                example["Label_ISO"] = self.config.label_classes.get(label, {}).get("ISO")
 
             yield example["Idx"], example

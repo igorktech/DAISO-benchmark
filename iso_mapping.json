@@ -6,11 +6,11 @@
     },
     "stl": {
       "base": "Stall",
-      "ISO": ""
+      "ISO": None
     },
     "fra": {
       "base": "Fragment",
-      "ISO": ""
+      "ISO": None
     },
     "inf": {
       "base": "Inform",
@@ -26,7 +26,7 @@
     },
     "el.inf": {
       "base": "Elicit-Inform",
-      "ISO": ""
+      "ISO": None
     },
     "el.sug": {
       "base": "Elicit-Offer-Or-Suggestion",
@@ -34,11 +34,11 @@
     },
     "el.ass": {
       "base": "Elicit-Assessment",
-      "ISO": ""
+      "ISO": None
     },
     "el.und": {
       "base": "Elicit-Comment-Understanding",
-      "ISO": ""
+      "ISO": None
     },
     "off": {
       "base": "Offer",
@@ -50,15 +50,15 @@
     },
     "be.pos": {
       "base": "Be-Positive",
-      "ISO": ""
+      "ISO": None
     },
     "be.neg": {
       "base": "Be-Negative",
-      "ISO": ""
+      "ISO": None
     },
     "oth": {
       "base": "Other",
-      "ISO": ""
+      "ISO": None
     }
   },
   "oasis": {
@@ -144,7 +144,7 @@
     },
     "refer": {
       "base": "Refer",
-      "ISO": ""
+      "ISO": None
     },
     "suggest": {
       "base": "Suggest",
@@ -160,7 +160,7 @@
     },
     "exclaim": {
       "base": "Exclaim",
-      "ISO": ""
+      "ISO": None
     },
     "pardon": {
       "base": "Pardon",
@@ -168,7 +168,7 @@
     },
     "identifySelf": {
       "base": "Identify Self",
-      "ISO": ""
+      "ISO": None
     },
     "expressPossibility": {
       "base": "Express Possibility",
@@ -176,7 +176,7 @@
     },
     "raiseIssue": {
       "base": "Raise Issue",
-      "ISO": ""
+      "ISO": None
     },
     "expressWish": {
       "base": "Express Wish",
@@ -188,7 +188,7 @@
     },
     "complete": {
       "base": "Complete",
-      "ISO": ""
+      "ISO": None
     },
     "directElab": {
       "base": "Direct Elaborate",
@@ -196,27 +196,27 @@
     },
     "correct": {
       "base": "Correct",
-      "ISO": ""
+      "ISO": None
     },
     "refuse": {
       "base": "Refuse",
-      "ISO": ""
+      "ISO": None
     },
     "informIntent-hold": {
       "base": "Inform Intent Hold",
-      "ISO": ""
+      "ISO": None
     },
     "informDisc": {
       "base": "Inform Continue",
-      "ISO": ""
+      "ISO": None
     },
     "informCont": {
       "base": "Inform Discontinue",
-      "ISO": ""
+      "ISO": None
     },
     "selfTalk": {
       "base": "Self Talk",
-      "ISO": ""
+      "ISO": None
     },
     "correctSelf": {
       "base": "Correct Self",
@@ -224,11 +224,11 @@
     },
     "expressRegret-inform": {
       "base": "Express Regret Inform",
-      "ISO": ""
+      "ISO": None
     },
     "thank-identifySelf": {
       "base": "Thank Identify Self",
-      "ISO": ""
+      "ISO": None
     }
   },
   "maptask": {
@@ -258,7 +258,7 @@
     },
     "align": {
       "base": "Check Attention",
-      "ISO": ""
+      "ISO": None
     },
     "query_yn": {
       "base": "Yes-No-Question",
@@ -312,11 +312,11 @@
     },
     "%": {
       "base": "Interrupted/Abandoned/Uninterpretable",
-      "ISO": ""
+      "ISO": None
     },
     "rt": {
       "base": "Rising Tone",
-      "ISO": ""
+      "ISO": None
     },
     "fg": {
       "base": "Floor Grabber",
@@ -352,7 +352,7 @@
     },
     "2": {
       "base": "Collaborative Completion",
-      "ISO": ""
+      "ISO": None
     },
     "no": {
       "base": "Other Answers",
@@ -376,7 +376,7 @@
     },
     "j": {
       "base": "Humorous Material",
-      "ISO": ""
+      "ISO": None
     },
     "bd": {
       "base": "Downplayer",
@@ -392,7 +392,7 @@
     },
     "am": {
       "base": "Maybe",
-      "ISO": ""
+      "ISO": None
     },
     "qrr": {
       "base": "Or-Clause",
@@ -404,7 +404,7 @@
     },
     "m": {
       "base": "Mimic Other",
-      "ISO": ""
+      "ISO": None
     },
     "fa": {
       "base": "Apology",
@@ -412,7 +412,7 @@
     },
     "t": {
       "base": "About-task",
-      "ISO": ""
+      "ISO": None
     },
     "br": {
       "base": "Signal-non-understanding",
@@ -420,7 +420,7 @@
     },
     "aap": {
       "base": "Accept-part",
-      "ISO": ""
+      "ISO": None
     },
     "qh": {
       "base": "Rhetorical-Question",
@@ -436,11 +436,11 @@
     },
     "t1": {
       "base": "Self-talk",
-      "ISO": ""
+      "ISO": None
     },
     "t3": {
       "base": "3rd-party-talk",
-      "ISO": ""
+      "ISO": None
     },
     "bh": {
       "base": "Rhetorical-question Continue",
@@ -448,19 +448,19 @@
     },
     "bsc": {
       "base": "Reject-part",
-      "ISO": ""
+      "ISO": None
     },
     "arp": {
       "base": "Misspeak Self-Correction",
-      "ISO": ""
+      "ISO": None
     },
     "bs": {
       "base": "Reformulate/Summarize",
       "ISO": "feedback"
     },
     "f": {
-      "base": "\"Follow Me\"",
-      "ISO": ""
+      "base": "\"Follow Me\None,
+      "ISO": None
     },
     "qr": {
       "base": "Or-Question",
@@ -476,11 +476,11 @@
     },
     "qo": {
       "base": "Open-Question",
-      "ISO": ""
+      "ISO": None
     },
     "bc": {
       "base": "Correct-misspeaking",
-      "ISO": ""
+      "ISO": None
     },
     "by": {
       "base": "Sympathy",
@@ -506,7 +506,7 @@
     },
     "%": {
       "base": "Uninterpretable",
-      "ISO": ""
+      "ISO": None
     },
     "aa": {
       "base": "Agree/Accept",
@@ -554,7 +554,7 @@
     },
     "^q": {
       "base": "Quotation",
-      "ISO": ""
+      "ISO": None
     },
     "bf": {
       "base": "Summarize/Reformulate",
@@ -574,7 +574,7 @@
     },
     "o_\"_bc": {
       "base": "Other",
-      "ISO": ""
+      "ISO": None
     },
     "na": {
       "base": "Affirmative Non-yes Answers",
@@ -586,7 +586,7 @@
     },
     "^2": {
       "base": "Collaborative Completion",
-      "ISO": ""
+      "ISO": None
     },
     "b^m": {
       "base": "Repeat-phrase",
@@ -594,7 +594,7 @@
     },
     "qo": {
       "base": "Open-Question",
-      "ISO": ""
+      "ISO": None
     },
     "qh": {
       "base": "Rhetorical-Question",
@@ -634,7 +634,7 @@
     },
     "t3": {
       "base": "3rd-party-talk",
-      "ISO": ""
+      "ISO": None
     },
     "oo": {
       "base": "Offers",
@@ -646,7 +646,7 @@
     },
     "aap_am": {
       "base": "Maybe/Accept-part",
-      "ISO": ""
+      "ISO": None
     },
     "t1": {
       "base": "Downplayer",
@@ -654,7 +654,7 @@
     },
     "bd": {
       "base": "Self-talk",
-      "ISO": ""
+      "ISO": None
     },
     "^g": {
       "base": "Tag-Question",
@@ -704,7 +704,7 @@
     },
     "switch_frame": {
       "base": "Switch Frame",
-      "ISO": ""
+      "ISO": None
     },
     "offer": {
       "base": "Offer",
@@ -716,7 +716,7 @@
     },
     "null": {
       "base": "Other",
-      "ISO": ""
+      "ISO": None
     },
     "goodbye": {
       "base": "Goodbye",
@@ -728,7 +728,7 @@
     },
     "no_result": {
       "base": "No Result",
-      "ISO": ""
+      "ISO": None
     },
     "affirm": {
       "base": "Affirm",
@@ -744,11 +744,11 @@
     },
     "hearmore": {
       "base": "Hear More",
-      "ISO": ""
+      "ISO": None
     },
     "canthelp": {
       "base": "Can not help",
-      "ISO": ""
+      "ISO": None
     },
     "you_are_welcome": {
       "base": "Welcome",
@@ -774,7 +774,7 @@
     },
     "question": {
       "base": "Question",
-      "ISO": ""
+      "ISO": None
     }
   },
   "dstc3": {
@@ -788,7 +788,7 @@
     },
     "select": {
       "base": "Select",
-      "ISO": ""
+      "ISO": None
     },
     "expl-conf": {
       "base": "Explicit Confirmation",
@@ -800,7 +800,7 @@
     },
     "canthelp": {
       "base": "Can not help",
-      "ISO": ""
+      "ISO": None
     },
     "request": {
       "base": "Request",
@@ -824,7 +824,7 @@
     },
     "null": {
       "base": "Other",
-      "ISO": ""
+      "ISO": None
     },
     "reqalts": {
       "base": "Request Alternative",
@@ -832,11 +832,11 @@
     },
     "canthelp.missing_slot_value": {
       "base": "Can not help",
-      "ISO": ""
+      "ISO": None
     },
     "restart": {
       "base": "Restart",
-      "ISO": ""
+      "ISO": None
     },
     "ack": {
       "base": "Acknowledge",
@@ -914,7 +914,7 @@
     },
     "SELECT": {
       "base": "Select",
-      "ISO": ""
+      "ISO": None
     },
     "OFFER_INTENT": {
       "base": "Offer Intent",
