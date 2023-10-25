@@ -52,6 +52,942 @@ _LICENSE = ""
 # This can be an arbitrary nested dict/list of URLs (see below in `_split_generators` method)
 _URL = "https://raw.githubusercontent.com/igorktech/DAISO-benchmark/dev"
 
+LABELS_MAPPING = {
+    "ami": {
+        "bck": {
+            "base": "Backchannel",
+            "ISO": "feedback"
+        },
+        "stl": {
+            "base": "Stall",
+            "ISO": None
+        },
+        "fra": {
+            "base": "Fragment",
+            "ISO": None
+        },
+        "inf": {
+            "base": "Inform",
+            "ISO": "inform"
+        },
+        "sug": {
+            "base": "Suggest",
+            "ISO": "directive"
+        },
+        "ass": {
+            "base": "Assess",
+            "ISO": "feedback"
+        },
+        "el.inf": {
+            "base": "Elicit-Inform",
+            "ISO": None
+        },
+        "el.sug": {
+            "base": "Elicit-Offer-Or-Suggestion",
+            "ISO": "directive"
+        },
+        "el.ass": {
+            "base": "Elicit-Assessment",
+            "ISO": None
+        },
+        "el.und": {
+            "base": "Elicit-Comment-Understanding",
+            "ISO": None
+        },
+        "off": {
+            "base": "Offer",
+            "ISO": "commissive"
+        },
+        "und": {
+            "base": "Comment-About-Understanding",
+            "ISO": "feedback"
+        },
+        "be.pos": {
+            "base": "Be-Positive",
+            "ISO": None
+        },
+        "be.neg": {
+            "base": "Be-Negative",
+            "ISO": None
+        },
+        "oth": {
+            "base": "Other",
+            "ISO": None
+        }
+    },
+    "oasis": {
+        "inform": {
+            "base": "Inform",
+            "ISO": "inform"
+        },
+        "ackn": {
+            "base": "Acknowledge",
+            "ISO": "feedback"
+        },
+        "reqInfo": {
+            "base": "Request Inform",
+            "ISO": "directive"
+        },
+        "backch": {
+            "base": "Backchannel",
+            "ISO": "feedback"
+        },
+        "answ": {
+            "base": "Answer",
+            "ISO": "answer"
+        },
+        "init": {
+            "base": "Initialise",
+            "ISO": "discourse"
+        },
+        "thank": {
+            "base": "Thank",
+            "ISO": "thanking"
+        },
+        "greet": {
+            "base": "Greet",
+            "ISO": "greeting"
+        },
+        "accept": {
+            "base": "Accept",
+            "ISO": "agreement"
+        },
+        "answElab": {
+            "base": "Answer Elaborate",
+            "ISO": "inform"
+        },
+        "informIntent": {
+            "base": "Inform Intention",
+            "ISO": "commissive"
+        },
+        "bye": {
+            "base": "Bye",
+            "ISO": "goodbye"
+        },
+        "direct": {
+            "base": "Direct",
+            "ISO": "directive"
+        },
+        "confirm": {
+            "base": "Confirm",
+            "ISO": "answer"
+        },
+        "expressRegret": {
+            "base": "Express Regret",
+            "ISO": "apology"
+        },
+        "hold": {
+            "base": "Hold",
+            "ISO": "turn"
+        },
+        "expressOpinion": {
+            "base": "Express Opinion",
+            "ISO": "inform"
+        },
+        "offer": {
+            "base": "Offer",
+            "ISO": "commissive"
+        },
+        "echo": {
+            "base": "Echo",
+            "ISO": "feedback"
+        },
+        "appreciate": {
+            "base": "Appreciate",
+            "ISO": "feedback"
+        },
+        "refer": {
+            "base": "Refer",
+            "ISO": None
+        },
+        "suggest": {
+            "base": "Suggest",
+            "ISO": "directive"
+        },
+        "reqDirect": {
+            "base": "Request Direct",
+            "ISO": "directive"
+        },
+        "negate": {
+            "base": "Negate",
+            "ISO": "disagreement"
+        },
+        "exclaim": {
+            "base": "Exclaim",
+            "ISO": None
+        },
+        "pardon": {
+            "base": "Pardon",
+            "ISO": "apology"
+        },
+        "identifySelf": {
+            "base": "Identify Self",
+            "ISO": None
+        },
+        "expressPossibility": {
+            "base": "Express Possibility",
+            "ISO": "inform"
+        },
+        "raiseIssue": {
+            "base": "Raise Issue",
+            "ISO": None
+        },
+        "expressWish": {
+            "base": "Express Wish",
+            "ISO": "inform"
+        },
+        "reqModal": {
+            "base": "Request Modal",
+            "ISO": "directive"
+        },
+        "complete": {
+            "base": "Complete",
+            "ISO": None
+        },
+        "directElab": {
+            "base": "Direct Elaborate",
+            "ISO": "directive"
+        },
+        "correct": {
+            "base": "Correct",
+            "ISO": None
+        },
+        "refuse": {
+            "base": "Refuse",
+            "ISO": None
+        },
+        "informIntent-hold": {
+            "base": "Inform Intent Hold",
+            "ISO": None
+        },
+        "informDisc": {
+            "base": "Inform Continue",
+            "ISO": None
+        },
+        "informCont": {
+            "base": "Inform Discontinue",
+            "ISO": None
+        },
+        "selfTalk": {
+            "base": "Self Talk",
+            "ISO": None
+        },
+        "correctSelf": {
+            "base": "Correct Self",
+            "ISO": "disagreement"
+        },
+        "expressRegret-inform": {
+            "base": "Express Regret Inform",
+            "ISO": None
+        },
+        "thank-identifySelf": {
+            "base": "Thank Identify Self",
+            "ISO": None
+        }
+    },
+    "maptask": {
+        "acknowledge": {
+            "base": "Acknowledge",
+            "ISO": "feedback"
+        },
+        "instruct": {
+            "base": "Instruct",
+            "ISO": "directive"
+        },
+        "reply_y": {
+            "base": "Yes-Reply",
+            "ISO": "answer"
+        },
+        "explain": {
+            "base": "Explain",
+            "ISO": "inform"
+        },
+        "check": {
+            "base": "Check",
+            "ISO": "feedback"
+        },
+        "ready": {
+            "base": "Ready",
+            "ISO": "discourse"
+        },
+        "align": {
+            "base": "Check Attention",
+            "ISO": None
+        },
+        "query_yn": {
+            "base": "Yes-No-Question",
+            "ISO": "propq"
+        },
+        "clarify": {
+            "base": "Clarify",
+            "ISO": "inform"
+        },
+        "reply_w": {
+            "base": "Non Yes-No-Reply",
+            "ISO": "answer"
+        },
+        "reply_n": {
+            "base": "No-Reply",
+            "ISO": "answer"
+        },
+        "query_w": {
+            "base": "Non Yes-No-Question",
+            "ISO": "setq"
+        }
+    },
+    "mrda": {
+        "s": {
+            "base": "Statement",
+            "ISO": "inform"
+        },
+        "b": {
+            "base": "Continuer (backchannel)",
+            "ISO": "feedback"
+        },
+        "fh": {
+            "base": "Floor Holder",
+            "ISO": "turn"
+        },
+        "bk": {
+            "base": "Acknowledge-answer",
+            "ISO": "feedback"
+        },
+        "aa": {
+            "base": "Accept",
+            "ISO": "agreement"
+        },
+        "df": {
+            "base": "Defending/Explanation",
+            "ISO": "inform"
+        },
+        "e": {
+            "base": "Expansions of y/n Answers",
+            "ISO": "answer"
+        },
+        "%": {
+            "base": "Interrupted/Abandoned/Uninterpretable",
+            "ISO": None
+        },
+        "rt": {
+            "base": "Rising Tone",
+            "ISO": None
+        },
+        "fg": {
+            "base": "Floor Grabber",
+            "ISO": "turn"
+        },
+        "cs": {
+            "base": "Offer",
+            "ISO": "commissive"
+        },
+        "ba": {
+            "base": "Assessment/Appreciation",
+            "ISO": "feedback"
+        },
+        "bu": {
+            "base": "Understanding Check",
+            "ISO": "feedback"
+        },
+        "d": {
+            "base": "Declarative-Question",
+            "ISO": "propq"
+        },
+        "na": {
+            "base": "Affirmative Non-yes Answers",
+            "ISO": "answer"
+        },
+        "qw": {
+            "base": "Wh-Question",
+            "ISO": "setq"
+        },
+        "ar": {
+            "base": "Reject",
+            "ISO": "disagreement"
+        },
+        "2": {
+            "base": "Collaborative Completion",
+            "ISO": None
+        },
+        "no": {
+            "base": "Other Answers",
+            "ISO": "answer"
+        },
+        "h": {
+            "base": "Hold Before Answer/Agreement",
+            "ISO": "turn"
+        },
+        "co": {
+            "base": "Action-directive",
+            "ISO": "directive"
+        },
+        "qy": {
+            "base": "Yes-No-question",
+            "ISO": "propq"
+        },
+        "nd": {
+            "base": "Dispreferred Answers",
+            "ISO": "answer"
+        },
+        "j": {
+            "base": "Humorous Material",
+            "ISO": None
+        },
+        "bd": {
+            "base": "Downplayer",
+            "ISO": "apology"
+        },
+        "cc": {
+            "base": "Commit",
+            "ISO": "commissive"
+        },
+        "ng": {
+            "base": "Negative Non-no Answers",
+            "ISO": "answer"
+        },
+        "am": {
+            "base": "Maybe",
+            "ISO": None
+        },
+        "qrr": {
+            "base": "Or-Clause",
+            "ISO": "choiceq"
+        },
+        "fe": {
+            "base": "Exclamation",
+            "ISO": "feedback"
+        },
+        "m": {
+            "base": "Mimic Other",
+            "ISO": None
+        },
+        "fa": {
+            "base": "Apology",
+            "ISO": "apology"
+        },
+        "t": {
+            "base": "About-task",
+            "ISO": None
+        },
+        "br": {
+            "base": "Signal-non-understanding",
+            "ISO": "feedback"
+        },
+        "aap": {
+            "base": "Accept-part",
+            "ISO": None
+        },
+        "qh": {
+            "base": "Rhetorical-Question",
+            "ISO": "inform"
+        },
+        "tc": {
+            "base": "Topic Change",
+            "ISO": "discourse"
+        },
+        "r": {
+            "base": "Repeat",
+            "ISO": "inform"
+        },
+        "t1": {
+            "base": "Self-talk",
+            "ISO": None
+        },
+        "t3": {
+            "base": "3rd-party-talk",
+            "ISO": None
+        },
+        "bh": {
+            "base": "Rhetorical-question Continue",
+            "ISO": "propq"
+        },
+        "bsc": {
+            "base": "Reject-part",
+            "ISO": None
+        },
+        "arp": {
+            "base": "Misspeak Self-Correction",
+            "ISO": None
+        },
+        "bs": {
+            "base": "Reformulate/Summarize",
+            "ISO": "feedback"
+        },
+        "f": {
+            "base": "Follow Me",
+            "ISO": None
+        },
+        "qr": {
+            "base": "Or-Question",
+            "ISO": "choiceq"
+        },
+        "ft": {
+            "base": "Thanking",
+            "ISO": "thanking"
+        },
+        "g": {
+            "base": "Tag-Question",
+            "ISO": "propq"
+        },
+        "qo": {
+            "base": "Open-Question",
+            "ISO": None
+        },
+        "bc": {
+            "base": "Correct-misspeaking",
+            "ISO": None
+        },
+        "by": {
+            "base": "Sympathy",
+            "ISO": "apology"
+        },
+        "fw": {
+            "base": "Welcome",
+            "ISO": "thanking"
+        }
+    },
+    "swda": {
+        "sd": {
+            "base": "Statement-non-opinion",
+            "ISO": "inform"
+        },
+        "b": {
+            "base": "Acknowledge (Backchannel)",
+            "ISO": "feedback"
+        },
+        "sv": {
+            "base": "Statement-opinion",
+            "ISO": "inform"
+        },
+        "%": {
+            "base": "Uninterpretable",
+            "ISO": None
+        },
+        "aa": {
+            "base": "Agree/Accept",
+            "ISO": "agreement"
+        },
+        "ba": {
+            "base": "Appreciation",
+            "ISO": "feedback"
+        },
+        "qy": {
+            "base": "Yes-No-Question",
+            "ISO": "propq"
+        },
+        "ny": {
+            "base": "Yes Answers",
+            "ISO": "answer"
+        },
+        "fc": {
+            "base": "Conventional-closing",
+            "ISO": "discourse"
+        },
+        "qw": {
+            "base": "Wh-Question",
+            "ISO": "setq"
+        },
+        "nn": {
+            "base": "No Answers",
+            "ISO": "answer"
+        },
+        "bk": {
+            "base": "Response Acknowledgement",
+            "ISO": "feedback"
+        },
+        "h": {
+            "base": "Hedge",
+            "ISO": "answer"
+        },
+        "qy^d": {
+            "base": "Declarative Yes-No-Question",
+            "ISO": "propq"
+        },
+        "bh": {
+            "base": "Backchannel in Question Form",
+            "ISO": "propq"
+        },
+        "^q": {
+            "base": "Quotation",
+            "ISO": None
+        },
+        "bf": {
+            "base": "Summarize/Reformulate",
+            "ISO": "feedback"
+        },
+        "fo": {
+            "base": "Other forward-looking functions",
+            "ISO": "commissive"
+        },
+        "by": {
+            "base": "Sympathy",
+            "ISO": "apology"
+        },
+        "fw": {
+            "base": "Welcome",
+            "ISO": "thanking"
+        },
+        "o_\"_bc": {
+            "base": "Other",
+            "ISO": None
+        },
+        "na": {
+            "base": "Affirmative Non-yes Answers",
+            "ISO": "answer"
+        },
+        "ad": {
+            "base": "Action-directive",
+            "ISO": "directive"
+        },
+        "^2": {
+            "base": "Collaborative Completion",
+            "ISO": None
+        },
+        "b^m": {
+            "base": "Repeat-phrase",
+            "ISO": "feedback"
+        },
+        "qo": {
+            "base": "Open-Question",
+            "ISO": None
+        },
+        "qh": {
+            "base": "Rhetorical-Question",
+            "ISO": "inform"
+        },
+        "^h": {
+            "base": "Hold Before Answer/Agreement",
+            "ISO": "turn"
+        },
+        "ar": {
+            "base": "Reject",
+            "ISO": "disagreement"
+        },
+        "ng": {
+            "base": "Negative Non-no Answers",
+            "ISO": "answer"
+        },
+        "br": {
+            "base": "Signal-non-understanding",
+            "ISO": "feedback"
+        },
+        "no": {
+            "base": "Other Answers",
+            "ISO": "answer"
+        },
+        "fp": {
+            "base": "Conventional-opening",
+            "ISO": "discourse"
+        },
+        "qrr": {
+            "base": "Or-Clause",
+            "ISO": "choiceq"
+        },
+        "arp_nd": {
+            "base": "Dispreferred Answers",
+            "ISO": "answer"
+        },
+        "t3": {
+            "base": "3rd-party-talk",
+            "ISO": None
+        },
+        "oo": {
+            "base": "Offers",
+            "ISO": "directive"
+        },
+        "co_cc": {
+            "base": "Options Commits",
+            "ISO": "commissive"
+        },
+        "aap_am": {
+            "base": "Maybe/Accept-part",
+            "ISO": None
+        },
+        "t1": {
+            "base": "Downplayer",
+            "ISO": "apology"
+        },
+        "bd": {
+            "base": "Self-talk",
+            "ISO": None
+        },
+        "^g": {
+            "base": "Tag-Question",
+            "ISO": "propq"
+        },
+        "qw^d": {
+            "base": "Declarative Wh-Question",
+            "ISO": "setq"
+        },
+        "fa": {
+            "base": "Apology",
+            "ISO": "apology"
+        },
+        "ft": {
+            "base": "Thanking",
+            "ISO": "thanking"
+        }
+    },
+    "frames": {
+        "inform": {
+            "base": "Inform",
+            "ISO": "inform"
+        },
+        "sorry": {
+            "base": "Sorry",
+            "ISO": "apology"
+        },
+        "suggest": {
+            "base": "Suggest",
+            "ISO": "directive"
+        },
+        "negate": {
+            "base": "Negate",
+            "ISO": "disagreement"
+        },
+        "thankyou": {
+            "base": "Thank you",
+            "ISO": "thanking"
+        },
+        "greeting": {
+            "base": "Greeting",
+            "ISO": "greeting"
+        },
+        "request": {
+            "base": "Request",
+            "ISO": "directive"
+        },
+        "switch_frame": {
+            "base": "Switch Frame",
+            "ISO": None
+        },
+        "offer": {
+            "base": "Offer",
+            "ISO": "commissive"
+        },
+        "request_alts": {
+            "base": "Request Alternative",
+            "ISO": "directive"
+        },
+        "null": {
+            "base": "Other",
+            "ISO": None
+        },
+        "goodbye": {
+            "base": "Goodbye",
+            "ISO": "goodbye"
+        },
+        "moreinfo": {
+            "base": "Request More information",
+            "ISO": "directive"
+        },
+        "no_result": {
+            "base": "No Result",
+            "ISO": None
+        },
+        "affirm": {
+            "base": "Affirm",
+            "ISO": "answer"
+        },
+        "request_compare": {
+            "base": "Request Compare",
+            "ISO": "directive"
+        },
+        "confirm": {
+            "base": "Confirm",
+            "ISO": "answer"
+        },
+        "hearmore": {
+            "base": "Hear More",
+            "ISO": None
+        },
+        "canthelp": {
+            "base": "Can not help",
+            "ISO": None
+        },
+        "you_are_welcome": {
+            "base": "Welcome",
+            "ISO": "thanking"
+        },
+        "reject": {
+            "base": "Reject",
+            "ISO": "disagreement"
+        }
+    },
+    "dyda": {
+        "commissive": {
+            "base": "Commissive",
+            "ISO": "commissive"
+        },
+        "directive": {
+            "base": "Directive",
+            "ISO": "directive"
+        },
+        "inform": {
+            "base": "Inform",
+            "ISO": "inform"
+        },
+        "question": {
+            "base": "Question",
+            "ISO": None
+        }
+    },
+    "dstc3": {
+        "welcomemsg": {
+            "base": "Welcome",
+            "ISO": "thanking"
+        },
+        "inform": {
+            "base": "Inform",
+            "ISO": "inform"
+        },
+        "select": {
+            "base": "Select",
+            "ISO": None
+        },
+        "expl-conf": {
+            "base": "Explicit Confirmation",
+            "ISO": "answer"
+        },
+        "affirm": {
+            "base": "Affirmation",
+            "ISO": "answer"
+        },
+        "canthelp": {
+            "base": "Can not help",
+            "ISO": None
+        },
+        "request": {
+            "base": "Request",
+            "ISO": "directive"
+        },
+        "bye": {
+            "base": "Goodbye",
+            "ISO": "goodbye"
+        },
+        "offer": {
+            "base": "Offer",
+            "ISO": "commissive"
+        },
+        "thankyou": {
+            "base": "Thank you",
+            "ISO": "thanking"
+        },
+        "negate": {
+            "base": "Negate",
+            "ISO": "disagreement"
+        },
+        "null": {
+            "base": "Other",
+            "ISO": None
+        },
+        "reqalts": {
+            "base": "Request Alternative",
+            "ISO": "directive"
+        },
+        "canthelp.missing_slot_value": {
+            "base": "Can not help",
+            "ISO": None
+        },
+        "restart": {
+            "base": "Restart",
+            "ISO": None
+        },
+        "ack": {
+            "base": "Acknowledge",
+            "ISO": "feedback"
+        },
+        "reqmore": {
+            "base": "Request More",
+            "ISO": "directive"
+        },
+        "confirm": {
+            "base": "Confirm",
+            "ISO": "answer"
+        },
+        "hello": {
+            "base": "Hello",
+            "ISO": "greeting"
+        },
+        "repeat": {
+            "base": "Repeat",
+            "ISO": "inform"
+        },
+        "deny": {
+            "base": "Deny",
+            "ISO": "answer"
+        }
+    },
+    "dstc8-sgd": {
+        "INFORM": {
+            "base": "Inform",
+            "ISO": "inform"
+        },
+        "REQUEST": {
+            "base": "Request",
+            "ISO": "directive"
+        },
+        "CONFIRM": {
+            "base": "Confirm",
+            "ISO": "answer"
+        },
+        "AFFIRM": {
+            "base": "Affirmation",
+            "ISO": "answer"
+        },
+        "NOTIFY_FAILURE": {
+            "base": "Notify Failure",
+            "ISO": "inform"
+        },
+        "THANK_YOU": {
+            "base": "Thank you",
+            "ISO": "thanking"
+        },
+        "REQ_MORE": {
+            "base": "Request More",
+            "ISO": "directive"
+        },
+        "NEGATE": {
+            "base": "Negate",
+            "ISO": "disagreement"
+        },
+        "GOODBYE": {
+            "base": "Goodbye",
+            "ISO": "goodbye"
+        },
+        "NOTIFY_SUCCESS": {
+            "base": "Notify Success",
+            "ISO": "inform"
+        },
+        "INFORM_INTENT": {
+            "base": "Inform Intention",
+            "ISO": "commissive"
+        },
+        "OFFER": {
+            "base": "Offer",
+            "ISO": "commissive"
+        },
+        "SELECT": {
+            "base": "Select",
+            "ISO": None
+        },
+        "OFFER_INTENT": {
+            "base": "Offer Intent",
+            "ISO": "commissive"
+        },
+        "NEGATE_INTENT": {
+            "base": "Negate Intent",
+            "ISO": "disagreement"
+        },
+        "REQUEST_ALTS": {
+            "base": "Request Alternatives",
+            "ISO": "directive"
+        },
+        "AFFIRM_INTENT": {
+            "base": "Affirm Intent",
+            "ISO": "answer"
+        }
+    }
+}
 
 class DAISOConfig(datasets.BuilderConfig):
     """BuilderConfig for DAISO."""
@@ -94,29 +1030,141 @@ class DAISO(datasets.GeneratorBasedBuilder):
     # data = datasets.load_dataset('my_dataset', 'second_domain')
     BUILDER_CONFIGS = [
         DAISOConfig(
+            name="ami",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes=LABELS_MAPPING["ami"],
+            features=[
+            ],
+            data_url={
+                "train": _URL + "/ami/train.csv",
+                "test": _URL + "/ami/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="oasis",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes=LABELS_MAPPING["oasis"],
+            features=[
+            ],
+            data_url={
+                "train": _URL + "/oasis/train.csv",
+                "dev": _URL + "/oasis/dev.csv",
+                "test": _URL + "/oasis/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="maptask",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes=LABELS_MAPPING["maptask"],
+            features=[
+            ],
+            data_url={
+                "train": _URL + "/maptask/train.csv",
+                "dev": _URL + "/maptask/dev.csv",
+                "test": _URL + "/maptask/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="mrda",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes=LABELS_MAPPING["mrda"],
+            features=[
+            ],
+            data_url={
+                "train": _URL + "/mrda/train.csv",
+                "dev": _URL + "/mrda/dev.csv",
+                "test": _URL + "/mrda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="swda",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes=LABELS_MAPPING["swda"],
+            features=[
+            ],
+            data_url={
+                "train": _URL + "/swda/train.csv",
+                "dev": _URL + "/swda/dev.csv",
+                "test": _URL + "/swda/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
+            name="frames",
+            description=textwrap.dedent(
+                """\
+                """
+            ),
+            label_classes=LABELS_MAPPING["frames"],
+            features=[
+            ],
+            data_url={
+                "train": _URL + "/frames/train.csv",
+                "test": _URL + "/frames/test.csv",
+            },
+            citation=textwrap.dedent(
+                """"""
+            ),
+            url="",
+        ),
+        DAISOConfig(
             name="dyda",
             description=textwrap.dedent(
                 """\
                 """
             ),
-            label_classes=
-            {"commissive": {
-                "base": "Commissive",
-                "ISO": "commissive"
-            },
-                "directive": {
-                    "base": "Directive",
-                    "ISO": "directive"
-                },
-                "inform": {
-                    "base": "Inform",
-                    "ISO": "inform"
-                },
-                "question": {
-                    "base": "Question",
-                    "ISO": None
-                }
-            },
+            label_classes=LABELS_MAPPING["dyda"],
+            # {"commissive": {
+            #     "base": "Commissive",
+            #     "ISO": "commissive"
+            # },
+            #     "directive": {
+            #         "base": "Directive",
+            #         "ISO": "directive"
+            #     },
+            #     "inform": {
+            #         "base": "Inform",
+            #         "ISO": "inform"
+            #     },
+            #     "question": {
+            #         "base": "Question",
+            #         "ISO": None
+            #     }
+            # },
             features=[
                 "Utterance",
                 "Dialogue_Act",
@@ -141,18 +1189,17 @@ class DAISO(datasets.GeneratorBasedBuilder):
             url="http://yanran.li/dailydialog.html",
         ),
         DAISOConfig(
-            name="",
+            name="dstc3",
             description=textwrap.dedent(
                 """\
                 """
             ),
-            label_classes={},
+            label_classes=LABELS_MAPPING["dstc3"],
             features=[
             ],
             data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
+                "train": _URL + "/dstc3/train.csv",
+                "test": _URL + "/dstc3/test.csv",
             },
             citation=textwrap.dedent(
                 """"""
@@ -160,132 +1207,18 @@ class DAISO(datasets.GeneratorBasedBuilder):
             url="",
         ),
         DAISOConfig(
-            name="",
+            name="dstc8-sgd",
             description=textwrap.dedent(
                 """\
                 """
             ),
-            label_classes={},
+            label_classes=LABELS_MAPPING["dstc8-sgd"],
             features=[
             ],
             data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
-            },
-            citation=textwrap.dedent(
-                """"""
-            ),
-            url="",
-        ),
-        DAISOConfig(
-            name="",
-            description=textwrap.dedent(
-                """\
-                """
-            ),
-            label_classes={},
-            features=[
-            ],
-            data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
-            },
-            citation=textwrap.dedent(
-                """"""
-            ),
-            url="",
-        ),
-        DAISOConfig(
-            name="",
-            description=textwrap.dedent(
-                """\
-                """
-            ),
-            label_classes={},
-            features=[
-            ],
-            data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
-            },
-            citation=textwrap.dedent(
-                """"""
-            ),
-            url="",
-        ),
-        DAISOConfig(
-            name="",
-            description=textwrap.dedent(
-                """\
-                """
-            ),
-            label_classes={},
-            features=[
-            ],
-            data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
-            },
-            citation=textwrap.dedent(
-                """"""
-            ),
-            url="",
-        ),
-        DAISOConfig(
-            name="",
-            description=textwrap.dedent(
-                """\
-                """
-            ),
-            label_classes={},
-            features=[
-            ],
-            data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
-            },
-            citation=textwrap.dedent(
-                """"""
-            ),
-            url="",
-        ),
-        DAISOConfig(
-            name="",
-            description=textwrap.dedent(
-                """\
-                """
-            ),
-            label_classes={},
-            features=[
-            ],
-            data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
-            },
-            citation=textwrap.dedent(
-                """"""
-            ),
-            url="",
-        ),
-        DAISOConfig(
-            name="",
-            description=textwrap.dedent(
-                """\
-                """
-            ),
-            label_classes={},
-            features=[
-            ],
-            data_url={
-                # "train": _URL + "/dyda/train.csv",
-                # "dev": _URL + "/dyda/dev.csv",
-                # "test": _URL + "/dyda/test.csv",
+                "train": _URL + "/dstc8-sgd/train.csv",
+                "dev": _URL + "/dstc8-sgd/dev.csv",
+                "test": _URL + "/dstc8-sgd/test.csv",
             },
             citation=textwrap.dedent(
                 """"""
@@ -303,7 +1236,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
         if self.config.label_classes:
             features["Label"] = datasets.features.ClassLabel(names=list(self.config.label_classes.keys()))
             features["Label_ISO"] = datasets.features.ClassLabel(
-                names=[map.get("ISO") for map in self.config.label_classes.values()])
+                names=list(set([map.get("ISO") for map in self.config.label_classes.values()])))
         features["Idx"] = datasets.Value("int32")
         # if self.config.name == "":  # This is the name of the configuration selected in BUILDER_CONFIGS above
         #     features = datasets.Features(
