@@ -113,6 +113,10 @@ LABELS_MAPPING = {
         "oth": {
             "base": "Other",
             "ISO": None
+        },
+        None: {
+            "base": "None",
+            "ISO": None
         }
     },
     "oasis": {
@@ -811,6 +815,10 @@ LABELS_MAPPING = {
         "reject": {
             "base": "Reject",
             "ISO": "disagreement"
+        },
+        None: {
+            "base": "None",
+            "ISO": None
         }
     },
     "dyda": {
