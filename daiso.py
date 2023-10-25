@@ -989,6 +989,7 @@ LABELS_MAPPING = {
     }
 }
 
+
 class DAISOConfig(datasets.BuilderConfig):
     """BuilderConfig for DAISO."""
 
@@ -1037,15 +1038,30 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["ami"],
             features=[
+                "Utterance",
+                "Dialogue_Act",
+                "Speaker",
+                "Dialogue_Id",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/ami/train.csv",
                 "test": _URL + "/ami/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @article{carletta2006ami,
+                author = "Carletta, J.",
+                title = "Announcing the AMI Meeting Corpus",
+                journal = "The ELRA Newsletter",
+                volume = "11",
+                number = "1",
+                year = "2006",
+                pages = "3-5",
+                month = "January-March"
+                }"""
             ),
-            url="",
+            url="https://groups.inf.ed.ac.uk/ami/corpus/",
         ),
         DAISOConfig(
             name="oasis",
@@ -1055,6 +1071,10 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["oasis"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Dialogue_Act",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/oasis/train.csv",
@@ -1062,9 +1082,18 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "test": _URL + "/oasis/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @inproceedings{leech2003generic,
+                title={Generic speech act annotation for task-oriented dialogues},
+                author={Leech, Geoffrey and Weisser, Martin},
+                booktitle={Proceedings of the corpus linguistics 2003 conference},
+                volume={16},
+                pages={441--446},
+                year={2003},
+                organization={Lancaster: Lancaster University}
+                }"""
             ),
-            url="",
+            url="http://groups.inf.ed.ac.uk/oasis/",
         ),
         DAISOConfig(
             name="maptask",
@@ -1074,6 +1103,10 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["maptask"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Dialogue_Act",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/maptask/train.csv",
@@ -1081,9 +1114,16 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "test": _URL + "/maptask/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @inproceedings{thompson1993hcrc,
+                title={The HCRC map task corpus: natural dialogue for speech recognition},
+                author={Thompson, Henry S and Anderson, Anne H and Bard, Ellen Gurman and Doherty-Sneddon,
+                Gwyneth and Newlands, Alison and Sotillo, Cathy},
+                booktitle={HUMAN LANGUAGE TECHNOLOGY: Proceedings of a Workshop Held at Plainsboro, New Jersey, March 21-24, 1993},
+                year={1993}
+                }"""
             ),
-            url="",
+            url="http://groups.inf.ed.ac.uk/maptask/",
         ),
         DAISOConfig(
             name="mrda",
@@ -1093,6 +1133,12 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["mrda"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Basic_DA",
+                "General_DA",
+                "Dialogue_Act",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/mrda/train.csv",
@@ -1100,18 +1146,31 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "test": _URL + "/mrda/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @techreport{shriberg2004icsi,
+                title={The ICSI meeting recorder dialog act (MRDA) corpus},
+                author={Shriberg, Elizabeth and Dhillon, Raj and Bhagat, Sonali and Ang, Jeremy and Carvey, Hannah},
+                year={2004},
+                institution={INTERNATIONAL COMPUTER SCIENCE INST BERKELEY CA}
+                }"""
             ),
-            url="",
+            url="https://www.aclweb.org/anthology/W04-2319",
         ),
         DAISOConfig(
             name="swda",
             description=textwrap.dedent(
                 """\
+                Switchboard Dialogue Act Corpus. 
+                Grouping procedure is different from original recommendations.
+                Contains detailed split for specific labels for ISO mapping.
                 """
             ),
             label_classes=LABELS_MAPPING["swda"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Dialogue_Act",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/swda/train.csv",
@@ -1119,9 +1178,21 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "test": _URL + "/swda/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @article{stolcke2000dialogue,
+                title={Dialogue act modeling for automatic tagging and recognition of conversational speech},
+                 author={Stolcke, Andreas and Ries, Klaus and Coccaro, Noah and Shriberg, Elizabeth and
+                 Bates, Rebecca and Jurafsky, Daniel and Taylor, Paul and Martin, Rachel and Ess-Dykema,
+                 Carol Van and Meteer, Marie},
+                 journal={Computational linguistics},
+                volume={26},
+                number={3},
+                pages={339--373},
+                year={2000},
+                publisher={MIT Press}
+                }"""
             ),
-            url="",
+            url="https://web.stanford.edu/~jurafsky/ws97/",
         ),
         DAISOConfig(
             name="frames",
@@ -1131,15 +1202,39 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["frames"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Dialogue_Act",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/frames/train.csv",
                 "test": _URL + "/frames/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @inproceedings{el-asri-etal-2017-frames,
+                title = "{F}rames: a corpus for adding memory to goal-oriented dialogue systems",
+                author = "El Asri, Layla  and
+                  Schulz, Hannes  and
+                  Sharma, Shikhar  and
+                  Zumer, Jeremie  and
+                  Harris, Justin  and
+                  Fine, Emery  and
+                  Mehrotra, Rahul  and
+                  Suleman, Kaheer",
+                booktitle = "Proceedings of the 18th Annual {SIG}dial Meeting on Discourse and Dialogue",
+                month = aug,
+                year = "2017",
+                address = {Saarbr{\"u}cken, Germany},
+                publisher = "Association for Computational Linguistics",
+                url = "https://aclanthology.org/W17-5526",
+                doi = "10.18653/v1/W17-5526",
+                pages = "207--219",
+                abstract = "This paper proposes a new dataset, Frames, composed of 1369 human-human dialogues with an average of 15 turns per dialogue. This corpus contains goal-oriented dialogues between users who are given some constraints to book a trip and assistants who search a database to find appropriate trips. The users exhibit complex decision-making behaviour which involve comparing trips, exploring different options, and selecting among the trips that were discussed during the dialogue. To drive research on dialogue systems towards handling such behaviour, we have annotated and released the dataset and we propose in this paper a task called frame tracking. This task consists of keeping track of different semantic frames throughout each dialogue. We propose a rule-based baseline and analyse the frame tracking task through this baseline.",
+                }"""
             ),
-            url="",
+            url="http://datasets.maluuba.com/Frames",
         ),
         DAISOConfig(
             name="dyda",
@@ -1169,7 +1264,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Utterance",
                 "Dialogue_Act",
                 "Emotion",
-                "Dialogue_ID",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             data_url={
@@ -1179,12 +1274,12 @@ class DAISO(datasets.GeneratorBasedBuilder):
             },
             citation=textwrap.dedent(
                 """\
-            @InProceedings{li2017dailydialog,
-            author = {Li, Yanran and Su, Hui and Shen, Xiaoyu and Li, Wenjie and Cao, Ziqiang and Niu, Shuzi},
-            title = {DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset},
-            booktitle = {Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017)},
-            year = {2017}
-            }"""
+                @InProceedings{li2017dailydialog,
+                 author = {Li, Yanran and Su, Hui and Shen, Xiaoyu and Li, Wenjie and Cao, Ziqiang and Niu, Shuzi},
+                 title = {DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset},
+                 booktitle = {Proceedings of The 8th International Joint Conference on Natural Language Processing (IJCNLP 2017)},
+                 year = {2017}
+                }"""
             ),
             url="http://yanran.li/dailydialog.html",
         ),
@@ -1196,15 +1291,27 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["dstc3"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Dialog_Act",
+                "Dialog_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/dstc3/train.csv",
                 "test": _URL + "/dstc3/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @article{Henderson2014TheTD,
+                  title={The third Dialog State Tracking Challenge},
+                  author={Matthew Henderson and Blaise Thomson and J. Williams},
+                  journal={2014 IEEE Spoken Language Technology Workshop (SLT)},
+                  year={2014},
+                  pages={324-329},
+                  url={https://api.semanticscholar.org/CorpusID:17478615}
+                }"""
             ),
-            url="",
+            url="http://camdial.org/~mh521/dstc/",
         ),
         DAISOConfig(
             name="dstc8-sgd",
@@ -1214,6 +1321,11 @@ class DAISO(datasets.GeneratorBasedBuilder):
             ),
             label_classes=LABELS_MAPPING["dstc8-sgd"],
             features=[
+                "Speaker",
+                "Utterance",
+                "Dialogue_Act",
+                "Dialogue_Id",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/dstc8-sgd/train.csv",
@@ -1221,9 +1333,18 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "test": _URL + "/dstc8-sgd/test.csv",
             },
             citation=textwrap.dedent(
-                """"""
+                """\
+                @inproceedings{rastogi2020towards,
+                  title={Towards scalable multi-domain conversational agents: The schema-guided dialogue dataset},
+                  author={Rastogi, Abhinav and Zang, Xiaoxue and Sunkara, Srinivas and Gupta, Raghav and Khaitan, Pranav},
+                  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+                  volume={34},
+                  number={05},
+                  pages={8689--8696},
+                  year={2020}
+                }"""
             ),
-            url="",
+            url="https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
         ),
 
     ]
