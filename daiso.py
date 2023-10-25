@@ -1301,8 +1301,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
             features=[
                 "Speaker",
                 "Utterance",
-                "Dialog_Act",
-                "Dialog_Act_ISO"
+                "Dialogue_Act",
+                "Dialogue_Act_ISO"
             ],
             data_url={
                 "train": _URL + "/dstc3/train.csv",

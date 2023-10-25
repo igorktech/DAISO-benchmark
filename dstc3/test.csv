@@ -1,4 +1,4 @@
-Speaker,Utterance,Dialogue_Act,Dialog_Act_ISO
+Speaker,Utterance,Dialogue_Act,Dialogue_Act_ISO
 SYS,Your call will be recorded for research purposes.,welcomemsg,thanking
 SYS,"You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",welcomemsg,thanking
 SYS,How may I help you?,welcomemsg,thanking
