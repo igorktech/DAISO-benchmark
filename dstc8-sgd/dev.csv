@@ -1,4 +1,4 @@
-Speaker,Utterance,Dialogue_Act,Dialogue_ID,Dialogue_Act_ISO
+Speaker,Utterance,Dialogue_Act,Dialogue_Id,Dialogue_Act_ISO
 USER,I want to make a restaurant reservation for 2 people at half past 11 in the morning.,INFORM,1_00000,inform
 SYSTEM,What city do you want to dine in? Do you have a preferred restaurant?,REQUEST,1_00000,directive
 USER,Please find restaurants in San Jose. Can you try Sino?,INFORM,1_00000,inform

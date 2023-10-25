@@ -1,4 +1,4 @@
-Utterance,Dialogue_Act,Emotion,Dialogue_ID,Dialogue_Act_ISO
+Utterance,Dialogue_Act,Emotion,Dialogue_Id,Dialogue_Act_ISO
 "hey man , you wanna buy some weed ?",directive,no emotion,1,directive
 some what ?,question,surprise,1,
 "weed ! you know ? pot , ganja , mary jane some chronic !",directive,no emotion,1,directive

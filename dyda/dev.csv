@@ -1,4 +1,4 @@
-Utterance,Dialogue_Act,Emotion,Dialogue_ID,Dialogue_Act_ISO
+Utterance,Dialogue_Act,Emotion,Dialogue_Id,Dialogue_Act_ISO
 "good morning , sir . is there a bank near here ?",question,no emotion,1,
 there is one . 5 blocks away from here ?,inform,no emotion,1,inform
 "well , that's too far.can you change some money for me ?",directive,no emotion,1,directive
