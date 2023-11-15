@@ -923,6 +923,10 @@ LABELS_MAPPING = {
         "deny": {
             "base": "Deny",
             "ISO": "answer"
+        },
+        None: {
+            "base": "None",
+            "ISO": None
         }
     },
     "dstc8-sgd": {
@@ -1001,7 +1005,7 @@ LABELS_MAPPING = {
 class DAISOConfig(datasets.BuilderConfig):
     """BuilderConfig for DAISO."""
 
-    def __init__(self, label_classes, features, data_url, citation, url, **kwargs):
+    def __init__(self, label_classes, features, speakers, data_url, citation, url, **kwargs):
         """BuilderConfig for DAISO.
         Args:
           features: `list[string]`, list of the features that will appear in the
@@ -1017,6 +1021,7 @@ class DAISOConfig(datasets.BuilderConfig):
         super(DAISOConfig, self).__init__(version=_VERSION, **kwargs)
         self.label_classes = label_classes
         self.features = features
+        self.speakers = speakers
         self.data_url = data_url
         self.citation = citation
         self.url = url
@@ -1045,6 +1050,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 """
             ),
             label_classes=LABELS_MAPPING["ami"],
+            speakers=['A', 'B', 'D', 'C'],
             features=[
                 "Utterance",
                 "Dialogue_Act",
@@ -1078,6 +1084,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 """
             ),
             label_classes=LABELS_MAPPING["oasis"],
+            speakers=['b', 'a'],
             features=[
                 "Speaker",
                 "Utterance",
@@ -1110,6 +1117,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 """
             ),
             label_classes=LABELS_MAPPING["maptask"],
+            speakers=['g', 'f'],
             features=[
                 "Speaker",
                 "Utterance",
@@ -1140,6 +1148,11 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 """
             ),
             label_classes=LABELS_MAPPING["mrda"],
+            speakers=['me003', 'me012', 'fe004', 'mn015', 'me010', 'me045', 'mn036', 'me013', 'me001', 'me011', 'mn005',
+                      'fe016', 'fe008', 'mn017', 'me018', 'mn014', 'mn009', 'me026', 'me051', 'mn007', 'me034', 'me006',
+                      'fn002', 'mn058', 'mn052', 'fe046', 'fn050', 'me025', 'mn048', 'mn047', 'mn059', 'me022', 'me028',
+                      'mn082', 'mn021', 'fn083', 'mn030', 'mn081', 'mn035', 'mn040', 'mn049', 'me055', 'mn038', 'me056',
+                      'mn057', 'fe068', 'fe069', 'fe066', 'me070', 'fe067', 'fe041', 'fn043'],
             features=[
                 "Speaker",
                 "Utterance",
@@ -1174,6 +1187,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 """
             ),
             label_classes=LABELS_MAPPING["swda"],
+            speakers=['A', 'B'],
             features=[
                 "Speaker",
                 "Utterance",
@@ -1215,6 +1229,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Dialogue_Act",
                 "Dialogue_Act_ISO"
             ],
+            speakers=['USR', 'SYS'],
             data_url={
                 "train": _URL + "/frames/train.csv",
                 "test": _URL + "/frames/test.csv",
@@ -1269,12 +1284,14 @@ class DAISO(datasets.GeneratorBasedBuilder):
             #     }
             # },
             features=[
+                "Speaker",
                 "Utterance",
                 "Dialogue_Act",
                 "Emotion",
                 "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
+            speakers=["sp0", "sp1"],
             data_url={
                 "train": _URL + "/dyda/train.csv",
                 "dev": _URL + "/dyda/dev.csv",
@@ -1304,6 +1321,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Dialogue_Act",
                 "Dialogue_Act_ISO"
             ],
+            speakers=['SYS', 'USR'],
             data_url={
                 "train": _URL + "/dstc3/train.csv",
                 "test": _URL + "/dstc3/test.csv",
@@ -1335,6 +1353,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
+            speakers=['USER', 'SYSTEM'],
             data_url={
                 "train": _URL + "/dstc8-sgd/train.csv",
                 "dev": _URL + "/dstc8-sgd/dev.csv",
@@ -1367,6 +1386,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
             features["Label_ISO"] = datasets.features.ClassLabel(
                 names=list(set([map.get("ISO") for map in self.config.label_classes.values()])))
         features["Idx"] = datasets.Value("int32")
+        features["Speaker_Id"] = datasets.features.ClassLabel(names=self.config.speakers)
         # if self.config.name == "":  # This is the name of the configuration selected in BUILDER_CONFIGS above
         #     features = datasets.Features(
         #         {
@@ -1434,6 +1454,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
         df = pd.read_csv(file, delimiter=",", header=0, quotechar='"', dtype=str)[
             self.config.features
         ]
+        df['Dialogue_Act'] = df['Dialogue_Act'].apply(lambda x: None if pd.isna(x) else x)
+        df['Dialogue_Act_ISO'] = df['Dialogue_Act_ISO'].apply(lambda x: None if pd.isna(x) else x)
 
         rows = df.to_dict(orient="records")
 
@@ -1445,5 +1467,9 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 label = example["Dialogue_Act"]
                 example["Label"] = label
                 example["Label_ISO"] = self.config.label_classes.get(label, {}).get("ISO")
+
+            if "Speaker" in example:
+                speaker = example["Speaker"]
+                example["Speaker_Id"] = speaker
 
             yield example["Idx"], example
