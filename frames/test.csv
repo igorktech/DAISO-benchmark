@@ -1,13 +1,14 @@
 Speaker,Utterance,Dialogue_Act,Dialogue_Act_ISO
-SYS,Hi.,no_result,
-SYS,"Sorry, I can't find any trips from Gotham City to Mos Eisley for you.",no_result,
+USR,"Hello, I am looking to book a vacation from Gotham City to Mos Eisley for $2100.",greeting,greeting
+SYS,Hi.,no_result,None
+SYS,"Sorry, I can't find any trips from Gotham City to Mos Eisley for you.",no_result,None
 USR,What about a trip from Gotham City to Neverland for the same budget?,inform,inform
 SYS,"Sorry, I cannot find any trips leaving from Gotham City.",suggest,directive
 SYS,Could you suggest another nearby departure city?,suggest,directive
 USR,Would any packages to Mos Eisley be available if I increase my budget to $2500?,inform,inform
-SYS,There are no trips available to Mos Eisley.,no_result,
+SYS,There are no trips available to Mos Eisley.,no_result,None
 USR,"You know what, I'd like to try and visit Neverland",inform,inform
-SYS,I cannot find any trips available to Neverland.,no_result,
+SYS,I cannot find any trips available to Neverland.,no_result,None
 USR,Do you have any trips from Gotham City to Kobe for my original budget of $2100?,inform,inform
 SYS,"I can book you a 3 day trip to Kobe leaving from Sapporo, Japan.",suggest,directive
 SYS,Is this ok?,suggest,directive
@@ -17,7 +18,7 @@ SYS,I can book you a trip from Birmingham to Kobe for 2747.8 USD.,suggest,direct
 USR,How many days would I be in Kobe?,request,directive
 SYS,You would arrive in Kobe August 17th and return to Birmingham on August 22nd.,inform,inform
 USR,What would the price be if I shortened my trip by one day?,inform,inform
-SYS,I can not find any trips from Birmingham to Kobe for 4 days.,no_result,
+SYS,I can not find any trips from Birmingham to Kobe for 4 days.,no_result,None
 USR,"Ok, then I would like to purchase this package.",request,directive
 USR,What activities are included in this package?,request,directive
 SYS,There are no activities listed for this package.,suggest,directive
@@ -54,15 +55,15 @@ USR,Could you offer me the cheapest package for each destination?,inform,inform
 SYS,"I can book you 9 days in Mannheim for 3258.15USD at a 5 star hotel,",offer,commissive
 USR,Is there a package to Mannheim which offers a cheaper hotel?,inform,inform
 USR,I am flexible with my dates of arrival and departure.,inform,inform
-SYS,I am unable to find any cheaper packages for Mannheim,no_result,
+SYS,I am unable to find any cheaper packages for Mannheim,no_result,None
 USR,What would the cost be if I stayed for 10 days in Mexico City?,inform,inform
 SYS,"You can stay in Mexico City for 8 days for 426.16USD leaving from Melbourne, USA.",offer,commissive
 USR,"Actually I am leaving from Melbourne, Australia.",request,directive
 USR,How does this affect the price of the trip?,request,directive
-SYS,"I cannot find any trips available from Melbourne, Australia to Mexico City.",no_result,
+SYS,"I cannot find any trips available from Melbourne, Australia to Mexico City.",no_result,None
 USR,Could I purchase a package  to Vancouver similar to the one I was offered?,inform,inform
-SYS,"I cannot find any trips available from Melbourne, Australia to any destinations.",no_result,
-SYS,This point of departure is not in my database.,no_result,
+SYS,"I cannot find any trips available from Melbourne, Australia to any destinations.",no_result,None
+SYS,This point of departure is not in my database.,no_result,None
 USR,"Ok, thank you for your time anyways",thankyou,thanking
 USR,"Good day, please book me a trip from Vancouver, Jamaica to Recife.",inform,inform
 USR,I would like to leave for 17 days on August 24.,inform,inform
@@ -75,7 +76,7 @@ SYS,I can book you a trip from Porto Alegre to Recife for 682.19USD.,suggest,dir
 USR,"I will take any package you give me to any destination as long as it leaves from Vancouver, Jamaica.",inform,inform
 SYS,"I can book you a trip from Vancouver, Canada to Toronto, Canada for 837.99USD.",suggest,directive
 USR,"If you cannot book me a flight that leaves from Vancouver, Jamaica then I cannot book a trip.",inform,inform
-SYS,"I cannot book you a trip leaving from Vancouver, Jamaica.",no_result,
+SYS,"I cannot book you a trip leaving from Vancouver, Jamaica.",no_result,None
 USR,"Actually I will be departing from Vancouver, British Columbia, do you have packages to Recife?",inform,inform
 SYS,I can book 11 days in Recife leaving from Vancouver for 2171.6USD.,offer,commissive
 USR,Do you have any similar packages to Goiania?,inform,inform
@@ -84,7 +85,7 @@ USR,What kind of hotel would I be staying at in Recife?,moreinfo,directive
 SYS,"3.5 star hotel for free wi-fi, free parking, and free breakfast.",inform,inform
 USR,Would my room have a view of the city?,,
 USR,How much would it cost to upgrade to a room with a view?,,
-SYS,I cannot provide this information,canthelp,
+SYS,I cannot provide this information,canthelp,None
 USR,"Ok, I'm ready to buy this package",inform,inform
 SYS,Ok.,inform,inform
 SYS,I will book this package for you.,inform,inform
@@ -110,14 +111,14 @@ SYS,Would you like to suggest another departure location?,request,directive
 SYS,And what travel destination would you like to travel to?,request,directive
 USR,We'll catch a flight from Toronto then.,inform,inform
 USR,We're headed for Kakariko Village.,inform,inform
-SYS,There are no travel packages available to Kakariko Village.,no_result,
+SYS,There are no travel packages available to Kakariko Village.,no_result,None
 USR,"Ok, do you have any travel packages to Kingston, Canada for 11 kids and 4 adults, $3500 or less, departing from Toronto?",inform,inform
 SYS,"Yes, I have a package available leaving Toronto at 10:00 a.m. on August 24th and returning to Toronto at 4:00 a.m on August 30th.",suggest,directive
 SYS,"This package offers free breakfast, free wifi, and free parking.",suggest,directive
 SYS,The cost of this package is 3465.91 USD.,suggest,directive
 SYS,Would you like to book this package?,suggest,directive
-USR,Do you have any information on what activities are included in the package?,switch_frame,
-SYS,I can't help you with that.,canthelp,
+USR,Do you have any information on what activities are included in the package?,switch_frame,None
+SYS,I can't help you with that.,canthelp,None
 USR,Is this a direct flight to Kingston or do we have to make a transfer?,request,directive
 USR,Are the tickets business class?,request,directive
 SYS,The tickets are Economy.,suggest,directive
@@ -133,9 +134,9 @@ SYS,"Only one travel package for Mainaus is available for a departure on August 
 SYS,"However, the return date is August 31st at 1:00 a.m. for this travel package.",suggest,directive
 SYS,I have no other locations available for these departure and arrival dates.,suggest,directive
 SYS,Would you like to book this travel package?,suggest,directive
-USR,Would I be staying in a room with an ocean front view?,switch_frame,
-USR,How much would it cost to upgrade to such a room?,switch_frame,
-SYS,"I'm sorry, I do not have that information",canthelp,
+USR,Would I be staying in a room with an ocean front view?,switch_frame,None
+USR,How much would it cost to upgrade to such a room?,switch_frame,None
+SYS,"I'm sorry, I do not have that information",canthelp,None
 USR,Does the hotel have a gym which guests can access?,request,directive
 SYS,Yes there is a gym.,suggest,directive
 SYS,Would you like to book this travel package?,suggest,directive
@@ -159,7 +160,7 @@ SYS,Would you like to book this travel package?,suggest,directive
 USR,Could you tell me if either of these hotels allows pets?,,
 SYS,"No, I do not have access to this information.",suggest,directive
 SYS,Would you like to book this travel package anyway?,suggest,directive
-USR,"Yes, I would like to book this package.",switch_frame,
+USR,"Yes, I would like to book this package.",switch_frame,None
 USR,"Hello, I have 15 vacation days available between June 1st and August 31st.",inform,inform
 USR,I am leaving from Theed.,inform,inform
 USR,I would like to go somewhere with lots of sunshine.,inform,inform
@@ -240,7 +241,7 @@ SYS,Would you like me to describe these two packages for you?,inform,inform
 USR,"Yes, please.",affirm,answer
 SYS,"The first travel package is an Economy flight from Atlanta, United States to Vancouver, Canada at 6:00 p.m. on August 11th,  and an Economy flight from Vancouver, Canada to Atlanta, United States at 10:00 a.m on August 14th.",inform,inform
 SYS,The cost of $2182.70 includes a 4 star hotel with a 8.8/10 rating.,inform,inform
-USR,What is the second package,switch_frame,
+USR,What is the second package,switch_frame,None
 SYS,"The second travel package is an Economy flight from Atlanta, United States to Vancouver, Canada at 6:00 p.m. on Friday, August 19th, and an Economy flight from Vancouver, Canada to Atlanta, United States at 10:00 a.m. on Monday, August 22nd.",suggest,directive
 SYS,The cost of $2326.54 includes a 4 star hotel with guest rating of 8.8/10.,suggest,directive
 SYS,Would you like to book this travel package?,suggest,directive
@@ -273,10 +274,10 @@ SYS,Or I can offer you a 4.0 star hotel with a 0/10 rating if you would like to 
 USR,How much does each of these packages cost?,request_compare,directive
 SYS,"Package number #1 to Kingston costs $6251.33 USD, Package number #2 to Toronto costs $5695.54, and Package number #3 to Calgary costs $6494.94 USD.",inform,inform
 USR,What class would I be flying in for each of these destinations?,request_compare,directive
-SYS,All three flights are Economy flights.,hearmore,
-SYS,"If you would like a Business Class flight, I can offer you one to Calgary.",hearmore,
-SYS,The cost of this travel package would be $8666.20 USD.,hearmore,
-SYS,Would you like more information on this option?,hearmore,
+SYS,All three flights are Economy flights.,hearmore,None
+SYS,"If you would like a Business Class flight, I can offer you one to Calgary.",hearmore,None
+SYS,The cost of this travel package would be $8666.20 USD.,hearmore,None
+SYS,Would you like more information on this option?,hearmore,None
 USR,I would like to buy the Toronto package,inform,inform
 USR,I am one person voyaging to Tampa.,inform,inform
 USR,I can depart from Indianapolis.,inform,inform
@@ -291,7 +292,7 @@ SYS,I just checked and it is not possible to travel to Busan from Indianapolis.,
 SYS,"Would you like to depart from Calgary, Canada or Queenstown, New Zealand?",suggest,directive
 USR,Would I be allowed to got with me and four colleagues?,inform,inform
 SYS,Are they all adults?,confirm,answer
-USR,"Nevermind, I would like to depart from Queenstown",switch_frame,
+USR,"Nevermind, I would like to depart from Queenstown",switch_frame,None
 USR,"Hey, what deals can you offer me on trips to curitiba?",inform,inform
 SYS,Where will you be leaving from?,request,directive
 USR,I will be leaving from columbus,inform,inform
@@ -354,7 +355,7 @@ SYS,Will you be travelling alone?,suggest,directive
 USR,yes.,inform,inform
 USR,can you tell me the prices of all the hotels available in melbourne,inform,inform
 SYS,"The prices for each hotel are 868.86, 953.63, 1052.51,  1144.95, 1155.19, 1382.78.",offer,commissive
-USR,"868.86 sounds like a nice price, I'll go with that",switch_frame,
+USR,"868.86 sounds like a nice price, I'll go with that",switch_frame,None
 SYS,"No, but there is a great package at a 4 star hotel, with a park, free wifi, breakfast and parking.",inform,inform
 SYS,The cost is 868.86 and leaves August 24th.,inform,inform
 SYS,Does this interest you?,inform,inform
@@ -389,8 +390,8 @@ USR,what are some packages available,inform,inform
 SYS,We have 3 different packages at the same hotel.,offer,commissive
 SYS,Two are the same package except one is the economy flight and one is the business flight and these are from August 31st to September 10th.,offer,commissive
 SYS,The 3rd option is an economy flight from August 30th to September 4th.,offer,commissive
-USR,business flight.,switch_frame,
-USR,august 31 - sept 10,switch_frame,
+USR,business flight.,switch_frame,None
+USR,august 31 - sept 10,switch_frame,None
 SYS,"This package includes free wifi, parking, and breakfast at a 2 star hotel near a museum and park.",suggest,directive
 SYS,This costs 5529.83.,suggest,directive
 SYS,Would you like me to book this for you?,suggest,directive
@@ -412,14 +413,12 @@ USR,i really need better rated hotel.,inform,inform
 USR,im travelling with 2 lawyers and 5 children,inform,inform
 SYS,I'm very sorry but there are no other options aside from the ones I gave you.,sorry,apology
 USR,ok.,thankyou,thanking
-USR,then,,
-let me ask my associates and come back to you.. thanks,thankyou,,
+USR,then let me ask my associates and come back to you.. thanks,thankyou,thanking
 USR,hello,greeting,greeting
 SYS,Hi!,greeting,greeting
 SYS,How can I help you?,greeting,greeting
 USR,i would like tto go from beijing to san juan.,inform,inform
-USR,on friday september 2,,
-for at most 2100$ with 1 adult,inform,,
+USR,on friday september 2 for at most 2100$ with 1 adult,inform,inform
 SYS,"Unfortunately we only have flights from North Vancouver, Montreal, and Cleveland.",sorry,apology
 USR,ok.,inform,inform
 USR,leaving from campinas and arriving at Baltimore,inform,inform
@@ -429,12 +428,12 @@ USR,How much is it?,request,directive
 SYS,The cheapest option is 3048.00.,offer,commissive
 USR,ok.,inform,inform
 USR,what about from campinas to san juan,inform,inform
-SYS,"Campinas to San Juan has no results within your budget,",no_result,
-USR,ok.,switch_frame,
-USR,im ok with 3048.,switch_frame,
-USR,ill book the one from campinas to beltimore,switch_frame,
-SYS,Okay.,hearmore,
-SYS,Would you like information on this package before you book it?,hearmore,
+SYS,"Campinas to San Juan has no results within your budget,",no_result,None
+USR,ok.,switch_frame,None
+USR,im ok with 3048.,switch_frame,None
+USR,ill book the one from campinas to beltimore,switch_frame,None
+SYS,Okay.,hearmore,None
+SYS,Would you like information on this package before you book it?,hearmore,None
 USR,yes,affirm,answer
 SYS,It is a 3 star hotel stay from September 12th to September 20th.,suggest,directive
 SYS,"Amenities include free breakfast, wifi, and parking.",suggest,directive
@@ -459,8 +458,7 @@ USR,what is the price,request,directive
 SYS,"The first option is from September 2nd to 7th, free breakfast, wifi, and parking at a price of 4265.98 for economy seats.",suggest,directive
 SYS,"The second option is from August 30th to September 5th, free breakfast, wifi, and parking at a price of 5173.70 for economy seats.",suggest,directive
 SYS,Would you like more options?,suggest,directive
-USR,ill get the cheapest option,,
-thanks,switch_frame,,
+USR,ill get the cheapest option thanks,switch_frame,None
 SYS,"There is a third option from September 2nd to 7th, free breakfast, wifi and parking at a price of 5512.62 for business class seats.",offer,commissive
 SYS,Do any of these options interest you?,offer,commissive
 USR,the one at 4268 looks good,inform,inform
@@ -480,8 +478,8 @@ USR,no,inform,inform
 SYS,There are only packages from Toronto to Denver and one to Atlanta,suggest,directive
 USR,what not to parises?,inform,inform
 USR,or Marseille,inform,inform
-SYS,There are two options for trips from Toronto to Marseille.,hearmore,
-SYS,Would you like more information?,hearmore,
+SYS,There are two options for trips from Toronto to Marseille.,hearmore,None
+SYS,Would you like more information?,hearmore,None
 USR,yes,affirm,answer
 SYS,Both hotels are 4 stars.,offer,commissive
 SYS,The first option is from September 16th to 18th.,offer,commissive
@@ -489,7 +487,7 @@ SYS,The hotel offers free wifi and there is also a museum nearby.,offer,commissi
 SYS,The economy seats cost 2365.33 and business seats cost 2985.90.,offer,commissive
 SYS,"The second option is from September 17th to 18th, the hotel is near a cathedral and offers free wifi and spa.",offer,commissive
 SYS,Economy seats for this package costs 2454.40 and business seats cost 3106.38.,offer,commissive
-USR,"ok economy please, cathedral and spa option",switch_frame,
+USR,"ok economy please, cathedral and spa option",switch_frame,None
 SYS,Great!,suggest,directive
 SYS,Do you want to book this trip?,suggest,directive
 USR,yes,affirm,answer
@@ -503,10 +501,10 @@ USR,leaving frmom fortaleza.,inform,inform
 USR,if,inform,inform
 SYS,Absolutely!,suggest,directive
 SYS,Would you be interested in travelling to Sao Paulo?,suggest,directive
-USR,ya sure sao paulo,switch_frame,
+USR,ya sure sao paulo,switch_frame,None
 SYS,I can offer you a great deal on a package from September 7-13!,offer,commissive
-USR,k,switch_frame,
-SYS,Great :slightly_smiling_face: Would you like to know some more information about this package before I book?,hearmore,
+USR,k,switch_frame,None
+SYS,Great :slightly_smiling_face: Would you like to know some more information about this package before I book?,hearmore,None
 USR,yes,affirm,answer
 SYS,"You would be staying at the Deluxe Hotel, located near a cathedral and a theatre.",inform,inform
 SYS,"You would have free wifi, parking and breakfast.",inform,inform
@@ -527,7 +525,7 @@ USR,ok.,inform,inform
 USR,can it be for a longer period,inform,inform
 SYS,What about Essen for 610.86USD?,offer,commissive
 SYS,You would leave August 30th and return on September 7th.,offer,commissive
-USR,ok,switch_frame,
+USR,ok,switch_frame,None
 SYS,Shall I go ahead and book that for you?,suggest,directive
 USR,ok,affirm,answer
 SYS,"Wonderful, all booked :slightly_smiling_face: Enjoy your stay.",inform,inform
@@ -539,7 +537,7 @@ USR,leaving from miami on sunday august 28 2016.,inform,inform
 USR,for 5 days to stuttgart.,inform,inform
 USR,max 2900,inform,inform
 SYS,"I have a one day stay available in Stuttgart from September 2-September 1, does that interest you?",offer,commissive
-USR,september 2 - 1?,switch_frame,
+USR,september 2 - 1?,switch_frame,None
 SYS,Yes.,sorry,apology
 SYS,Those are the dates.,sorry,apology
 SYS,Sorry.,sorry,apology
@@ -549,7 +547,7 @@ SYS,Would this be ok?,inform,inform
 USR,ok for 5 dayss?,inform,inform
 SYS,Yes.,offer,commissive
 SYS,You could go from September 7-11,offer,commissive
-USR,ok,switch_frame,
+USR,ok,switch_frame,None
 SYS,Great!,suggest,directive
 SYS,Would you like to book?,suggest,directive
 USR,yes what are the activities and prices,request,directive
@@ -582,11 +580,11 @@ USR,no.,inform,inform
 USR,i only have 400$. maybe from bh for lesser days,inform,inform
 SYS,In that case your only options are Denver or Calgary.,offer,commissive
 USR,oh ok,,
-SYS,Would you like to hear more about these packages?,hearmore,
+SYS,Would you like to hear more about these packages?,hearmore,None
 USR,yup,affirm,answer
 SYS,You can spend 3 days in Denver for $177.60 and stay at a 3 star hotel near a museum and university.,inform,inform
 SYS,In Calgary you could spend 8 days for $303.45 at a 4 star hotel near a university with free wifi and free parking.,inform,inform
-USR,i will go to calgary,switch_frame,
+USR,i will go to calgary,switch_frame,None
 SYS,Great :slightly_smiling_face: I will book that for you,inform,inform
 USR,hello,greeting,greeting
 SYS,Hi there!,greeting,greeting
@@ -602,9 +600,9 @@ USR,maybe another destinatio,inform,inform
 SYS,I can book you in Curitiba from August 31 - September 12.,offer,commissive
 USR,ok.,request_alts,directive
 USR,any other destinations,request_alts,directive
-SYS,I am not finding anything else for your departure date.,no_result,
-USR,ok.,switch_frame,
-USR,ill book that,switch_frame,
+SYS,I am not finding anything else for your departure date.,no_result,None
+USR,ok.,switch_frame,None
+USR,ill book that,switch_frame,None
 SYS,To Curitiba?,confirm,answer
 USR,yup,affirm,answer
 SYS,Ok!,inform,inform
@@ -621,7 +619,7 @@ SYS,I have a 9 day package available in Kobe from Sept 13-21,offer,commissive
 USR,ok.,inform,inform
 USR,but i have to leave on sept 2,inform,inform
 SYS,I can give you 13 days in Kyoto if you leave on Sept 2,offer,commissive
-USR,ok,switch_frame,
+USR,ok,switch_frame,None
 SYS,Would you like to book it?,suggest,directive
 USR,what are the details,moreinfo,directive
 SYS,A 3.0 star hotel near a museum with free wifi and free breakfast for $442.70.,inform,inform
@@ -638,14 +636,14 @@ SYS,Unfortunately I have nothing available from Santiago to Porto in your date r
 USR,ok yes flexible,inform,inform
 SYS,Ok!,offer,commissive
 SYS,How about Aug 30-Sept 12?,offer,commissive
-USR,ok,switch_frame,
-SYS,Would you like to hear more about this package?,hearmore,
+USR,ok,switch_frame,None
+SYS,Would you like to hear more about this package?,hearmore,None
 USR,yes sure.,affirm,answer
 SYS,You can stay at the Breakwater Hotel from August 30th to September 12 for $2607.,inform,inform
 SYS,This is a 3.5 star hotel in Porto Alegre with free wifi and free breakfast.,inform,inform
 USR,or san francisco as well,inform,inform
 SYS,Would you like to go to Long Beach from Santiago?,suggest,directive
-USR,ok can you tell me more about Long Beach,switch_frame,
+USR,ok can you tell me more about Long Beach,switch_frame,None
 SYS,Would you travel from Aug 24-30,suggest,directive
 USR,no..only sept 5 to 19th,inform,inform
 SYS,I can book you August 30th to September 3rd in Long Beach.,offer,commissive
@@ -653,10 +651,10 @@ USR,what about valencia,inform,inform
 SYS,I can book Valencia from September 6-11,offer,commissive
 USR,ok san francisco?,inform,inform
 SYS,I can book San Francisco from Sept 5-9 at a 2.5 star hotel near a museum for 3289.59USD.,offer,commissive
-USR,I will take valencia,switch_frame,
+USR,I will take valencia,switch_frame,None
 SYS,Absolutely.,offer,commissive
 SYS,The cheapest package is $667,offer,commissive
-USR,ok I will take that,switch_frame,
+USR,ok I will take that,switch_frame,None
 SYS,Great :slightly_smiling_face: I will book that for you,inform,inform
 USR,ok thanks,thankyou,thanking
 USR,hi,greeting,greeting
@@ -676,17 +674,15 @@ USR,i need to go from august 27 to 31 though,inform,inform
 SYS,Ok!,offer,commissive
 SYS,I can book New York to Naples for  Aug 31 to Sept 6 or Sept 5,offer,commissive
 USR,ok.,confirm,answer
-USR,sounds good,,
-for four people,confirm,,
+USR,sounds good for four people,confirm,answer
 SYS,"Yes, for four people the price could be $7559.38",offer,commissive
 USR,sounds good,affirm,answer
-SYS,Would you like to hear about the hotels?,hearmore,
+SYS,Would you like to hear about the hotels?,hearmore,None
 USR,yes,affirm,answer
 SYS,From Aug 31-Sept 6 the Tower Hotel is available which is 4.0 stars.,inform,inform
 SYS,If you went until the 5 of September the Courtyard Resort would be available which is 3.0 stars and located in the heart of the city.,inform,inform
-USR,tower hotel.,switch_frame,
-USR,looks,,
-good,switch_frame,,
+USR,tower hotel.,switch_frame,None
+USR,looks good,switch_frame,None
 SYS,Ok!,inform,inform
 SYS,I will book that for you.,inform,inform
 SYS,The total will be 7559.38 USD.,inform,inform
@@ -695,21 +691,20 @@ USR,I would like to go to San Juan,inform,inform
 SYS,Ok!,request,directive
 SYS,Where would you be leaving from?,request,directive
 USR,between August 31 to September 19.,inform,inform
-USR,leaving from Rio de Janeiro,,
-I have a 2800 $ budget,inform,,
+USR,leaving from Rio de Janeiro I have a 2800 $ budget,inform,inform
 SYS,Ok!,offer,commissive
 SYS,I can book you Sept 1-7 for 2417.95USD or Sept 12-14 for  2423.96USD or Sept 6-13 for 2660.43USD.,offer,commissive
 USR,ill book that,inform,inform
 SYS,Which one?,inform,inform
 SYS,There are three trips listed.,inform,inform
-USR,the 1st one,switch_frame,
+USR,the 1st one,switch_frame,None
 SYS,"Ok, I can book that for you!",inform,inform
 USR,"ok, thanks.",thankyou,thanking
 USR,"I want to go to brasilia from mannheim, can you recommend me packages from Saturday august 27 to Monday, September 12 for 2500 for 1 adult",inform,inform
 SYS,"Sorry, I have nothing available.",sorry,apology
 USR,um dates are flexible,inform,inform
 SYS,How about August 27-31?,offer,commissive
-USR,ok,switch_frame,
+USR,ok,switch_frame,None
 SYS,That would cost 1943 dollars.,inform,inform
 USR,ok great,,
 SYS,You want to book?,suggest,directive
@@ -721,7 +716,7 @@ SYS,Will it just be you and your child?,confirm,answer
 USR,"nope, I'm with my wife",inform,inform
 SYS,When would you like to go?,request,directive
 USR,August 27 & sept 6,inform,inform
-SYS,There are no flights from Philadelphia.,no_result,
+SYS,There are no flights from Philadelphia.,no_result,None
 USR,ok im gonna have to look elsewhere.,thankyou,thanking
 USR,thanks,thankyou,thanking
 SYS,Have a nice day!,goodbye,goodbye
@@ -734,16 +729,14 @@ USR,this week,inform,inform
 SYS,What day would you like to leave?,request,directive
 USR,tomorrow,inform,inform
 SYS,There aren't any trips that leave tomorrow but there is one that leaves on the 24th.,offer,commissive
-USR,ok,switch_frame,
+USR,ok,switch_frame,None
 SYS,This is a 3.5 star hotel from the 24th to 30th.,offer,commissive
 SYS,"The hotel offers free wifi, parking, and breakfast and is near a park and museum.",offer,commissive
 SYS,The economy class is 2089.41 and the business class is 2695.90.,offer,commissive
 USR,i need to book a trip to rio de janeiro,inform,inform
 SYS,Where are you leaving from?,request,directive
 USR,from belem.,inform,inform
-USR,we are 9,,
-7 children,,,
-two adults,inform,,
+USR,we are 9 7 children two adults,inform,inform
 SYS,When would you like to leave?,request,directive
 USR,august 31 and sept 19,inform,inform
 SYS,Do you have a budget?,request,directive
@@ -754,8 +747,7 @@ SYS,Economy class is 2848.99 and business class is 3798.11.,offer,commissive
 SYS,The trip is from September 1st to 13th.,offer,commissive
 USR,and this is for 9?,confirm,answer
 SYS,yes,affirm,answer
-USR,ok,,
-ii need my wife's approval.,goodbye,,
+USR,ok ii need my wife's approval.,goodbye,goodbye
 USR,so wont be booking right now,goodbye,goodbye
 USR,from san antoni to anywhere.,inform,inform
 USR,leaving friday sept 2.,inform,inform
@@ -763,7 +755,7 @@ USR,coming back on tues sept 15,inform,inform
 SYS,What is your budget?,request,directive
 USR,1100,inform,inform
 SYS,"We have a flight to Calgary, Punta Cana, San Diego, Atlanta, Denver, Burlington, and Houston.",suggest,directive
-USR,to atlanta,switch_frame,
+USR,to atlanta,switch_frame,None
 SYS,This is a 3.5 star hotel that offers free wifi and free parking and is also on the beach and near a park.,inform,inform
 SYS,The cost of this package is 500.70 and is from September 8th to 13th.,inform,inform
 USR,"well, im gonna book the one you suggested",inform,inform
@@ -780,7 +772,7 @@ USR,lol ya 3 adults 4 children willing to pay 31400 $$$,inform,inform
 SYS,Unfortunately there are no results for this request.,sorry,apology
 SYS,Is there another destination you'd like me to check for you?,sorry,apology
 USR,no actually i meant to go to Fukuoka,inform,inform
-SYS,There are no results for this destination either.,no_result,
+SYS,There are no results for this destination either.,no_result,None
 USR,"Hello,",greeting,greeting
 SYS,Hi,greeting,greeting
 USR,Can I please have a vacation from Busan to Pittsburgh for $1500,inform,inform
@@ -797,7 +789,7 @@ USR,ok how much is it?,request,directive
 SYS,"490.35, 554.37, 603.65, 682.46, 692.41, and 785.39.",offer,commissive
 USR,ok I will book that one,inform,inform
 SYS,Which price interests you?,,
-USR,786.39,switch_frame,
+USR,786.39,switch_frame,None
 SYS,Great I will book this for you!,inform,inform
 SYS,Your trip is from the 30th of August to the 11th of September.,inform,inform
 SYS,Have a great trip!,inform,inform
@@ -806,13 +798,13 @@ SYS,You're welcome!,you_are_welcome,thanking
 USR,I want to go to Paris from Maceio with 6200$.,inform,inform
 SYS,We have two 4 star hotels.,suggest,directive
 USR,what about from Maceio to Detrut,inform,inform
-SYS,There are no results from Maceio to Detrut.,no_result,
-USR,from maceio to Paris?,switch_frame,
+SYS,There are no results from Maceio to Detrut.,no_result,None
+USR,from maceio to Paris?,switch_frame,None
 SYS,I have packages to paris,inform,inform
 USR,what about to Minneapolis?,inform,inform
 SYS,How about a 2.5 star for 3422.75?,offer,commissive
-USR,3422.75.,switch_frame,
-USR,looks good to me,switch_frame,
+USR,3422.75.,switch_frame,None
+USR,looks good to me,switch_frame,None
 SYS,"This package has a museum, park, and mall, plus free wifi, breakfast, and parking.",inform,inform
 SYS,This trip is from August 27th to September 4th.,inform,inform
 USR,ok,,
@@ -826,7 +818,7 @@ USR,please recommend me packages from Sunday 21 to August 24 for 2200 for 7 adul
 SYS,The only result I have is one trip from Burlington to Calgary.,offer,commissive
 USR,ok what if I increase my budget by 300$,inform,inform
 SYS,No sorry but you can afford a trip to Denver from Burlington.,sorry,apology
-USR,ok I will go to Calgary,switch_frame,
+USR,ok I will go to Calgary,switch_frame,None
 SYS,This is a 4 star hotel for 2179.40.,suggest,directive
 SYS,This trip is from September 2nd to 8th.,suggest,directive
 SYS,Would you like me to book it for you?,suggest,directive
@@ -837,15 +829,14 @@ SYS,I'm glad I could help you today and thank you for using our services,affirm,
 USR,ok Thank you!,thankyou,thanking
 USR,hello,greeting,greeting
 SYS,"Hi, how can I help you",greeting,greeting
-USR,to seoul for at most 6600,,
-"if not, I will leave from Berlin",inform,,
+USR,"to seoul for at most 6600 if not, I will leave from Berlin",inform,inform
 SYS,We have one 3 star hotel.,offer,commissive
 SYS,"Package prices are 2107.88, 2703.71, 3434.27, and 4405.40.",offer,commissive
 USR,ok.,inform,inform
 USR,for two adults,inform,inform
 SYS,This narrows it down to a 4215.76 package from the 24th of August to the 30th for the economy class seats or 5407.42 for the business class seats.,offer,commissive
 SYS,Which do you prefer?,offer,commissive
-USR,the business class,switch_frame,
+USR,the business class,switch_frame,None
 SYS,"Great, would you like this trip booked now?",suggest,directive
 USR,yes please,affirm,answer
 SYS,I just booked your trip and you will receive a confirmation email and detailed information about your trip.,inform,inform
@@ -860,13 +851,13 @@ SYS,Are you going to be travelling alone?,request,directive
 USR,ya unfortunately...,,
 SYS,When would you like to leave for your travels/,request,directive
 USR,as soon as possible.,inform,inform
-SYS,There are no results within your budget.,no_result,
+SYS,There are no results within your budget.,no_result,None
 USR,belem?,inform,inform
 SYS,Our best packages for Belem are at a 4 star hotel on the beach near the airport.,offer,commissive
 SYS,The economy seats cost 791.57 and the business seats cost 871.30.,offer,commissive
 USR,ok what about calgary,inform,inform
-SYS,There is nothing within your budget for flights to Calgary.,no_result,
-USR,ok i will take the belem flights,switch_frame,
+SYS,There is nothing within your budget for flights to Calgary.,no_result,None
+USR,ok i will take the belem flights,switch_frame,None
 SYS,Would you like the business class seats or the economy seats?,request,directive
 USR,business class,inform,inform
 SYS,Great!,inform,inform
@@ -885,7 +876,7 @@ SYS,Are you travelling with anyone?,request,directive
 USR,I LOVE travelling alone without having to worry about any budgets!!,inform,inform
 SYS,When would you like to leave?,request,directive
 USR,"oh ok like, tommorow?!",inform,inform
-SYS,Unfortunately there are no results in my database for flights from Fort Lauderdale to Rome.,no_result,
+SYS,Unfortunately there are no results in my database for flights from Fort Lauderdale to Rome.,no_result,None
 USR,"Okay, send me to Birmingham",inform,inform
 SYS,I'm sorry but I can't get you there out of Fort Lauderdale.,sorry,apology
 USR,omg.,inform,inform
