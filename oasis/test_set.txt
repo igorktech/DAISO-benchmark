@@ -1,0 +1,1489 @@
+b|yes|ackn|081126008
+b|do you want my phone number|reqDirect|081126008
+a|that's fine|accept|081126008
+a|yes|direct|081126008
+b|it's well i've got telephone bill off you this morning and i've only just noticed there's a charge for um a double socket and a telephone i've actually paid for this off my credit card it's a long story i ordered i originally ordered the telephone and gave a credit card number and my card was declined when i rang up um when i rang to find out why she said oh well your card's been declined i rang and she said oh gave us the wrong expiry date so i ordered another yes they did i was very annoyed brand new card i only had it a fortnight i was gonna tell them where to stick it but i thought anyone can make a mistake so it doesn't matter so i rings up orders another phone paid for it with my credit card um got the phone and everything then i gets a letter off yourself saying please re-order your phone so i rang up and i said i've got one i said and actually the first order was cancelled so she went through and i went can you make sure i'm not going to be charged for phones she said yeah that's fine um got me second card it's paid for and everything on my credit card and now i've just got it deducted out me telephone bill the same phone|inform|081126008
+a|yeah|backch|081126008
+a|yeah|backch|081126008
+a|thank you|thank|081126008
+a|how can i help you|offer|081126008
+b|well|init|081126008
+b|i've got telephone bill off you this morning|inform|081126008
+b|and i've only just noticed there's a charge for um a double socket and a telephone|inform|081126008
+b|i've actually paid for this off my credit card|inform|081126008
+b|it's a long story|inform|081126008
+b|i ordered i originally ordered the telephone and gave a credit card number|inform|081126008
+b|and my card was declined|inform|081126008
+b|when i rang up um when i rang to find out why she said oh well your card's been declined|inform|081126008
+b|i rang and she said oh gave us the wrong expiry date|inform|081126008
+b|so|init|081126008
+b|i ordered another|inform|081126008
+a|mm mm|backch|081126008
+a|so|init|081126008
+a|they declined it for that mm|confirm|081126008
+b|yes|ackn|081126008
+b|they did|inform|081126008
+b|i was very annoyed|inform|081126008
+b|brand new card|inform|081126008
+b|i only had it a fortnight|inform|081126008
+b|i was gonna tell them where to stick it but i thought anyone can make a mistake so it doesn't matter|expressOpinion|081126008
+b|so|init|081126008
+b|i rings up|inform|081126008
+b|orders another phone|inform|081126008
+b|paid for it with my credit card um|inform|081126008
+b|got the phone and everything|inform|081126008
+b|then i gets a letter off yourself saying please re-order your phone|inform|081126008
+b|so|init|081126008
+b|i rang up and i said|inform|081126008
+a|mm|backch|081126008
+a|i've got one|complete|081126008
+b|i've got one i said and actually the first order was cancelled|inform|081126008
+b|so|init|081126008
+b|she went through and i went can you make sure i'm not going to be charged for phones|inform|081126008
+b|she said yeah that's fine um|inform|081126008
+b|got me second card it's paid for and everything on my credit card|inform|081126008
+b|and now|refer|081126008
+b|i've just got it deducted out me telephone bill the same phone|inform|081126008
+a|oh right|ackn|081126008
+a|just bear with me|hold|081126008
+a|right|init|081126008
+a|i've got your details in front of me|inform|081126008
+a|would you just confirm your full name address and post code|reqInfo|081126008
+b|oh hi|greet|082338006
+b|um i phoned up yesterday and asked for my phone to be disconnected|inform|082338006
+b|is it too late to change my mind|reqInfo|082338006
+a|oh right|ackn|082338006
+a|no|answ|082338006
+a|when were you when were you wanting disconnected|reqInfo|082338006
+b|um well|init|082338006
+b|they said it would be days from when i asked|inform|082338006
+a|oh right|backch|082338006
+a|okay|ackn|082338006
+a|no|answ|082338006
+a|that's fine|answElab|082338006
+a|what's your telephone number please|reqInfo|082338006
+b|it's thank you thanks hello|answ|082338006
+a|yeah|backch|082338006
+a|yeah|backch|082338006
+a|thank you|thank|082338006
+a|can you confirm your name and address for me please|reqInfo|082338006
+a|right|ackn|082338006
+a|if you just bear with me|hold|082338006
+a|i'll go through to that department and get them to check it|informIntent|082338006
+a|won't keep you a minute|hold|082338006
+b|thank you|backch|082338006
+b|thanks hello|thank|082338006
+a|miss|greet|082338006
+a|passing you through to my colleague now|informIntent|082338006
+a|he'll help you|inform|082338006
+b|hello|backch|082338006
+b|hello|greet|083138006
+b|could uh you send a duplicate of my uh of the phone bill please|direct|083138006
+b|because what's happened i've lost part of it|inform|083138006
+b|and i can't pay uh the rest in the post office|inform|083138006
+b|they say they can't take that part of it|inform|083138006
+a|right|ackn|083138006
+a|no problem|accept|083138006
+a|yeah|ackn|083138006
+a|that's fine|accept|083138006
+a|uh huh|backch|083138006
+a|lovely|appreciate|083138006
+a|thank you|thank|083138006
+a|can you confirm your name and the address on the bill for me please|reqInfo|083138006
+b|uh it's a mister uh sorry yeah that's right yes oh right cheers|answ|083138006
+a|lovely|appreciate|083138006
+a|thank you and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within the next two or days|thank|083138006
+a|and are you missus and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within the next two or days|reqInfo|083138006
+b|yeah|answ|083138006
+b|that's right|answElab|083138006
+a|and it's just the the last bill is it missus yeah that's no problem at all i have that requested today so it should be with you within the next two or days|confirm|083138006
+b|yes|ackn|083138006
+a|yeah|ackn|083138006
+a|that's no problem at all|accept|083138006
+a|i have that requested today|informIntent|083138006
+a|so|init|083138006
+a|it should be with you within the next two or days|inform|083138006
+b|oh right|ackn|083138006
+b|cheers|thank|083138006
+b|well|init|083606009
+b|um i just got my account|inform|083606009
+b|but it doesn't on|inform|083606009
+b|i'm in and it doesn't say the number and on on the envelope it's got try two which i am number two but i don't have any number you know there's fifteen flats in this block block and it could go anywhere just with my my name on it so i want to make sure that the next bill has number two yes it's yes it's yes it's two i've been here fifteen years you know should know by now you have good thank you very much byebye|inform|083606009
+b|and it doesn't say the number and on on the envelope it's got try two which i am number two|inform|083606009
+b|but i don't have any number you know|inform|083606009
+b|there's fifteen flats in this block block|inform|083606009
+b|and it could go anywhere just with my my name on it|expressPossibility|083606009
+b|so|init|083606009
+b|i want to make sure that the next bill has number two yes it's yes it's yes it's two i've been here fifteen years you know should know by now you have good thank you very much byebye|direct|083606009
+a|right|accept|083606009
+a|have you got your customer number on there please|reqInfo|083606009
+b|yes|answ|083606009
+b|it's yes it's yes it's two i've been here fifteen years you know should know by now you have good thank you very much byebye|answElab|083606009
+a|yeah|backch|083606009
+a|yeah|backch|083606009
+a|yeah|backch|083606009
+a|right|ackn|083606009
+a|can i just take your name please and your initial|reqInfo|083606009
+b|yes|answ|083606009
+b|it's yes it's two i've been here fifteen years you know should know by now you have good thank you very much byebye|answElab|083606009
+a|and you postal code please missus right just bear with me and i'm gonna change that right i've added that on there for you yeah okay thank you byebye|reqInfo|083606009
+b|yes|answ|083606009
+a|right|ackn|083606009
+a|just bear with me|hold|083606009
+a|and i'm gonna change that|informIntent|083606009
+b|it's two i've been here fifteen years you know should know by now you have good thank you very much byebye|inform|083606009
+b|i've been here fifteen years|inform|083606009
+b|you know should know by now|expressOpinion|083606009
+a|i've added that on there for you|inform|083606009
+b|you have|confirm|083606009
+b|good|appreciate|083606009
+b|thank you very much|thank|083606009
+a|yeah|ackn|083606009
+a|okay|ackn|083606009
+a|thank you|thank|083606009
+b|byebye|bye|083606009
+a|byebye|bye|083606009
+b|hello|greet|084337008
+b|um i got got a a letter right|inform|084337008
+b|and it says there's a i prefer i could do it by monthly payments|inform|084337008
+a|yes|ackn|084337008
+a|that's fine|accept|084337008
+b|yeah|ackn|084337008
+a|you know which is taking a set monthly amount on a set day of the month um by direct debit|inform|084337008
+b|oh is it direct debit|reqInfo|084337008
+a|it is|answ|084337008
+a|yeah|answElab|084337008
+b|oh|ackn|084337008
+a|now|init|084337008
+a|we could send you a payment card|offer|084337008
+a|would that be helpful for you|reqInfo|084337008
+a|that's were you make sort of|inform|084337008
+b|well|init|084337008
+b|it's this bill see|inform|084337008
+a|pardon|pardon|084337008
+b|it's this bill that i'm i you know i used to pay you know instalments of every fortnight|inform|084337008
+b|and um it's getting a bit difficult with the amount yeah but i only get paid once a fortnight i'm only on the dole|inform|084337008
+a|yeah|backch|084337008
+a|uh huh|backch|084337008
+a|right okay well|ackn|084337008
+a|a payment card lets you pay your bill before it arrives|inform|084337008
+a|so|init|084337008
+a|instead of paying once a fortnight|inform|084337008
+a|if you go every week to the post office and put in|inform|084337008
+b|yeah|backch|084337008
+b|but i only get paid once a fortnight|inform|084337008
+b|i'm only on the dole|inform|084337008
+a|oh right|backch|084337008
+a|uh huh|backch|084337008
+a|so|init|084337008
+a|is are you having difficulties with this bill|reqInfo|084337008
+b|hi|greet|090040008
+a|right|ackn|090040008
+b|recently we've had about power cuts in poor weather|inform|090040008
+a|right|ackn|090040008
+b|and the telephone has not worked correctly um after each of those|inform|090040008
+b|uh hello|greet|090849012
+b|it's i've got the phone in last Wednesday and|inform|090849012
+a|sorry|pardon|090849012
+a|you've got the what|reqInfo|090849012
+b|i got the phone put on last Wednesday|answ|090849012
+a|yeah aha|ackn|090849012
+b|and i would like to get a bar code cause i've got a year old daughter in the house|direct|090849012
+b|cause i've got a year old daughter in the house|inform|090849012
+b|uh you caught me off guard there|inform|091113012
+b|i was expecting to get through on the normal procedure uh huh why don't we do that anymore oh right thank god cos i hated that other service right could you tell me what select services i'm supposed to have please|inform|091113012
+a|what|reqInfo|091113012
+a|press press and all that|reqInfo|091113012
+b|uh huh|answ|091113012
+b|why don't we do that anymore|reqInfo|091113012
+a|well|init|091113012
+a|this is just a trial to see how the customer reacts to coming straight through to mm|answ|091113012
+b|oh right|ackn|091113012
+b|thank god|exclaim|091113012
+b|cos i hated that other service|inform|091113012
+a|mm|ackn|091113012
+b|right could you tell me what select services i'm supposed to have please|init|091113012
+b|could you tell me what select services i'm supposed to have please|reqInfo|091113012
+b|yeah|ackn|092559009
+b|could i give you my account number please|reqModal|092559009
+a|yeah sure|accept|092559009
+b|it's double|inform|092559009
+a|mm hm|ackn|092559009
+a|yeah|ackn|092559009
+b|double|inform|092559009
+a|that's lovely|appreciate|092559009
+a|that's all i need|inform|092559009
+a|thank you|thank|092559009
+b|oh hello there do you want my name pardon i want to just add another international call on my list for for reduced cost|greet|094400013
+a|uh could i just ask what it's regarding please|reqInfo|094400013
+b|pardon|pardon|094400013
+a|can i just ask what your call's regarding please|reqInfo|094400013
+b|i want to just add another international call on my list for for reduced cost|answ|094400013
+b|hello|greet|095423013
+b|uh this is a missus my phone number is yeah|identifySelf|095423013
+a|yes|ackn|095423013
+b|my phone number is yeah|inform|095423013
+a|sorry|pardon|095423013
+a|is that sorry what was your name and your address please missus|reqInfo|095423013
+b|yeah|answ|095423013
+a|what was your name|reqInfo|095423013
+a|and your address please missus|reqInfo|095423013
+b|um is that oh that's unusual good morning this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh please|reqInfo|095433010
+a|it is|answ|095433010
+a|yeah|answElab|095433010
+b|oh that's unusual|expressOpinion|095433010
+b|good morning|greet|095433010
+b|this is the shop in oh right right okay i um have um a gentleman here who would like to get connected to uh please|identifySelf|095433010
+a|hello|backch|095433010
+a|hi there|greet|095433010
+a|we're doing a trial into the um call steering|inform|095433010
+b|oh right|backch|095433010
+b|right okay|ackn|095433010
+b|i um have um a gentleman here who would like to get connected to uh please|direct|095433010
+b|hello|greet|095654008
+b|good morning|greet|095654008
+b|i'm looking for um it|inform|095654008
+b|actually can i pay the telephone the complete a pic today|reqModal|095654008
+b|can you reconnect my telephone today|direct|095654008
+a|i'm sorry|pardon|095654008
+a|can you say that again please|pardon|095654008
+b|yeah|accept|095654008
+b|ah i go pay the full bill hmm|inform|095654008
+a|you've paid your phone bill|confirm|095654008
+b|yeah|ackn|095654008
+a|right|ackn|095654008
+a|what's your phone number please|reqInfo|095654008
+b|double no uh double|answElab|095654008
+a|sorry|pardon|095654008
+b|no|negate|095654008
+b|uh double|answElab|095654008
+b|yes|ackn|100333010
+b|i'd like to um request a couple of services please|direct|100333010
+b|i'd like to um update my family and friends list|directElab|100333010
+a|right okay|accept|100333010
+a|no problem|accept|100333010
+a|and uh what's your phone your home phone number please|reqInfo|100333010
+b|it's yes it's missus yes i would yes right um right let me get it on here um the one that one off and right the ones have automatically been changed haven't they|answ|100333010
+a|yeah|backch|100333010
+a|lovely|appreciate|100333010
+a|thank you|thank|100333010
+a|and can you confirm your full name and address with your postal code please|reqInfo|100333010
+b|yes|answ|100333010
+b|it's missus yes i would yes right um right let me get it on here um the one that one off and right the ones have automatically been changed haven't they|answElab|100333010
+a|that's lovely|appreciate|100333010
+a|thank you|thank|100333010
+a|right|init|100333010
+a|so|init|100333010
+a|you'd like to change a couple of the numbers would you on the friends and family|confirm|100333010
+b|yes|ackn|100333010
+b|i would yes|ackn|100333010
+a|yeah|ackn|100333010
+a|okay|accept|100333010
+a|do you know which ones you want to take off or|reqDirect|100333010
+b|right um right let me get it on here um the one that one off and right the ones have automatically been changed haven't they|ackn|100333010
+b|right|ackn|100333010
+b|let me get it on here|informIntent|100333010
+b|um the one that one off and right the ones have automatically been changed haven't they|inform|100333010
+a|yep|ackn|100333010
+a|so|init|100333010
+a|that wants to come off|confirm|100333010
+b|that one off|inform|100333010
+a|yeah|ackn|100333010
+a|right|ackn|100333010
+b|and right|ackn|100333010
+b|the ones have automatically been changed haven't they|confirm|100333010
+a|they have|ackn|100333010
+a|yeah|ackn|100333010
+b|uh your phone's awfully quiet|expressOpinion|101440012
+a|my phone|confirm|101440012
+b|your phone|inform|101440012
+b|yeah|accept|101440012
+a|oh|exclaim|101440012
+b|might be mine|expressOpinion|101440012
+b|but i don't think i've got volume control uh i'm phoning up to get uh the phone put in to my name my big brother phoned yesterday and took it off his name|expressOpinion|101440012
+b|uh i'm phoning up to get uh the phone put in to my name|direct|101440012
+b|my big brother phoned yesterday and took it off his name|inform|101440012
+b|yes|ackn|101753012
+b|i just wanted to enquire um|reqInfo|101753012
+b|my um i have a residential line|inform|101753012
+b|i have a direct debit|inform|101753012
+b|i just wanted to check what the current bill stands at double double my name is|reqInfo|101753012
+a|certainly sir|ackn|101753012
+a|and what's your telephone number please|reqInfo|101753012
+a|yeah|ackn|101753012
+a|yes|ackn|101753012
+a|thank you very much|thank|101753012
+b|my name is|inform|101753012
+a|i'll just get your details up mister and could you confirm the full address for me please|informIntent|101753012
+a|and could you confirm the full address for me please|reqInfo|101753012
+b|hi what it is um i'm a i'm a business customer am i what do we dial thank you very much bye|greet|123410008
+b|what it is um|refer|123410008
+b|i'm a i'm a business customer|inform|123410008
+a|you're through to the wrong number then|inform|123410008
+b|am i|ackn|123410008
+b|what do we dial|reqInfo|123410008
+a|you need to ring okay bye|answ|123410008
+b|thank you very much|thank|123410008
+a|okay|ackn|123410008
+b|bye|bye|123410008
+a|bye|bye|123410008
+a|not|echo|124122006
+a|no|negate|124122006
+a|not this time|negate|124122006
+b|someone said dial that do option option and i got my finger poised and someone answered me so i don't know what to ask for now i'm yeah speak to a real person um my query was i i have lines one was up until a few months um a a dedicated business line into the house we've now had that as our second line both lined oh the other one's going both lines are now um into the house one's got a fax machine and is for the internet but that particular number obviously i used it for business for or years and i keep getting faxes from you know companies and stock lists and things like that from many companies and i which i don't want to receive can i change can i get that number changed at all|inform|124122006
+b|and i got my finger poised and someone answered me|inform|124122006
+b|so|init|124122006
+b|yeah|ackn|124122006
+b|my query was i i have lines|inform|124122006
+a|oh that shocked ya didn't it  yeah right right|backch|124122006
+a|yeah|ackn|124122006
+b|one was up until a few months um a a dedicated business line into the house|inform|124122006
+a|right|ackn|124122006
+b|we've now had that as our second line both lined oh the other one's going both lines are now um into the house one's got a fax machine and is for the internet but that particular number obviously i used it for business for or years and i keep getting faxes from you know companies and stock lists and things like that from many companies and i which i don't want to receive can i change can i get that number changed at all|inform|124122006
+b|oh the other one's going both lines are now um into the house|inform|124122006
+b|one's got a fax machine and is for the internet|inform|124122006
+b|but that particular number obviously i used it for business for or years|inform|124122006
+b|and i keep getting faxes from|inform|124122006
+b|you know companies and stock lists and things like that from many companies|inform|124122006
+b|and i which i don't want to receive|inform|124122006
+b|can i change can i get that number changed at all|reqInfo|124122006
+a|right|backch|124122006
+b|hello|greet|124557007
+a|hello|greet|124557007
+b|uh what it is love uh i'm just enquiring um|informIntent|124557007
+b|me mum's telephone has been switched off uh|inform|124557007
+b|and it's been switched off since yesterday now they did say i dunnee you know like through the message yeah that was yesterday and they said if they sound to get fixed today but the thing is it hasn't been fixed yet and she's disabled and needs she's on Mobility she needs the phone it's my contact you see with her now i've had to go to her house this morning to see if she's alright yeah right right i see right thanks very much okay|inform|124557007
+b|now|init|124557007
+a|you went through the to|confirm|124557007
+a|have you been through to our faults department|reqInfo|124557007
+b|yeah|answ|124557007
+b|that was yesterday|inform|124557007
+b|and they said if they sound to get fixed today|inform|124557007
+b|but the thing is it hasn't been fixed yet and she's disabled and needs she's on Mobility she needs the phone it's my contact you see with her now i've had to go to her house this morning to see if she's alright yeah right right i see right thanks very much okay|inform|124557007
+b|and she's disabled and needs|inform|124557007
+b|she's on Mobility she needs the phone|inform|124557007
+b|it's my contact you see with her|inform|124557007
+b|now|init|124557007
+b|i've had to go to her house this morning to see if she's alright|inform|124557007
+a|right|backch|124557007
+a|oh dear|backch|124557007
+a|right|backch|124557007
+a|yeah|backch|124557007
+a|mm hmm right|ackn|124557007
+a|now|init|124557007
+a|what you need to do|refer|124557007
+a|you need to dial right|inform|124557007
+a|i mean i'll put you through|informIntent|124557007
+a|that's no problem|inform|124557007
+a|but takes you straight through to our faults department|inform|124557007
+b|yeah|backch|124557007
+b|right|backch|124557007
+b|right|backch|124557007
+b|i see|ackn|124557007
+a|alright|ackn|124557007
+a|so|init|124557007
+a|just bear with me|hold|124557007
+b|right|ackn|124557007
+b|thanks very much okay|thank|124557007
+b|this is uh mister i appear to have mislaid my last uh um bill|identifySelf|125015011
+a|yes mister how can i help yes what's|ackn|125015011
+a|how can i help|offer|125015011
+a|yes|ackn|125015011
+b|i appear to have mislaid my last uh um bill|inform|125015011
+b|hello hello hello hello hello|greet|125116007
+b|can you hear me|reqInfo|125116007
+a|hello|backch|125116007
+a|yeah|answ|125116007
+a|i can hear you sir|answElab|125116007
+b|uh loud and clear|confirm|125116007
+a|only well not not very loud but|inform|125116007
+b|oh uh|exclaim|125116007
+b|i haven't gotta shout dead loud have i|reqInfo|125116007
+a|no|answ|125116007
+a|i can hear you sir|answElab|125116007
+a|what's what's how can i help you|reqDirect|125116007
+b|i'd like to get a phone line on mate|direct|125116007
+b|hi|greet|125206011
+b|um my name's i was just wondering if it's possible to have my bill changed from a monthly one to a um quarterly one yeah it's right it's miss flat place} yeah it is|identifySelf|125206011
+b|i was just wondering if it's possible to have my bill changed from a monthly one to a um quarterly one|reqInfo|125206011
+a|yes|answ|125206011
+a|you certainly can|answElab|125206011
+a|that's no problem at all|accept|125206011
+a|could i just take your uh telephone number|reqInfo|125206011
+b|yeah|answ|125206011
+b|it's right it's miss flat place} yeah it is|answElab|125206011
+a|yeah|ackn|125206011
+a|yeah|ackn|125206011
+a|thank you right i've got your details in front of me just confirm your full name address and postcode for me please that's lovely right just bear with me right and i'll just take your customer number yes|thank|125206011
+a|right|init|125206011
+a|i've got your details in front of me|inform|125206011
+a|just confirm your full name address and postcode for me please|reqInfo|125206011
+b|right|ackn|125206011
+b|it's miss flat place} yeah it is|answ|125206011
+a|that's lovely|appreciate|125206011
+a|right|init|125206011
+a|just bear with me|hold|125206011
+b|yeah|ackn|125206011
+a|and i'll just take your customer number|reqInfo|125206011
+b|it is|answ|125206011
+a|yes|ackn|125206011
+b|um i'm phoning um with regard to a problem that i've had on my phone|inform|125612008
+a|right|ackn|125612008
+b|um what it was is um you you kept cutting me off|inform|125612008
+b|i'm not really sure why|expressOpinion|125612008
+b|but my phone's just kept getting disconnected|inform|125612008
+b|it happened about i don't know or times|inform|125612008
+a|oh dear|backch|125612008
+a|oh dear|exclaim|125612008
+a|right|ackn|125612008
+b|and i must have made between myself and my husband we must have made about i don't know or phone calls to you|inform|125612008
+b|and um we um we have some people that would|inform|125612008
+b|they're constantly trying to get hold of us|inform|125612008
+b|but with our phone being out of order for days at a time|inform|125612008
+b|we were having to make all calls from our kind of um mobile phones|inform|125612008
+a|right|backch|125612008
+a|was it an actual fault on the line or|reqInfo|125612008
+b|um well it's just all i don't know every time it seems to be another problem it just got cut off for no reason it was nothing to do with the bill there was no bill outstanding or anything like that it was something apparently one time it was something at our end and then one time it was something at the exchange and the next time it was another it was just all different problems yeah yeah|ackn|125612008
+a|or you don't|reqInfo|125612008
+b|well|init|125612008
+b|i don't know|inform|125612008
+b|every time it seems to be another problem|inform|125612008
+b|it just got cut off for no reason|inform|125612008
+b|it was nothing to do with the bill|inform|125612008
+b|there was no bill outstanding or anything like that|inform|125612008
+b|it was something|inform|125612008
+a|right|backch|125612008
+a|oh dear|backch|125612008
+a|no no|backch|125612008
+a|no|ackn|125612008
+a|it was just something|inform|125612008
+b|apparently one time it was something at our end|inform|125612008
+b|and then one time it was something at the exchange|inform|125612008
+b|and the next time it was another|inform|125612008
+b|it was just all different problems|inform|125612008
+a|oh right|backch|125612008
+a|right yes|ackn|125612008
+a|it sounds as it various faults and bits an pieces right|expressOpinion|125612008
+b|yeah|backch|125612008
+b|yeah|ackn|125612008
+b|hi|greet|125943012
+b|yes|ackn|125943012
+b|my name's um it's a it's a long story i was due to move into a council house uh the nineteenth of last month and the council pulled out on us at the last moment now i'd already set a telephone line up for the house on the nineteenth so i had to cancel out cancel it and i was told it would be thirteen pound for that now i've also been given another property uh which i'm trying to set up a line but uh so far i've heard nothing from you to have the line installed or set up yeah you've sorted that out and you've sent me a bill out which should have been thirteen pound but is actually forty eight ninety one uh the customer number is there okay|identifySelf|125943012
+b|um it's a it's a long story|inform|125943012
+b|i was due to move into a council house uh the nineteenth of last month|inform|125943012
+b|and the council pulled out on us at the last moment|inform|125943012
+b|now|init|125943012
+b|i'd already set a telephone line up for the house on the nineteenth|inform|125943012
+a|yeah|backch|125943012
+a|i see|ackn|125943012
+b|so|init|125943012
+b|i had to cancel out cancel it|inform|125943012
+b|and i was told it would be thirteen pound for that|inform|125943012
+a|yeah|ackn|125943012
+b|now|init|125943012
+b|i've also been given another property uh which i'm trying to set up a line|inform|125943012
+b|but uh so far i've heard nothing from you to have the line installed or set up|inform|125943012
+a|so|init|125943012
+a|we sorted out the the address where you didn't actually require the line|confirm|125943012
+a|we've done that|reqInfo|125943012
+b|yeah|answ|125943012
+b|you've sorted that out|answElab|125943012
+b|and you've sent me a bill out which should have been thirteen pound but is actually forty eight ninety one|inform|125943012
+a|yeah|backch|125943012
+a|what was the reference number on that|reqInfo|125943012
+a|and i'll just have a look at that one first|informIntent|125943012
+b|uh the customer number is there okay|answ|125943012
+a|yeah|ackn|125943012
+a|yeah|ackn|125943012
+a|thank you sir|thank|125943012
+a|i'll just get the details done|informIntent|125943012
+b|okay|ackn|125943012
+b|hello|greet|131242009
+b|i wonder if you could just um investigate to see whether our telephone's been turned back on yet please|direct|131242009
+a|okay sir|accept|131242009
+a|what's your telephone number|reqInfo|131242009
+b|it's double yeah uh i'm sorry i've not no it has been put back on|answ|131242009
+a|thank you|thank|131242009
+a|i have your details in front of me|inform|131242009
+a|can i just confirm your name address and post code sir|reqInfo|131242009
+b|yeah|answ|131242009
+a|and um do you have your customer number with you as well sir|reqInfo|131242009
+b|i'm sorry|expressRegret|131242009
+b|i've not|answ|131242009
+b|no|answElab|131242009
+a|right okay uh yes it looks as if it has been sir as far as i can tell from my um screen yes er the line should be working|accept|131242009
+a|it looks as if it has been sir|inform|131242009
+b|it has been put back on|confirm|131242009
+a|as far as i can tell from my um screen|inform|131242009
+a|yes|init|131242009
+a|er the line should be working|inform|131242009
+b|hi|greet|131446008
+b|um i'm just ringing to check uh whether i've paid my bill or not|reqInfo|131446008
+b|i it it was so long ago i can't remember|inform|131446008
+b|and i'm not sure whether i've had any reminders or anything|inform|131446008
+a|have you got the account number for that please|reqInfo|131446008
+b|oh i haven't|answ|131446008
+b|no|answElab|131446008
+b|that's the thing|inform|131446008
+b|i've lost the bill|inform|131446008
+b|that's why i'm not too sure if i've paid it or not|inform|131446008
+a|um what was the telephone number then please|reqInfo|131446008
+b|it's it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye|answ|131446008
+a|mm hmm|backch|131446008
+a|mm hmm|backch|131446008
+b|it's um it has been paid excellent okay that's that's all i wanted to know thanks very much cheers bye|answ|131446008
+a|mm|backch|131446008
+a|mm|backch|131446008
+a|right|ackn|131446008
+a|thank you your last bill was in May and that has been paid so we yeah there's no outstanding balance at the moment yeah we received that alright then okay then thanks bye bye|thank|131446008
+a|your last bill was in May|inform|131446008
+a|and that has been paid|inform|131446008
+a|so|init|131446008
+b|it has been paid|confirm|131446008
+a|yeah|ackn|131446008
+a|there's no outstanding balance at the moment|inform|131446008
+b|excellent|ackn|131446008
+a|yeah|ackn|131446008
+a|we received that|inform|131446008
+b|okay|ackn|131446008
+b|that's that's all i wanted to know|inform|131446008
+b|thanks very much|thank|131446008
+a|alright then|backch|131446008
+a|okay then|init|131446008
+b|cheers|thank|131446008
+b|bye|bye|131446008
+a|thanks|thank|131446008
+a|bye bye|bye|131446008
+b|yeah|ackn|132008012
+b|i enquired this morning about my phone was coming today|inform|132008012
+b|it has come|inform|132008012
+a|yeah|ackn|132008012
+a|that's how it does|inform|132008012
+a|yeah|ackn|132008012
+b|yeah|ackn|132008012
+b|well|init|132008012
+b|i put it on the wall and that|inform|132008012
+b|but i ain't got no phone number for meself|inform|132008012
+a|mm|backch|132008012
+b|pardon|pardon|132008012
+a|nobody gave you the number when you placed your order to connect the line|reqInfo|132008012
+b|no|answ|132008012
+a|right|ackn|132008012
+a|i will not be able to give you the number over the phone i'm afraid um but there will be ways and means of how you can get it first of all what is your address mm yeah and the postcode hello yeah mm hmm thank you right thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you haven't received a contract no right okay oh no the line was disconnected at the exchange|inform|132008012
+a|um but there will be ways and means of how you can get it|inform|132008012
+a|first of all what is your address|reqInfo|132008012
+a|mm|backch|132008012
+a|yeah|backch|132008012
+a|and the postcode|reqInfo|132008012
+b|oh i ain't got|inform|132008012
+b|hang on hello it's my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the engineer was coming to put it in i put it on|hold|132008012
+a|hello yeah mm hmm thank you right thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you haven't received a contract no right okay oh no the line was disconnected at the exchange|greet|132008012
+b|hello|greet|132008012
+a|yeah|ackn|132008012
+b|it's|answ|132008012
+b|my name's yeah yeah i've got on the top of this page uh customer services and also oh it's a fax number no the uh i thought the engineer was coming to put it in i put it on|inform|132008012
+a|mm hmm|backch|132008012
+a|thank you|backch|132008012
+a|right|ackn|132008012
+a|thanks yeah the line's actually up and running now it's working one way of how you can find the number out is um mm you haven't received a contract no right okay oh no the line was disconnected at the exchange|thank|132008012
+a|yeah|init|132008012
+a|the line's actually up and running now|inform|132008012
+a|it's working|inform|132008012
+a|one way of how you can find the number out is um|inform|132008012
+b|yeah|backch|132008012
+b|yeah|backch|132008012
+b|i've got on the top of this page uh customer services and also|inform|132008012
+b|oh it's a fax number|inform|132008012
+a|mm|ackn|132008012
+b|no|answ|132008012
+b|the uh i thought the engineer was coming to put it in i put it on|expressOpinion|132008012
+a|right okay|backch|132008012
+a|oh no|negate|132008012
+a|the line was disconnected at the exchange|inform|132008012
+b|yes|ackn|132203007
+b|wonder if you can|direct|132203007
+b|i just um checking my bank account on the internet|inform|132203007
+b|and i've just noticed um i don't know my i'm not phoning from home so i don't know my um account number|inform|132203007
+b|just looking on here|inform|132203007
+b|it's got direct debit for a hundred and twenty five pounds|inform|132203007
+b|i just wondered if you could check it out|direct|132203007
+b|it shouldn't be that much|inform|132203007
+a|have you got your account number on you|reqInfo|132203007
+b|i haven't|answ|132203007
+b|sorry|expressRegret|132203007
+b|i've my|inform|132203007
+a|without that i can't um i can't discuss that side of your um account is|inform|132203007
+b|is is this number that's on the um is this my account number that or is that just a direct debit number that they've take they use to take out treble treble what what do you yes it's missus telephone number yes oh right is it right|reqInfo|132203007
+b|is this my account number that or is that just a direct debit number that they've take they use to take out treble treble what what do you yes it's missus telephone number yes oh right is it right|reqInfo|132203007
+a|what was that number again|reqInfo|132203007
+a|sorry|pardon|132203007
+a|let's have a look and uh have you got your details there please sorry your name and address yeah ok missus the and the first eight digits that number you quoted me that's your customer account number|informIntent|132203007
+a|and uh have you got your details there please|reqInfo|132203007
+b|what what do you|reqInfo|132203007
+a|sorry|expressRegret|132203007
+a|your name and address|correct|132203007
+b|yes|answ|132203007
+b|it's missus telephone number yes oh right is it right|answElab|132203007
+a|yeah|backch|132203007
+a|the and the first eight digits|refer|132203007
+a|that number you quoted me|refer|132203007
+a|that's your customer account number|inform|132203007
+b|yes|backch|132203007
+b|oh right|ackn|132203007
+b|is it|ackn|132203007
+b|right|ackn|132203007
+a|hello hello|greet|132718007
+b|hello|greet|132718007
+a|hello|greet|132718007
+b|um i wanna uh um put in a new phone for my new address|direct|132718007
+a|okay|accept|132718007
+b|no|answ|132718007
+b|i've just moved from me parents|answElab|132718007
+b|so|init|132718007
+a|no okay|backch|132718007
+a|how can i help you|offer|132950010
+b|yes|ackn|132950010
+b|i've got a fault on the line|inform|132950010
+b|could you check into it for us please|direct|132950010
+a|you've got a a fault on the line sir|confirm|132950010
+b|yeah|ackn|132950010
+b|the phone is doesn't appear to be working all that all that good|inform|132950010
+a|okay sir|accept|132950010
+a|um you really need to ring faults department|suggest|132950010
+b|okay|accept|132950010
+a|sorry|expressRegret|132950010
+a|i beg your pardon|expressRegret|132950010
+b|cheers now|thank|132950010
+a|okay|ackn|132950010
+a|byebye|bye|132950010
+b|bye|bye|132950010
+b|hello|greet|133234010
+b|yeah uh|ackn|133234010
+b|this um thing when you ring somebody and they're engaged and they say press yeah uh last year i phoned up and said i didn't want it i wanted it taking off|refer|133234010
+a|right|ackn|133234010
+a|the Ringback|confirm|133234010
+b|yeah|ackn|133234010
+a|yeah|ackn|133234010
+b|uh last year|refer|133234010
+b|i phoned up and said i didn't want it i wanted it taking off|inform|133234010
+b|yeah|ackn|133950009
+b|i've been having trouble with my telephone|inform|133950009
+a|right|backch|133950009
+b|yeah|ackn|134235011
+b|i want to try and change my Friends And Family numbers and um a|expressWish|134235011
+b|because i can't find anything with my actual full account number on|inform|134235011
+b|i tried this the other week and i couldn't i couldn't find anything|inform|134235011
+a|ah|backch|134235011
+a|right|ackn|134235011
+a|okay|ackn|134235011
+a|so|init|134235011
+a|you don't have one of the bills at all no|confirm|134235011
+b|no|ackn|134235011
+b|not handy|ackn|134235011
+a|right|ackn|134235011
+a|okay|init|134235011
+a|what what's your telephone number please|reqInfo|134235011
+b|it's it's missus and it's which is and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have changed it and she's moved|answ|134235011
+a|mm hmm|backch|134235011
+a|right|ackn|134235011
+a|okay|ackn|134235011
+a|can you confirm your full name and address with your postal code please|reqInfo|134235011
+b|it's missus|answ|134235011
+b|and it's which is|answElab|134235011
+b|and it's place} yes it was for pounds and about pence i believe cause it was paid on Saturday yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have changed it and she's moved|inform|134235011
+a|mm hmm|backch|134235011
+a|mm hmm|backch|134235011
+a|lovely|appreciate|134235011
+a|that's great|appreciate|134235011
+a|do you know roughly how much your last bill was for missus that's lovely thank you right oh right okay no problem and so it's uh a couple of numbers you want to change on Friends And Family is it right okay right|reqInfo|134235011
+b|yes|answ|134235011
+b|it was for pounds and about pence i believe|answElab|134235011
+a|that's lovely|appreciate|134235011
+a|thank you|thank|134235011
+a|right|ackn|134235011
+b|cause it was paid on Saturday yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have changed it and she's moved|inform|134235011
+a|oh right|ackn|134235011
+a|okay|ackn|134235011
+a|no problem|accept|134235011
+a|and so|init|134235011
+a|it's uh a couple of numbers you want to change on Friends And Family is it|confirm|134235011
+b|yeah i want to change the the most important one is my best friends number because i've been ringing her for ages and we've just twigged on that neither of us have changed it and she's moved|ackn|134235011
+b|i want to change the the most important one is my best friends number|direct|134235011
+a|right|accept|134235011
+a|okay|accept|134235011
+b|because i've been ringing her for ages|inform|134235011
+b|and we've just twigged on that neither of us have changed it|inform|134235011
+b|and she's moved|inform|134235011
+a|right|backch|134235011
+b|i'm having trouble er with getting a telephone number to in well it keeps ringing i mean i'll i'm just wondering if it's it i mean i know it's a busy place anyway but i've tried twice and i've been ringing for a long time and er i thought somebody might have picked up the phone but is it possible that you can try the line for me it's double no that's alright oh is it oh right it's better that i keep listening to the tone oh oh right thanks o i ought to hold on then oh right well i'm sorry to be a nuisance to you but i do thank you for your help there thank you bye bye|inform|le166240
+a|mm what's happening when you're dialling it|reqInfo|le166240
+b|well|init|le166240
+b|it keeps ringing|answ|le166240
+b|i mean i'll i'm just wondering if it's it|expressOpinion|le166240
+b|i mean i know it's a busy place anyway|raiseIssue|le166240
+b|but i've tried twice|inform|le166240
+b|and i've been ringing for a long time|inform|le166240
+b|and er i thought somebody might have picked up the phone|expressOpinion|le166240
+b|but is it possible that you can try the line for me|direct|le166240
+a|certainly|accept|le166240
+a|what's the code and number you've been calling please|reqInfo|le166240
+b|it's double no that's alright oh is it oh right it's better that i keep listening to the tone oh oh right thanks o i ought to hold on then oh right well i'm sorry to be a nuisance to you but i do thank you for your help there thank you bye bye|answ|le166240
+a|i'm sorry about that trouble|expressRegret|le166240
+a|i'll just look it up|informIntent-hold|le166240
+b|no|refuse|le166240
+b|that's alright|accept|le166240
+a|for you right that is a working line it is the right number it's just their queuing system yeah er you see the queuing systems announce themselves you end up in charge call while you're waiting so it is better that you just queue and don't actually hear anything yeah yeah because er if you if you have that message that comes on they start playing you music you're paying to listen to it so it's better that it just rings and while you're in a queue really yep i know it will get picked up eventually that's ok that's fine alright thank you bye|informIntent-hold|le166240
+a|right|init|le166240
+a|that is a working line|inform|le166240
+a|it is the right number|inform|le166240
+a|it's just their queuing system|inform|le166240
+b|oh is it|confirm|le166240
+a|yeah|ackn|le166240
+a|er you see the queuing systems announce themselves|inform|le166240
+a|you end up in charge call while you're waiting|inform|le166240
+a|so|init|le166240
+a|it is better that you just queue and don't actually hear anything|inform|le166240
+b|oh right|backch|le166240
+b|it's better that i keep listening to the tone|suggest|le166240
+a|yeah yeah|ackn|le166240
+a|because er if you if you have that message that comes on|inform|le166240
+a|they start playing you music|inform|le166240
+a|you're paying to listen to it|inform|le166240
+a|so|init|le166240
+a|it's better that it just rings and while you're in a queue really yep i know it will get picked up eventually that's ok that's fine alright thank you bye|suggest|le166240
+b|oh|backch|le166240
+b|oh right|ackn|le166240
+b|thanks|thank|le166240
+b|o i ought to hold on then|confirm|le166240
+a|yep|ackn|le166240
+a|i know it will get picked up eventually|expressOpinion|le166240
+b|oh right|ackn|le166240
+b|well|init|le166240
+b|i'm sorry to be a nuisance to you|expressRegret|le166240
+a|that's ok that's fine|accept|le166240
+b|but i do thank you for your help there|thank|le166240
+a|alright|ackn|le166240
+a|thank you|thank|le166240
+b|thank you|thank|le166240
+b|bye bye|bye|le166240
+a|bye|bye|le166240
+b|hi|greet|le169360
+b|can i have please|direct|le169360
+a|certainly|accept|le169360
+a|hold the line please|hold|le169360
+b|thank you|thank|le169360
+b|hello|greet|le173310
+b|er can you tell me the telephone number of er mr er i mean er please|reqInfo|le173310
+a|you'll need directory enquiries on shall i put you through to them hold the line please|inform|le173310
+a|shall i put you through to them|offer|le173310
+b|please|accept|le173310
+a|hold the line please|hold|le173310
+b|hello there|greet|le177920
+b|er i'm been trying to get a number um in and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello alright thank you|inform|le177920
+b|and um they keep picking it up but there's no sound the number is what's the code yeah oh sorry right hello alright thank you|inform|le177920
+b|but there's no sound|inform|le177920
+a|right|ackn|le177920
+a|sorry|expressRegret|le177920
+a|what's the code and number that you're calling please|reqInfo|le177920
+a|yes please|accept|le177920
+b|is|informCont|le177920
+b|what's the code|selfTalk|le177920
+b|yeah|accept|le177920
+a|yeah|backch|le177920
+a|thank you|thank|le177920
+a|if you just hold the line please hello hello yes as you can hear i'm having the same problems as you we'll put you through to the faults department and they'll find out what's going on|hold|le177920
+a|yes|init|le177920
+a|as you can hear i'm having the same problems as you|inform|le177920
+a|we'll put you through to the faults department|informIntent|le177920
+a|and they'll find out what's going on|inform|le177920
+b|right|backch|le177920
+b|hello|backch|le177920
+b|alright|ackn|le177920
+b|thank you|thank|le177920
+b|er could i have a telephone number please|reqInfo|le191380
+a|it's probably directory enquiries you require|inform|le191380
+a|what's the who's the number for|reqInfo|le191380
+b|er no it's a company please if you wouldn't mind thank you very much|answ|le191380
+a|is it is it a private number is it or a company number|reqInfo|le191380
+b|no|negate|le191380
+b|it's a company please if you wouldn't mind thank you very much|answ|le191380
+a|yeah|backch|le191380
+a|right|ackn|le191380
+a|you actually you do need directories on would you like me to put you through to them ah it's ring for you|inform|le191380
+a|would you like me to put you through to them|offer|le191380
+b|please|accept|le191380
+b|if you wouldn't mind|accept|le191380
+a|ah it's ring for you|inform|le191380
+b|thank you very much|thank|le191380
+b|hello|greet|le191560
+b|do you try a number i can't seem to get hold of|reqInfo|le191560
+a|certainly|answ|le191560
+a|is it engaged all the while or is it|reqInfo|le191560
+a|it's a shop is it|confirm|le191560
+a|and what's happening when you dial them|reqInfo|le191560
+b|er i'm getting no reply some|answ|le191560
+b|i tried yesterday and today so far|inform|le191560
+a|alright them|backch|le191560
+a|i'm sorry about that|expressRegret|le191560
+a|what was the number you were calling please|reqInfo|le191560
+b|its' from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright|answ|le191560
+b|from uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright|refer|le191560
+a|yep|ackn|le191560
+a|lets have a look at that for you and what's the name of the business you're trying to get through to stamps and stuff is it yes that's right let's just try that for you you've left it ringing for a little while have you hmm but they're not in again today either by the sounds of it right what i'll do is put you through to our fault department and they'll test the line for you to make sure their phone's ringing at the other end good morning um|informIntent|le191560
+a|and what's the name of the business you're trying to get through to|reqInfo|le191560
+b|uh stamps and stuff there's a funny one isn't it did you say you were ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright|answ|le191560
+a|stamps and stuff is it|confirm|le191560
+b|there's a funny one isn't it|expressOpinion|le191560
+a|yes|ackn|le191560
+a|that's right let's just try that for you you've left it ringing for a little while have you hmm but they're not in again today either by the sounds of it right what i'll do is put you through to our fault department and they'll test the line for you to make sure their phone's ringing at the other end good morning um|ackn|le191560
+a|let's just try that for you|informIntent|le191560
+b|ta um yes and yesterday i thought well yesterday it might be a half closing or something um but that's alright|thank|le191560
+a|you've left it ringing for a little while have you|reqInfo|le191560
+b|um yes|answ|le191560
+b|and yesterday i thought well yesterday it might be a half closing or something|inform|le191560
+a|hmm|ackn|le191560
+a|but they're not in again today either by the sounds of it right|inform|le191560
+a|what i'll do is put you through to our fault department|informIntent|le191560
+a|and they'll test the line for you to make sure their phone's ringing at the other end|inform|le191560
+b|um|backch|le191560
+b|but that's|backch|le191560
+b|alright|ackn|le191560
+a|good morning um|greet|le191560
+b|yeah|ackn|le200590
+b|i've been trying to get a number|inform|le200590
+b|it's double double and it's just a long discontinued sort of line noise okay okay thanks very much bye|inform|le200590
+b|double and it's just a long discontinued sort of line noise okay okay thanks very much bye|inform|le200590
+b|and it's just a long discontinued sort of line noise|inform|le200590
+a|sorry about that|expressRegret|le200590
+a|i'll try the call for you i'm also getting an unobtainable on this number i'll just go through to cable and get it tested for you thank you sorry to keep you waiting good afternoon this is i've a customer on line please check for unobtainable on double thank you sorry to keep you waiting spare line thank you very much i'm sorry there's no longer a customer with this number thank you bye bye|informIntent|le200590
+a|i'm also getting an unobtainable on this number|inform|le200590
+a|i'll just go through to cable and get it tested for you|informIntent|le200590
+a|thank you|thank|le200590
+a|sorry to keep you waiting good afternoon this is i've a customer on line please check for unobtainable on double thank you sorry to keep you waiting spare line thank you very much i'm sorry there's no longer a customer with this number thank you bye bye|expressRegret|le200590
+a|good afternoon|greet|le200590
+a|this is i've a customer on line please check for unobtainable on double thank you sorry to keep you waiting spare line thank you very much i'm sorry there's no longer a customer with this number thank you bye bye|identifySelf|le200590
+a|i've a customer on line|inform|le200590
+a|please check for unobtainable on double|direct|le200590
+a|thank you|thank|le200590
+a|sorry to keep you waiting spare line thank you very much i'm sorry there's no longer a customer with this number thank you bye bye|expressRegret|le200590
+a|spare line|echo|le200590
+a|thank you very much|thank|le200590
+b|okay|ackn|le200590
+a|i'm sorry|expressRegret|le200590
+a|there's no longer a customer with this number|inform|le200590
+b|okay|ackn|le200590
+b|thanks very much|thank|le200590
+a|thank you|thank|le200590
+a|bye bye|bye|le200590
+b|bye|bye|le200590
+b|yeah|ackn|le204350
+b|there's a number i'm trying to get|informIntent|le204350
+b|it's a hospital actually it's double double and all day it keeps saying it's out of order um thanks i thought that was it yeah i thought that was the number of the hospital actually that's a you say it's a switchboard number oh is it oh oh right you better put me on to|inform|le204350
+b|it's double double and all day it keeps saying it's out of order um thanks i thought that was it yeah i thought that was the number of the hospital actually that's a you say it's a switchboard number oh is it oh oh right you better put me on to|inform|le204350
+b|and all day it keeps saying it's out of order um|inform|le204350
+a|yes|backch|le204350
+a|right|ackn|le204350
+a|let me just check that for you|informIntent|le204350
+b|thanks i thought that was it yeah i thought that was the number of the hospital actually that's a you say it's a switchboard number oh is it oh oh right you better put me on to|thank|le204350
+a|no|negate|le204350
+a|it's actually coming up as line fault|inform|le204350
+a|but the problem is the number you've got is an extension off of a main switchboard|inform|le204350
+a|so|init|le204350
+a|we can't get it tested|inform|le204350
+a|do you happen to know what the main number is|reqInfo|le204350
+b|i thought that was it|answ|le204350
+a|no|negate|le204350
+a|that's just an extension off of the main switchboard i mean do you want me to put you through to directory enquiries to see if they've got an alternate number no what i'm saying it's an extension off of the main switchboard yeah and we can't test extension lines i'm afraid okay i'll just put you through|inform|le204350
+a|i mean do you want me to put you through to directory enquiries to see if they've got an alternate number|offer|le204350
+b|yeah|accept|le204350
+b|i thought that was the number of the hospital|expressOpinion|le204350
+b|actually that's a you say it's a switchboard number|confirm|le204350
+a|no|negate|le204350
+a|what i'm saying it's an extension off of the main switchboard|inform|le204350
+b|oh is it|reqInfo|le204350
+b|oh oh right you better put me on to|ackn|le204350
+a|yeah|backch|le204350
+a|and we can't test extension lines i'm afraid|inform|le204350
+b|oh right|ackn|le204350
+b|you better put me on to|direct|le204350
+a|okay|accept|le204350
+a|i'll just put you through|informIntent|le204350
+b|i'd like to arrange for an alarm call for tomorrow morning please|direct|le207720
+a|at what time please|reqInfo|le207720
+b|uh seven forty five a m thanks very much you you've got our number alright thanks very much bye|answ|le207720
+a|that's booked for you|inform|le207720
+a|we'll ring you at quarter to ok i have ok bye|informIntent|le207720
+b|thanks very much|thank|le207720
+b|you you've got our number alright|confirm|le207720
+a|ok|backch|le207720
+a|i have|ackn|le207720
+b|thanks very much|thank|le207720
+b|bye|bye|le207720
+a|bye|bye|le207720
+b|hello|greet|le208410
+b|uh is it possible that you could tell me what area this number's from|reqInfo|le208410
+b|er somebody's phoned earlier tonight um|inform|le208410
+b|i think it might be a dodgy call i just want an area i mean obviously you can't give me the person who it is but um yeah it's uh well basically it's yeah double directories uh thank you|expressOpinion|le208410
+b|i just want an area|reqInfo|le208410
+b|i mean obviously you can't give me the person who it is but um|expressOpinion|le208410
+a|um you mean which code it is|reqInfo|le208410
+b|yeah|answ|le208410
+b|it's uh well basically it's yeah double directories uh thank you|inform|le208410
+a|so|init|le208410
+a|that's uh i can't narrow it down any further than that if you call directories they should be able to yeah ok|answ|le208410
+b|yeah|ackn|le208410
+b|double directories uh thank you|inform|le208410
+a|uh i can't narrow it down any further than that|inform|le208410
+a|if you call directories|suggest|le208410
+a|they should be able to|expressOpinion|le208410
+b|directories|echo|le208410
+a|yeah|ackn|le208410
+b|uh thank you|thank|le208410
+a|ok|init|le208410
+b|hello|greet|le208480
+b|um could i arrange a wake up call for six thirty please|direct|le208480
+a|six thirty okay we'll call you at that's alright bye|echo|le208480
+a|okay|accept|le208480
+a|we'll call you at that's alright bye|informIntent|le208480
+b|thanks ever so much|thank|le208480
+a|that's alright|ackn|le208480
+b|cheers|thank|le208480
+b|bye|bye|le208480
+a|bye|bye|le208480
+b|um could you tell me um bus station please|reqInfo|le214780
+a|pardon|pardon|le214780
+b|is that the operator|reqInfo|le214780
+a|yes|answ|le214780
+a|it is|answElab|le214780
+b|um train station|direct|le214780
+a|you need for numbers|inform|le214780
+b|oh right|ackn|le214780
+a|shall i connect you|offer|le214780
+b|yeah please|accept|le214780
+b|oh hello|greet|le215020
+b|i was just enquiring|reqInfo|le215020
+b|is there any way i|reqInfo|le215020
+b|the thing is my husband's away|inform|le215020
+b|and he's meant to be ringing me|inform|le215020
+b|and i've got to go out|inform|le215020
+b|i'm actually babysitting|inform|le215020
+b|is there any way that i can divert my calls to another number|reqInfo|le215020
+a|right|backch|le215020
+a|bear with me|hold|le215020
+a|let me put you through to customer services|informIntent|le215020
+a|they should be able to tell you okay|inform|le215020
+a|thank you|thank|le215020
+a|if you'd just like to hold the line for me please|hold|le215020
+b|okay thanks|backch|le215020
+b|ok thanks|accept|le215020
+a|ok|init|le215020
+a|connecting you now caller|inform|le215020
+b|thanks|thank|le215020
+a|thank you|thank|le215020
+b|hello|greet|le301460
+b|could i have the number for please|reqInfo|le301460
+a|you need directory enquiries would you like me to connect you thank you|inform|le301460
+a|would you like me to connect you|offer|le301460
+b|please|accept|le301460
+a|thank you|thank|le301460
+b|um i've tried a number several times|inform|le303300
+b|it's a twenty four hour seven day a week number i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she got through straight away however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if there was something wrong with yeah it's just that i tried before eight o'clock this morning i tried during the day yesterday and couldn't get through unless they've only got one literally one line yeah that's right okay i'll try later bye bye|inform|le303300
+b|i can't get through because it's constantly engaged when i ring it um i've just had an operator ring it and she got through straight away however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if there was something wrong with yeah it's just that i tried before eight o'clock this morning i tried during the day yesterday and couldn't get through unless they've only got one literally one line yeah that's right okay i'll try later bye bye|inform|le303300
+b|um i've just had an operator ring it|inform|le303300
+b|and she got through straight away however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if there was something wrong with yeah it's just that i tried before eight o'clock this morning i tried during the day yesterday and couldn't get through unless they've only got one literally one line yeah that's right okay i'll try later bye bye|inform|le303300
+b|however they put me on hold for so long i hung up could you possibly ring it for me again double thank you oh sorry you are no i just wondered if there was something wrong with yeah it's just that i tried before eight o'clock this morning i tried during the day yesterday and couldn't get through unless they've only got one literally one line yeah that's right okay i'll try later bye bye|inform|le303300
+b|could you possibly ring it for me again|direct|le303300
+a|what's the number|reqInfo|le303300
+a|thank you who is it you're calling what's the name of the people you're calling i'm getting the number engaged now i'll try it a couple of times but you see we don't get priority at all we just get the same problems as yourself no you see the problem with double numbers is it's the same number throughout the country where you're charged at national rate so you know if it's a busy line you've got everybody all over the country ringing it then that's why these are so busy there's not usually a fault on it hmm i suppose a lot of people have got the same idea yeah well that's it you see unfortunately i've got no way of knowing thank you bye bye|thank|le303300
+a|who is it you're calling|reqInfo|le303300
+b|thank you|thank|le303300
+a|what's the name of the people you're calling|reqInfo|le303300
+b|oh sorry|expressRegret|le303300
+a|i'm getting the number engaged now|inform|le303300
+a|i'll try it a couple of times|informIntent|le303300
+a|but you see|init|le303300
+a|we don't get priority at all|inform|le303300
+a|we just get the same problems as yourself|inform|le303300
+b|you are|backch|le303300
+b|no|backch|le303300
+b|i just wondered if there was something wrong with|reqInfo|le303300
+a|no|answ|le303300
+a|you see|init|le303300
+a|the problem with double numbers is it's the same number throughout the country where you're charged at national rate|inform|le303300
+a|so|init|le303300
+a|you know if it's a busy line|inform|le303300
+a|you've got everybody all over the country ringing it|inform|le303300
+a|then that's why these are so busy|inform|le303300
+a|there's not usually a fault on it|inform|le303300
+b|yeah|backch|le303300
+b|it's just that i tried before eight o'clock this morning|inform|le303300
+a|hmm|ackn|le303300
+a|i suppose a lot of people have got the same idea|expressOpinion|le303300
+b|i tried during the day yesterday and couldn't get through unless they've only got one literally one line|inform|le303300
+a|yeah|ackn|le303300
+a|well|init|le303300
+a|that's it|accept|le303300
+a|you see|init|le303300
+a|unfortunately i've got no way of knowing|inform|le303300
+b|yeah|ackn|le303300
+b|that's right|accept|le303300
+b|okay|init|le303300
+b|i'll try later|informIntent|le303300
+b|bye bye|bye|le303300
+a|thank you|thank|le303300
+a|bye bye|bye|le303300
+b|hello|greet|le306590
+b|could i have a number for please|reqInfo|le306590
+a|i'm sorry sir|expressRegret|le306590
+a|you need for directory assistance|inform|le306590
+a|would you like me to connect you|offer|le306590
+b|no|refuse|le306590
+b|it's alright|accept|le306590
+b|i'll do it myself|informIntent|le306590
+a|what the sorry did you say the code for the oh right alright byebye bye|reqInfo|le306590
+b|pardon|pardon|le306590
+a|sorry|expressRegret|le306590
+a|did you say the code for the oh right alright byebye bye|reqInfo|le306590
+b|the i didn't say i said   alright ta ta|echo|le306590
+b|i didn't say i said   alright ta ta|answ|le306590
+b|i said   alright ta ta|correct|le306590
+a|oh right alright byebye bye|ackn|le306590
+a|alright|ackn|le306590
+a|byebye|bye|le306590
+b|alright|ackn|le306590
+b|ta ta|bye|le306590
+a|bye|bye|le306590
+b|yes|ackn|le315880
+b|i wondered if you could tell me how you can er dial on your touch tone telephone the alarm call in the morning|reqInfo|le315880
+a|yes certainly|answ|le315880
+a|bear with me|hold|le315880
+a|and i'll er bring it up on the screen for you and let you know right to set it up um you have to be familiar with the star button and the hash button on your telephone yeah you got those right um to set it up you dial star star then the time you want the the alarm to go in the twenty four hour clock so if it's um i don't know half past eight it's yep and then it's hash and that's that it's done and then as you can check it and cancel it as well do you want to know how to do that as well alright ok then byebye|informIntent|le315880
+a|right|init|le315880
+a|to set it up um you have to be familiar with the star button and the hash button on your telephone yeah|inform|le315880
+b|thank you|backch|le315880
+b|yeah|ackn|le315880
+b|that's fine yeah|accept|le315880
+a|got those right|reqInfo|le315880
+a|um to set it up you dial star star|inform|le315880
+b|yeah|ackn|le315880
+a|then the time you want the the alarm to go in the twenty four hour clock|inform|le315880
+a|so|init|le315880
+a|if it's um i don't know half past eight|inform|le315880
+a|it's yep and then it's hash and that's that it's done and then as you can check it and cancel it as well do you want to know how to do that as well alright ok then byebye|inform|le315880
+b|right right|backch|le315880
+b|right yeah|ackn|le315880
+a|yep|ackn|le315880
+b|yep|ackn|le315880
+a|and then it's hash|inform|le315880
+b|right|ackn|le315880
+a|and that's that|inform|le315880
+a|it's done|inform|le315880
+b|ok|ackn|le315880
+a|and then as you can check it and cancel it as well|inform|le315880
+a|do you want to know how to do that as well|reqDirect|le315880
+b|no no|direct|le315880
+b|that'll be alright|directElab|le315880
+a|alright|ackn|le315880
+b|ok then|init|le315880
+a|ok then|init|le315880
+b|thank you|thank|le315880
+b|byebye|bye|le315880
+a|byebye|backch|le315880
+b|yeah|ackn|le316580
+b|can i order an alarm call please|direct|le316580
+a|yes certainly|accept|le316580
+a|for what time|reqInfo|le316580
+b|um six forty five|answ|le316580
+a|six forty five|echo|le316580
+a|thank you|thank|le316580
+a|i'll just confirm that for you|informIntent|le316580
+b|thank you lovely thanks bye|thank|le316580
+a|thank you|thank|le316580
+a|that's booked then|inform|le316580
+a|we'll call you at six forty five|confirm|le316580
+b|lovely|appreciate|le316580
+b|thanks|thank|le316580
+b|bye|bye|le316580
+a|thank you|thank|le316580
+a|bye|bye|le316580
+b|hello|greet|le704220
+b|could you put me through to treble please|direct|le704220
+a|sorry|pardon|le704220
+b|could you put me through to treble well the line is actually cut off at the moment but it's still getting incoming calls ah ha incoming calls oh right|direct|le704220
+a|you having difficulty with it|reqInfo|le704220
+b|well|init|le704220
+b|the line is actually cut off at the moment|inform|le704220
+b|but it's still getting incoming calls|inform|le704220
+a|it's cut off but it's still getting it's not one of our lines so i can try it for you but must be a number|confirm|le704220
+a|but it's still getting|echo|le704220
+b|ah ha|backch|le704220
+b|incoming calls|complete|le704220
+a|it's not one of our lines|inform|le704220
+a|so|init|le704220
+a|i can try it for you|offer|le704220
+a|but must be a number|inform|le704220
+b|oh right|ackn|le704220
+b|hello|greet|le707230
+b|i wonder if you could help me at all um|direct|le707230
+b|what's happened is put a new phone system in i've come in on a Sunday and where it normally diverts from the line it isn't is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um i've been told if i speak to you oh excuse me my my mobile's now ringing as well just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place right what it is is there's a change over in our phone system and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number yes i honestly don't know it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh i don't know really to be honest i'm looking at this thing i've got an instruction book but it all looks like Greek to me uh it's a bit like War and Peace right right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|inform|le707230
+b|i've come in on a Sunday|inform|le707230
+b|and where it normally diverts from the line it isn't is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um i've been told if i speak to you oh excuse me my my mobile's now ringing as well just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place right what it is is there's a change over in our phone system and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number yes i honestly don't know it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh i don't know really to be honest i'm looking at this thing i've got an instruction book but it all looks like Greek to me uh it's a bit like War and Peace right right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|inform|le707230
+b|is there a way i can basically have calls forwarded for sort of today through tomorrow morning to a mobile number um i've been told if i speak to you oh excuse me my my mobile's now ringing as well just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place right what it is is there's a change over in our phone system and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number yes i honestly don't know it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh i don't know really to be honest i'm looking at this thing i've got an instruction book but it all looks like Greek to me uh it's a bit like War and Peace right right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|reqInfo|le707230
+b|um i've been told if i speak to you|inform|le707230
+b|oh excuse me|hold|le707230
+b|my my mobile's now ringing as well|inform|le707230
+b|just bear with me hello sorry about that i've in to do my marking?} you you know the unpaid Sunday as accountants do then the phones are ringing all over the place right what it is is there's a change over in our phone system and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number yes i honestly don't know it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh i don't know really to be honest i'm looking at this thing i've got an instruction book but it all looks like Greek to me uh it's a bit like War and Peace right right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|hold|le707230
+b|hello|greet|le707230
+a|yeah|backch|le707230
+a|right okay|backch|le707230
+a|hello|greet|le707230
+b|sorry about that|expressRegret|le707230
+a|that's all right|accept|le707230
+b|i've in to do my marking?}|inform|le707230
+b|then the phones are ringing all over the place right|inform|le707230
+b|what it is is there's a change over in our phone system|inform|le707230
+b|and i'm want wanting to basically forward our number till say half past eight tomorrow morning to an number|expressWish|le707230
+a|yeah|backch|le707230
+a|so so|init|le707230
+a|you want it diverting|confirm|le707230
+b|yes|ackn|le707230
+a|have you got have you got that facility on your phone already|reqInfo|le707230
+b|it's a brand new phone system this is the trouble um i'm not a particularly technical person they stuck it in yesterday and it now transpires that uh basically we uh uh i don't know really to be honest i'm looking at this thing i've got an instruction book but it all looks like Greek to me uh it's a bit like War and Peace right right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|inform|le707230
+b|this is the trouble um|raiseIssue|le707230
+b|i'm not a particularly technical person|inform|le707230
+b|they stuck it in yesterday|inform|le707230
+b|and it now transpires that uh basically we uh|inform|le707230
+b|uh i don't know really to be honest|inform|le707230
+b|i'm looking at this thing|inform|le707230
+b|i've got an instruction book|inform|le707230
+b|but it all looks like Greek to me|expressOpinion|le707230
+a|yeah|ackn|le707230
+a|i mean have you got a manual with it|reqInfo|le707230
+b|uh|backch|le707230
+a|but i mean the thing is the thing is you see most people|inform|le707230
+a|if if you want it|inform|le707230
+a|you have to sort of um speak to customer services|inform|le707230
+a|and it it's an option|inform|le707230
+a|it's sort of optional|inform|le707230
+b|right|backch|le707230
+b|right just having a quick look call ah so that's a bit late in't it really um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|ackn|le707230
+b|just having a quick look|inform|le707230
+a|cos the problem is you see the our customer service aren't open till eight a m tomorrow morning|inform|le707230
+b|ah|ackn|le707230
+b|so|init|le707230
+b|that's a bit late in't it really|expressOpinion|le707230
+b|um just have a look at um i can't see anything that makes me think ah that's the one you know what i mean uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|informIntent|le707230
+b|i can't see anything that makes me think|inform|le707230
+b|uh just bear with me a so there's no way the operator service can actually do a call forward for me they not mm there's there's no one else i can do you not have twenty four hour service gosh i'm surprised yeah i worked for a operator for a while and we they went twenty four hour fairly rapidly um yeah um let's have let's just have a quick look at this thing i look at these down i tend to use other things it's like videos with many features i just use the things that that i need and everything else sort of uh let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|hold|le707230
+b|so|init|le707230
+b|there's no way the operator service can actually do a call forward for me they not|reqInfo|le707230
+a|yeah|backch|le707230
+a|no|answ|le707230
+a|they can't they can't do that|answElab|le707230
+a|you you need to uh you need to speak to the the customer service really|suggest|le707230
+b|mm|backch|le707230
+b|there's there's no one else i can|reqInfo|le707230
+b|do you not have twenty four hour service|reqInfo|le707230
+a|no|answ|le707230
+b|gosh|exclaim|le707230
+b|i'm surprised|expressOpinion|le707230
+b|yeah|ackn|le707230
+b|and we they went twenty four hour fairly rapidly um|inform|le707230
+a|yeah|ackn|le707230
+a|i think they're going on to twenty four hour|expressOpinion|le707230
+a|but i mean the only the only other i mean departments are open are is the fault departments|inform|le707230
+a|i don't know if they'll be able to help you|expressOpinion|le707230
+a|i mean it's worth a try|expressOpinion|le707230
+b|yeah|backch|le707230
+b|i tend to use other things|inform|le707230
+b|it's like videos with many features|inform|le707230
+b|i just use the things that that i need and everything else sort of uh|inform|le707230
+b|let's have a quick look transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|informIntent|le707230
+b|transfer there's probably a way of doing it God knows what it is ok could you put me through to them do you think they'd be able to help me yeah i mean all i've got the number i need to forward it to um um thank you thank you very much|refer|le707230
+b|there's probably a way of doing it|expressPossibility|le707230
+b|God knows what it is|exclaim|le707230
+b|ok|init|le707230
+b|could you put me through to them|direct|le707230
+b|do you think they'd be able to help me|reqInfo|le707230
+a|um possibly|answ|le707230
+a|i mean it is the fault reporting|raiseIssue|le707230
+a|but i mean there's no harm in asking|raiseIssue|le707230
+b|yeah|ackn|le707230
+a|well|init|le707230
+a|i'll put i'll put you through anyway|informIntent|le707230
+a|see if they can help you|expressPossibility|le707230
+b|thank you|thank|le707230
+a|and can advise with anything|expressPossibility|le707230
+b|thank you very much|thank|le707230
+b|hello|greet|le707410
+b|could i have police please|direct|le707410
+b|police|complete|le707410
+b|or whoever you'd ring for the police at for oh did i put did i do the wrong number then sorry thanks|directElab|le707410
+a|right|ackn|le707410
+a|you need to speak to directory enquiries to er obtain the number|suggest|le707410
+a|would you like me to connect|reqDirect|le707410
+b|oh did i put did i do the wrong number then sorry|reqInfo|le707410
+a|yeah|answ|le707410
+a|i'll connect you through|informIntent|le707410
+b|thanks|thank|le707410
+b|hi|greet|le708350
+b|you know um the ringback function where you press and it tells you when they're not engaged how do you cancel one of those cheers yep ok then thanks a lot tadda|refer|le708350
+b|and it tells you when they're not engaged|refer|le708350
+b|how do you cancel one of those|reqInfo|le708350
+a|yeah|backch|le708350
+a|yeah|backch|le708350
+a|how do you cancel one of those|echo|le708350
+a|um bear with me a second|hold|le708350
+a|i'll tell you to cancel it it's hash hash ok thank you bye|informIntent|le708350
+a|to cancel it it's hash hash|answ|le708350
+b|cheers|backch|le708350
+b|yep|ackn|le708350
+b|ok then|init|le708350
+b|thanks a lot|thank|le708350
+b|tadda|bye|le708350
+a|ok|ackn|le708350
+a|thank you|thank|le708350
+a|bye|bye|le708350
+b|er can i book an alarm call please|direct|le708610
+a|certainly|accept|le708610
+a|what time for|reqInfo|le708610
+b|um five forty a m|answ|le708610
+a|five forty a m|echo|le708610
+b|yep|ackn|le708610
+a|hold the line one moment while i confirm the booking for you thank you we'll call you at five forty in the morning thank you goodbye|informIntent|le708610
+a|thank you|thank|le708610
+a|we'll call you at five forty in the morning|informIntent|le708610
+b|right thank you|backch|le708610
+b|ok|ackn|le708610
+b|thanks very much|thank|le708610
+b|goodbye|bye|le708610
+a|thank you|thank|le708610
+a|goodbye|bye|le708610
+b|hello do you think you could put me through to a number the problem is that they don't accept um calls from people who withheld their number ok then thanks a lot bye|greet|le710340
+b|do you think you could put me through to a number|direct|le710340
+a|yeah|accept|le710340
+a|what's the problem|reqInfo|le710340
+b|the problem is that they don't accept um calls from people who withheld their number|answ|le710340
+a|right|ackn|le710340
+a|i can't actually dial that because i i mean our number is automatically withheld you need to dial in front of the number you're dialling and it should accept it yes that's right ok thank you bye|inform|le710340
+a|you need to dial in front of the number you're dialling|suggest|le710340
+a|and it should accept it|inform|le710340
+a|yes|ackn|le710340
+a|that's right|ackn|le710340
+b|ok then|init|le710340
+a|ok|ackn|le710340
+a|thank you|thank|le710340
+a|bye|bye|le710340
+b|thanks a lot|thank|le710340
+b|bye|bye|le710340
+b|sorry to bother you i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the line about one hour mm ah ha is this this is one of the completed people your call rate or what is it i mean well mm mm is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think great i towards the end of that i said do you know where you're talking to i say aye i say great i said that's gonna cost a fortune it must be thanks a lot byebye|expressRegret|le710680
+b|i was just talking to some technical support the number was uh huh and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the line about one hour mm ah ha is this this is one of the completed people your call rate or what is it i mean well mm mm is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think great i towards the end of that i said do you know where you're talking to i say aye i say great i said that's gonna cost a fortune it must be thanks a lot byebye|inform|le710680
+b|the number was uh huh and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the line about one hour mm ah ha is this this is one of the completed people your call rate or what is it i mean well mm mm is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think great i towards the end of that i said do you know where you're talking to i say aye i say great i said that's gonna cost a fortune it must be thanks a lot byebye|inform|le710680
+a|yeah|ackn|le710680
+b|and the man who answer the answer the line er phone to me was he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the line about one hour mm ah ha is this this is one of the completed people your call rate or what is it i mean well mm mm is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think great i towards the end of that i said do you know where you're talking to i say aye i say great i said that's gonna cost a fortune it must be thanks a lot byebye|refer|le710680
+b|he was in er what i like to know do do you have any idea if i'm pay paying er what what rate i'm paying this person because i was on the line about one hour mm ah ha is this this is one of the completed people your call rate or what is it i mean well mm mm is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think great i towards the end of that i said do you know where you're talking to i say aye i say great i said that's gonna cost a fortune it must be thanks a lot byebye|inform|le710680
+b|er what i like to know|refer|le710680
+b|do do you have any idea if i'm pay paying er what what rate i'm paying this person|reqInfo|le710680
+b|because i was on the line about one hour|inform|le710680
+a|what what what number did you dial in the first place|reqInfo|le710680
+a|yeah|backch|le710680
+a|and he said he was in|confirm|le710680
+a|i mean i mean if he'd transferred the call|inform|le710680
+a|then you're not paying the extra the the person who transfers the call|inform|le710680
+b|mm|backch|le710680
+b|ah ha|backch|le710680
+b|is this this is one of the completed people your call rate or what is it i mean|reqInfo|le710680
+a|well|init|le710680
+a|it it'll be it it it won't be|answ|le710680
+a|it depends how far away it is from you|inform|le710680
+a|let's have a look and see where it is|offer|le710680
+a|one moment|hold|le710680
+a|but it'll just be a normal rate call|inform|le710680
+b|well|backch|le710680
+b|mm|backch|le710680
+b|mm|backch|le710680
+b|is it is it is it in it is in this country oh well i'm always they pay for it aye it was really odd the funny the one hour i think great i towards the end of that i said do you know where you're talking to i say aye i say great i said that's gonna cost a fortune it must be thanks a lot byebye|reqInfo|le710680
+a|no|answ|le710680
+a|it's not it's in the United Kingdom if you've got anything which is and then an area code it's in the United Kingdom but but if they transfer the calls they pay the extra yep mm ok then thank you bye|answElab|le710680
+b|is it is it in|reqInfo|le710680
+b|it is in this country|reqInfo|le710680
+a|it's in the United Kingdom|answ|le710680
+a|if you've got anything which is and then an area code|answElab|le710680
+a|it's in the United Kingdom|answElab|le710680
+a|but but if they transfer the calls they pay the|informDisc|le710680
+b|oh well i'm always|backch|le710680
+b|they pay for it|complete|le710680
+a|extra|informCont|le710680
+a|yep|ackn|le710680
+b|aye|ackn|le710680
+b|it was really odd the funny the one hour i think great i|expressOpinion|le710680
+b|towards the end of that i said do you know where you're talking to|inform|le710680
+b|i say aye i say great|inform|le710680
+b|i said that's gonna cost a fortune|inform|le710680
+a|mm|backch|le710680
+a|ok then|init|le710680
+b|thanks a lot|thank|le710680
+b|byebye|bye|le710680
+a|thank you|thank|le710680
+a|bye|bye|le710680
+b|erm hello|greet|le711360
+b|can i have a wake up call please for five a m|direct|le711360
+a|a|backch|le711360
+a|for five a m|confirm|le711360
+a|if you just hold the line while i try and confirm that for you|informIntent|le711360
+b|thanks erm five to please yeah right uh thanks a lot bye|thank|le711360
+a|that's|accept|le711360
+a|erm we can call you at uh five to five or five minutes past|inform|le711360
+a|which would you prefer|reqDirect|le711360
+b|erm|backch|le711360
+b|five to please|direct|le711360
+a|ok|accept|le711360
+a|if you just hold the line while i just confirm it|informIntent|le711360
+b|yeah|accept|le711360
+a|that's fine|accept|le711360
+a|that's booked for you at five to five|inform|le711360
+b|right|ackn|le711360
+b|uh thanks a lot|thank|le711360
+a|ok then|init|le711360
+a|thanks|thank|le711360
+a|bye|bye|le711360
+b|bye|backch|le711360
+b|um hi|greet|le713620
+b|i'm sorry sorry to trouble you|expressRegret|le713620
+b|i've been trying to get hold of a number all day|inform|le713620
+b|and every time i ring it's engaged|inform|le713620
+b|can you tell me if it's just engaged or there's a problem with it|reqInfo|le713620
+a|certainly|answ|le713620
+a|if i can take the code and number please|reqInfo|le713620
+b|yep|ackn|le713620
+b|it's ok thanks yep ok that's great thanks bye|answ|le713620
+a|thank you right unfortunately i'm getting an engaged also if you bear with me i will make enquiries for you good afternoon this is here with a customer on line can you check for engaged please it's on double thank you hello it is thank you very much byebye hello that line is engaged in speech at the moment ok bye|thank|le713620
+a|right|init|le713620
+a|unfortunately i'm getting an engaged also|inform|le713620
+a|if you bear with me|hold|le713620
+a|i will make enquiries for you|informIntent|le713620
+b|ok|ackn|le713620
+b|thanks yep ok that's great thanks bye|thank|le713620
+a|good afternoon|greet|le713620
+a|this is here with a customer on line|identifySelf|le713620
+a|can you check for engaged please|direct|le713620
+a|it's on double thank you hello it is thank you very much byebye hello that line is engaged in speech at the moment ok bye|inform|le713620
+a|thank you hello it is thank you very much byebye hello that line is engaged in speech at the moment ok bye|thank|le713620
+a|hello|greet|le713620
+a|it is|confirm|le713620
+a|thank you very much|thank|le713620
+a|byebye hello that line is engaged in speech at the moment ok bye|bye|le713620
+a|hello|greet|le713620
+b|yep|ackn|le713620
+a|that line is engaged in speech at the moment|inform|le713620
+b|ok|ackn|le713620
+b|that's great|appreciate|le713620
+b|thanks|thank|le713620
+b|bye|bye|le713620
+a|ok|backch|le713620
+a|bye|bye|le713620
+b|oh hello|greet|le750660
+b|i'm trying to ring a number|informIntent|le750660
+b|and it comes up saying that erm that the number won't except calls unless i put an identification number in so what do i do i don't know well the number i'm trying is but it won't allow me to dial it without putting an identification number in|inform|le750660
+b|so|init|le750660
+b|what do i do|reqInfo|le750660
+b|i don't know|inform|le750660
+a|what code and number were you dialling please|reqInfo|le750660
+b|well|init|le750660
+b|the number i'm trying is but it won't allow me to dial it without putting an identification number in|answ|le750660
+b|but it won't allow me to dial it without putting an identification number in|inform|le750660
+a|i'll just have a look for you|informIntent|le750660
+b|oh no what i'm doing is dialling quick dial and it keeps coming back to the operator be yes yes yes well it's never happened before and i've had it for months and months and months no okay|exclaim|le750990
+b|what i'm doing is dialling quick dial and it keeps coming back to the operator be yes yes yes well it's never happened before and i've had it for months and months and months no okay|inform|le750990
+a|right|ackn|le750990
+a|and it keeps coming back to the operator|inform|le750990
+a|right|ackn|le750990
+a|that must be your memory thing no you say you're doing quick dial which means that you're just pressing for a quick dial and that's you've got a telephone that you can enter numbers in corresponding to numbers on your keypad and therefore you can go through to your numbers quicker than dialling the number in full well it must mean that the number that you're pressing as a quick dial is has actually been programmed in on your telephone for which is why you keep coming through to us when you keep doing quick dial right and has it been unplugged recently it hasn't right well i can only say that you'd need to reset it then and it's a problem with the equipment you have and you'll need to reprogramme it okay hmm thanks thank you bye bye|inform|le750990
+b|and it keeps coming back to the operator|backch|le750990
+b|be yes yes yes well it's never happened before and i've had it for months and months and months no okay|confirm|le750990
+a|no|negate|le750990
+a|you say you're doing quick dial|confirm|le750990
+a|which means that you're just pressing for a quick dial and that's you've got a telephone that you can enter numbers in corresponding to numbers on your keypad|inform|le750990
+a|and therefore you can go through to your numbers quicker than dialling the number in full|inform|le750990
+a|well|init|le750990
+a|it must mean that the number that you're pressing as a quick dial is has actually been programmed in on your telephone for which is why you keep coming through to us when you keep doing quick dial right and has it been unplugged recently it hasn't right well i can only say that you'd need to reset it then and it's a problem with the equipment you have and you'll need to reprogramme it okay hmm thanks thank you bye bye|inform|le750990
+b|yes|backch|le750990
+b|yes|backch|le750990
+b|yes|backch|le750990
+b|well|init|le750990
+b|it's never happened before and i've had it for months and months and months|inform|le750990
+a|right|ackn|le750990
+a|and has it been unplugged recently|reqInfo|le750990
+b|no|answ|le750990
+a|it hasn't|confirm|le750990
+a|right|ackn|le750990
+a|well|init|le750990
+a|i can only say that you'd need to reset it then and it's a problem with the equipment you have|suggest|le750990
+a|and you'll need to reprogramme it|suggest|le750990
+b|okay|ackn|le750990
+a|okay|init|le750990
+a|hmm thanks|thank|le750990
+a|thank you|thank|le750990
+a|bye bye|bye|le750990
+b|huh could you give me the phone number of the oh what's the name of that place yes thank you|reqInfo|le751290
+b|oh what's the name of that place|selfTalk|le751290
+a|ok erm|ackn|le751290
+a|the service you actually require is would you like me to connect you thank you|inform|le751290
+a|would you like me to connect you|offer|le751290
+b|yes|accept|le751290
+b|thank you|thank|le751290
+a|thank you|thank|le751290
+b|yes|ackn|le752340
+b|hello|greet|le752340
+b|i wonder if you can help me i'm trying to get in touch with my mother in thing is er she's i think she's changed her number and it's ex directory is there any way at all that i can get in touch with her it's just that i'm in and my mother lives in and i've had a phone call you know that she's quite seriously ill no i haven't no so you wouldn't be able to do it at all right i mean i i mean i know her address and everything it's just about all yeah they said it's ex directory she's i think she's had to get he number changed because of hassle she's getting in and i'm really quite concerned about her and the whole thing is i mean i've got her address and everything even if you could phone the number and put me through you wouldn't no is there any way i can get her number at all or the police could the police apart from that no alright then thanks for your help then okay bye|direct|le752340
+b|i'm trying to get in touch with my mother in thing is er she's i think she's changed her number and it's ex directory is there any way at all that i can get in touch with her it's just that i'm in and my mother lives in and i've had a phone call you know that she's quite seriously ill no i haven't no so you wouldn't be able to do it at all right i mean i i mean i know her address and everything it's just about all yeah they said it's ex directory she's i think she's had to get he number changed because of hassle she's getting in and i'm really quite concerned about her and the whole thing is i mean i've got her address and everything even if you could phone the number and put me through you wouldn't no is there any way i can get her number at all or the police could the police apart from that no alright then thanks for your help then okay bye|informIntent|le752340
+b|thing is er she's i think she's changed her number and it's ex directory|inform|le752340
+b|is there any way at all that i can get in touch with her|reqInfo|le752340
+a|no|answ|le752340
+a|if it's ex directory|answElab|le752340
+a|it you know we can't actually provide you with the number|answElab|le752340
+b|it's just that i'm in and my mother lives in and i've had a phone call you know that she's quite seriously ill no i haven't no so you wouldn't be able to do it at all right i mean i i mean i know her address and everything it's just about all yeah they said it's ex directory she's i think she's had to get he number changed because of hassle she's getting in and i'm really quite concerned about her and the whole thing is i mean i've got her address and everything even if you could phone the number and put me through you wouldn't no is there any way i can get her number at all or the police could the police apart from that no alright then thanks for your help then okay bye|inform|le752340
+b|and i've had a phone call you know that she's quite seriously ill|inform|le752340
+a|right|ackn|le752340
+a|have you got no friends or relatives who might give you the number|reqInfo|le752340
+b|no|answ|le752340
+b|i haven't|answElab|le752340
+b|no|answElab|le752340
+a|no|confirm|le752340
+a|we've got no way of being able to find the number if it's ex directory|inform|le752340
+b|so|init|le752340
+b|you wouldn't be able to do it at all right|reqInfo|le752340
+a|no|backch|le752340
+a|i mean are you positive it's ex directory|reqInfo|le752340
+b|i mean i i mean i know her address and everything|inform|le752340
+b|it's just about all|inform|le752340
+a|i mean have you tried ringing though|reqInfo|le752340
+b|yeah|answ|le752340
+b|they said it's ex directory|answElab|le752340
+b|she's i think she's had to get he number changed because of hassle she's getting in and i'm really quite concerned about her and the whole thing is i mean i've got her address and everything even if you could phone the number and put me through you wouldn't no is there any way i can get her number at all or the police could the police apart from that no alright then thanks for your help then okay bye|expressOpinion|le752340
+b|and i'm really quite concerned about her|inform|le752340
+b|and the whole thing is i mean i've got her address and everything|inform|le752340
+a|no|refuse|le752340
+a|i mean the only way we'd find the number is we'd go through to directories|inform|le752340
+a|but if it's ex directory|inform|le752340
+a|there's no way we could get the number at all|inform|le752340
+b|you wouldn't|confirm|le752340
+b|no|answ|le752340
+b|is there any way i can get her number at all|reqInfo|le752340
+a|apart from phoning a friend or relative or something|answ|le752340
+b|or the police|complete|le752340
+b|could the police|reqInfo|le752340
+a|um well|init|le752340
+a|the police wouldn't be able to find the number for you|inform|le752340
+a|i mean if they thought her health was at risk or her safety was at risk|inform|le752340
+a|they might go round and knock on the door to see if she was alright|expressPossibility|le752340
+a|but apart from that|refer|le752340
+b|apart from that|echo|le752340
+b|no|confirm|le752340
+b|alright then|ackn|le752340
+b|thanks for your help then|thank|le752340
+b|okay|init|le752340
+a|okay|init|le752340
+a|you're welcome|ackn|le752340
+a|bye|bye|le752340
+b|bye|bye|le752340

@@ -1,0 +1,882 @@
+USR|Hello, I am looking to book a vacation from Gotham City to Mos Eisley for $2100.|greeting|test_1
+SYS|Hi.|no_result|test_1
+SYS|Sorry, I can't find any trips from Gotham City to Mos Eisley for you.|no_result|test_1
+USR|What about a trip from Gotham City to Neverland for the same budget?|inform|test_1
+SYS|Sorry, I cannot find any trips leaving from Gotham City.|suggest|test_1
+SYS|Could you suggest another nearby departure city?|suggest|test_1
+USR|Would any packages to Mos Eisley be available if I increase my budget to $2500?|inform|test_1
+SYS|There are no trips available to Mos Eisley.|no_result|test_1
+USR|You know what, I'd like to try and visit Neverland|inform|test_1
+SYS|I cannot find any trips available to Neverland.|no_result|test_1
+USR|Do you have any trips from Gotham City to Kobe for my original budget of $2100?|inform|test_1
+SYS|I can book you a 3 day trip to Kobe leaving from Sapporo, Japan.|suggest|test_1
+SYS|Is this ok?|suggest|test_1
+USR|No, that's too far for me.|inform|test_1
+USR|I need a flight that leaves from Birmingham.|inform|test_1
+SYS|I can book you a trip from Birmingham to Kobe for 2747.8 USD.|suggest|test_1
+USR|How many days would I be in Kobe?|request|test_1
+SYS|You would arrive in Kobe August 17th and return to Birmingham on August 22nd.|inform|test_1
+USR|What would the price be if I shortened my trip by one day?|inform|test_1
+SYS|I can not find any trips from Birmingham to Kobe for 4 days.|no_result|test_1
+USR|Ok, then I would like to purchase this package.|request|test_1
+USR|What activities are included in this package?|request|test_1
+SYS|There are no activities listed for this package.|suggest|test_1
+SYS|You will be staying at the Ivory Legacy Hotel for 7 days.|suggest|test_1
+SYS|This hotel has a 4.5 star rating and free wifi.|suggest|test_1
+SYS|Will I go ahead and book this package?|suggest|test_1
+USR|Yes, I would like to book this package.|affirm|test_1
+SYS|Great.|inform|test_1
+SYS|Your flight departs from Birmingham at 9:00 am - Wednesday, August 17th 2016.|inform|test_1
+SYS|Enjoy your trip, I have booked this package for you.|inform|test_1
+USR|Hello, I am looking to book a trip for 2 adults and 6 children for $21,300 or less.|greeting|test_2
+USR|We are departing from Kochi for Denver.|greeting|test_2
+SYS|I have several options available within your budget.|inform|test_2
+SYS|How long would you like to travel for?|inform|test_2
+SYS|And do you have dates in mind?|inform|test_2
+USR|I do not have any dates in mind.|inform|test_2
+USR|I would like to spend as much time in Denver as my budget will allow.|inform|test_2
+SYS|I can book 7 days at a 4.0 star hotel for 19028.93USD.|offer|test_2
+SYS|I can also book 7 days at a 3.0 star hotel for 12824.84USD.|offer|test_2
+USR|Do these packages have different departure dates?|request_compare|test_2
+USR|When would I be leaving for each of them?|request_compare|test_2
+SYS|The 3.0 star trip leaves Kochi August 26 and returns August 31.|inform|test_2
+SYS|The 4.0 star leaves August 27 from Kochi and returns September 1.|inform|test_2
+USR|Ok, I would like to purchase the trip with the 4-star hotel.|inform|test_2
+SYS|Perfect, I will book that trip for you now.|inform|test_2
+SYS|You will depart Kochi at 9:00 am August 27.|inform|test_2
+SYS|Have a nice day.|inform|test_2
+USR|Thank you|thankyou|test_2
+USR|Hello, I would like to book a 2-week trip leaving from Melbourne on August 27.|inform|test_3
+USR|I would like to go to Mannheim.|inform|test_3
+SYS|Have you got a budget for this vacation?|request|test_3
+USR|I do not have a budget, however I would like to pick whichever package is cheapest.|inform|test_3
+USR|Could you offer me the cheapest package for each destination?|inform|test_3
+SYS|I can book you 9 days in Mannheim for 3258.15USD at a 5 star hotel,|offer|test_3
+USR|Is there a package to Mannheim which offers a cheaper hotel?|inform|test_3
+USR|I am flexible with my dates of arrival and departure.|inform|test_3
+SYS|I am unable to find any cheaper packages for Mannheim|no_result|test_3
+USR|What would the cost be if I stayed for 10 days in Mexico City?|inform|test_3
+SYS|You can stay in Mexico City for 8 days for 426.16USD leaving from Melbourne, USA.|offer|test_3
+USR|Actually I am leaving from Melbourne, Australia.|request|test_3
+USR|How does this affect the price of the trip?|request|test_3
+SYS|I cannot find any trips available from Melbourne, Australia to Mexico City.|no_result|test_3
+USR|Could I purchase a package  to Vancouver similar to the one I was offered?|inform|test_3
+SYS|I cannot find any trips available from Melbourne, Australia to any destinations.|no_result|test_3
+SYS|This point of departure is not in my database.|no_result|test_3
+USR|Ok, thank you for your time anyways|thankyou|test_3
+USR|Good day, please book me a trip from Vancouver, Jamaica to Recife.|inform|test_4
+USR|I would like to leave for 17 days on August 24.|inform|test_4
+SYS|Would you like to travel to Vancouver, Canada from Dublin, USA?|suggest|test_4
+USR|No, I would like to depart from Vancouver, Jamaica for the aforementioned destination.|inform|test_4
+SYS|I can book you an 8 day trip from Calgary to Vancouver, Canada for 810.50USD.|suggest|test_4
+USR|I would not like to travel to Vancouver, Canada.|inform|test_4
+USR|Do you have any trips to Recife, Brazil?|inform|test_4
+SYS|I can book you a trip from Porto Alegre to Recife for 682.19USD.|suggest|test_4
+USR|I will take any package you give me to any destination as long as it leaves from Vancouver, Jamaica.|inform|test_4
+SYS|I can book you a trip from Vancouver, Canada to Toronto, Canada for 837.99USD.|suggest|test_4
+USR|If you cannot book me a flight that leaves from Vancouver, Jamaica then I cannot book a trip.|inform|test_4
+SYS|I cannot book you a trip leaving from Vancouver, Jamaica.|no_result|test_4
+USR|Actually I will be departing from Vancouver, British Columbia, do you have packages to Recife?|inform|test_4
+SYS|I can book 11 days in Recife leaving from Vancouver for 2171.6USD.|offer|test_4
+USR|Do you have any similar packages to Goiania?|inform|test_4
+SYS|I can book 5 days in Goiania for 2190.68USD.|suggest|test_4
+USR|What kind of hotel would I be staying at in Recife?|moreinfo|test_4
+SYS|3.5 star hotel for free wi-fi, free parking, and free breakfast.|inform|test_4
+USR|Would my room have a view of the city?|null|test_4
+USR|How much would it cost to upgrade to a room with a view?|null|test_4
+SYS|I cannot provide this information|canthelp|test_4
+USR|Ok, I'm ready to buy this package|inform|test_4
+SYS|Ok.|inform|test_4
+SYS|I will book this package for you.|inform|test_4
+SYS|You will be leaving Vancouver, Canada at 1:00 pm - Monday, August 15th 2016 and arriving in Recife, Brazil at 10:16 pm - Monday, August 15th 2016.|inform|test_4
+SYS|You will be staying at La Casa Del Amor.|inform|test_4
+SYS|Enjoy your trip.|inform|test_4
+USR|I was supposed to leave on August 24th.|inform|test_4
+USR|Do you have any packages that leave on that date?|inform|test_4
+SYS|I can book you 11 days in Recife leaving Vancouver on August 27th for 3119.42USD.|suggest|test_4
+USR|Actually I would like to purchase the first package to Recife.|inform|test_4
+SYS|Ok, I will book you the package to Recife that leaves Vancouver, Canada on August 15.|inform|test_4
+USR|Thanks|thankyou|test_4
+USR|Hi, me and my family want to take a trip to Kakariko Village.|inform|test_5
+SYS|How many adults and how many children will you be bringing with you?|request|test_5
+SYS|Do you have a preferred departure location?|request|test_5
+SYS|What would be your maximum budget?|request|test_5
+USR|We are four adults and 11 children departing from Godric's Hollow.|inform|test_5
+USR|$3500 is the most we are willing to spend.|inform|test_5
+SYS|I do not have any packages available from that departure location for that budget.|suggest|test_5
+SYS|Would you like to adjust the budget?|suggest|test_5
+USR|I would not be able to spend more than $4500|inform|test_5
+SYS|Would you like to suggest another departure location?|request|test_5
+SYS|And what travel destination would you like to travel to?|request|test_5
+USR|We'll catch a flight from Toronto then.|inform|test_5
+USR|We're headed for Kakariko Village.|inform|test_5
+SYS|There are no travel packages available to Kakariko Village.|no_result|test_5
+USR|Ok, do you have any travel packages to Kingston, Canada for 11 kids and 4 adults, $3500 or less, departing from Toronto?|inform|test_5
+SYS|Yes, I have a package available leaving Toronto at 10:00 a.m. on August 24th and returning to Toronto at 4:00 a.m on August 30th.|suggest|test_5
+SYS|This package offers free breakfast, free wifi, and free parking.|suggest|test_5
+SYS|The cost of this package is 3465.91 USD.|suggest|test_5
+SYS|Would you like to book this package?|suggest|test_5
+USR|Do you have any information on what activities are included in the package?|switch_frame|test_5
+SYS|I can't help you with that.|canthelp|test_5
+USR|Is this a direct flight to Kingston or do we have to make a transfer?|request|test_5
+USR|Are the tickets business class?|request|test_5
+SYS|The tickets are Economy.|suggest|test_5
+SYS|I'm sorry, we do not have any tickets available to Business Class for this flight.|suggest|test_5
+SYS|Would you like to book this package?|suggest|test_5
+USR|Yes, I'll take it.|thankyou|test_5
+USR|Thank you|thankyou|test_5
+USR|Hello, I want to leave from Seoul on August 27 and return on September 9.|inform|test_6
+USR|You can go to Manaus.|inform|test_6
+SYS|Do you have a maximum budget for this travel package?|request|test_6
+USR|No budget, I show me an array of packages with varying prices|inform|test_6
+SYS|Only one travel package for Mainaus is available for a departure on August 27th at 8:00 a.m.  The hotel is very good, with a 6.77/10 guest rating.|suggest|test_6
+SYS|However, the return date is August 31st at 1:00 a.m. for this travel package.|suggest|test_6
+SYS|I have no other locations available for these departure and arrival dates.|suggest|test_6
+SYS|Would you like to book this travel package?|suggest|test_6
+USR|Would I be staying in a room with an ocean front view?|switch_frame|test_6
+USR|How much would it cost to upgrade to such a room?|switch_frame|test_6
+SYS|I'm sorry, I do not have that information|canthelp|test_6
+USR|Does the hotel have a gym which guests can access?|request|test_6
+SYS|Yes there is a gym.|suggest|test_6
+SYS|Would you like to book this travel package?|suggest|test_6
+USR|Please.|thankyou|test_6
+USR|Thanks|thankyou|test_6
+USR|Hi, send me on a 10 day-trip away from Cairo.|inform|test_7
+USR|I'd like to leave August 15.|inform|test_7
+USR|Send me to Sendai.|inform|test_7
+USR|Money is not object|inform|test_7
+SYS|How many adults and how many children will be travelling?|request|test_7
+USR|Just me, one adult|inform|test_7
+SYS|I have a trip to Sendai from August 15th at 11:00 a.m. to August 22nd at 7:00 a.m.  The guest rating is 8.49/10.|offer|test_7
+SYS|You'll be flying economy|offer|test_7
+USR|Would you be able to tell me which airline I would be flying with?|null|test_7
+SYS|No, but I can confirm that you will be flying Economy.|inform|test_7
+USR|Would it be possible to upgrade to first class?|inform|test_7
+SYS|I can offer you another package.|suggest|test_7
+SYS|If you leave on August 17th, I can offer you a hotel with a guest rating of 8.8/10 and you could fly Business Class.|suggest|test_7
+SYS|The flight would leave from Cairo on Wednesday August 17th at 11:00 a.m. and return Wednesday, August 24th at 7:00 a.m.  In addition, the hotel has free wifi.|suggest|test_7
+SYS|Would you like to book this travel package?|suggest|test_7
+USR|Could you tell me if either of these hotels allows pets?|null|test_7
+SYS|No, I do not have access to this information.|suggest|test_7
+SYS|Would you like to book this travel package anyway?|suggest|test_7
+USR|Yes, I would like to book this package.|switch_frame|test_7
+USR|Hello, I have 15 vacation days available between June 1st and August 31st.|inform|test_8
+USR|I am leaving from Theed.|inform|test_8
+USR|I would like to go somewhere with lots of sunshine.|inform|test_8
+SYS|I have no departures available from Theed.|suggest|test_8
+SYS|Would you like to pick another departure travel location?|suggest|test_8
+USR|Do you have any departures from Kobe, Japan?|inform|test_8
+SYS|No, I don't.|suggest|test_8
+SYS|Would you like to select another location?|suggest|test_8
+USR|How about Birmingham City?|inform|test_8
+SYS|Sure.|offer|test_8
+SYS|Would you like to go to Mexico City?|offer|test_8
+SYS|I have a flight available on Wednesday, August 17th at 10:00 a.m. to Tuesday, August 23rd at 4:00 a.m.|offer|test_8
+USR|What are my options for hotels?|moreinfo|test_8
+SYS|The best hotel I have is a 3.0 star hotel with a 6.91/10 rating.|suggest|test_8
+SYS|The flight for this travel package would be from Monday, August 15th at 10:00 a.m. to Sunday, August 21st at 4:00 a.m.  The hotel has free parking and free wifi.|suggest|test_8
+SYS|Would you like to book this travel package?|suggest|test_8
+USR|How much would this package be?|request|test_8
+USR|Could you offer me a cheaper hotel?|request|test_8
+SYS|The cost of this package is 1644.98 USD.|suggest|test_8
+SYS|Would you like to book this travel package?|suggest|test_8
+USR|Could you show me some hotels with lower guest ratings and lower prices?|inform|test_8
+SYS|Here are a couple of options.|offer|test_8
+SYS|The first option is a 3.0 star hotel (the Tropic), with a guest rating of 6.77/10 and a business class flight.|offer|test_8
+SYS|The cost is 1002.27 USD.|offer|test_8
+SYS|Or, if you prefer, you could choose the same 3.0 star hotel with a guest rating of 6.77/10 (the Tropic) and an economy flight,  for 812.69.|offer|test_8
+USR|What other destinations could you offer me if I'm departing from Birmingham City?|request_alts|test_8
+SYS|I could offer you Vancouver, British Columbia, or Porto Alegre, Brazil.|offer|test_8
+SYS|Which would you prefer?|offer|test_8
+USR|How much are the packages to each city?|request|test_8
+SYS|Would you like a more expensive or a less expensive travel package?|request|test_8
+USR|I would like to see both options, along with the hotels offered|request|test_8
+SYS|I could offer you the package to Porto Alegre, Brazil for 2572.16 USD.|offer|test_8
+SYS|The hotel would be the Deluxe Hotel (which has a guest rating of 8.69/10) or the package to Vancouver, British Columbia for 477.93 USD .|offer|test_8
+SYS|The hotel would be Parallel Carnaval Bed & Breakfast (which has a guest rating of 8.86/10).|offer|test_8
+USR|I can extend my vacation time to the 14th of September, does this open up any new options?|request_alts|test_8
+SYS|I have an even better option available for you.|offer|test_8
+SYS|You could travel to Vancouver, Canada for $511.80 USD.|offer|test_8
+SYS|You would stay at the Western Ridge.|offer|test_8
+SYS|It is a 4.0 star hotel with a 10/10 guest rating.|offer|test_8
+SYS|If, however, you would really like to travel to Mexico City, I have a great package for you at only 1168.35 USD.|offer|test_8
+SYS|You would stay at the Exalted Willow Resort & Suites.|offer|test_8
+SYS|It is a 3.5 star hotel with a 8.37/10 guest rating.|offer|test_8
+SYS|Which would you prefer?|offer|test_8
+USR|Could you tell me which of these resorts offers free wifi?|request_compare|test_8
+SYS|Both have wifi|inform|test_8
+USR|I am also inquiring about the previous offered packages|request_compare|test_8
+SYS|All of them do.|inform|test_8
+USR|Could you let me know which class I would be flying in for each destination?|request_compare|test_8
+SYS|Would you prefer to fly Business Class or Economy?|suggest|test_8
+USR|I would prefer to fly economy|inform|test_8
+SYS|The flight to Vancouver and the flight to Mexico City are Economy flights.|inform|test_8
+USR|Then I would like to travel to Vancouver and stay at the Western Ridge|inform|test_8
+USR|I would like a vacation for one in Mannheim from August 17 to September 7.|inform|test_9
+USR|My city of departure is Porto Alegre.|inform|test_9
+USR|It should cost less than $3000.|inform|test_9
+SYS|I do not have a travel package to Mannheim from Porto Alegre for these travel dates.|offer|test_9
+SYS|I do however, have packages available from August 17th to the 29th.|offer|test_9
+SYS|Would these dates work for you?|offer|test_9
+USR|How much would this package cost?|request|test_9
+SYS|I have two options.|inform|test_9
+SYS|The first option is a travel package which costs 2314.59 USD.|inform|test_9
+SYS|The second package costs 2981.83 USD.|inform|test_9
+SYS|Which one would you prefer?|inform|test_9
+USR|If I increase my budget to $6000, does that open up any options from August 17 to September 7?|inform|test_9
+SYS|I still have only two packages available from August 17th to September 7th.|suggest|test_9
+SYS|Would you like to try a different travel destination?|suggest|test_9
+USR|What other destinations can you offer me with these dates?|inform|test_9
+SYS|I have no other destinations available for these dates.|suggest|test_9
+SYS|Would you like to change the start date or the end date?|suggest|test_9
+USR|Are there packages for two-week trips within these dates?|inform|test_9
+SYS|I have two possible packages for you.|inform|test_9
+SYS|Atlanta, United States, to Indianapolis, United States or Brasilia, Brazil to Vancouver, Canada.|inform|test_9
+SYS|Which would you prefer?|inform|test_9
+USR|Are both of the packages to Porto still available if I bring my wife with me?|inform|test_9
+SYS|The only package which would be available would be Atlanta, United States to Vancouver, Canada.|inform|test_9
+SYS|I have two packages available for you: one for  $2182.70, and another for $2326.54.|inform|test_9
+SYS|Would you like me to describe these two packages for you?|inform|test_9
+USR|Yes, please.|affirm|test_9
+SYS|The first travel package is an Economy flight from Atlanta, United States to Vancouver, Canada at 6:00 p.m. on August 11th,  and an Economy flight from Vancouver, Canada to Atlanta, United States at 10:00 a.m on August 14th.|inform|test_9
+SYS|The cost of $2182.70 includes a 4 star hotel with a 8.8/10 rating.|inform|test_9
+USR|What is the second package|switch_frame|test_9
+SYS|The second travel package is an Economy flight from Atlanta, United States to Vancouver, Canada at 6:00 p.m. on Friday, August 19th, and an Economy flight from Vancouver, Canada to Atlanta, United States at 10:00 a.m. on Monday, August 22nd.|suggest|test_9
+SYS|The cost of $2326.54 includes a 4 star hotel with guest rating of 8.8/10.|suggest|test_9
+SYS|Would you like to book this travel package?|suggest|test_9
+USR|I would like to book the first package to Vancouver|inform|test_9
+USR|We are 3 adults and three kids looking for a vacation between August 18 and September 4|inform|test_10
+SYS|I have several different flights to Vancouver, Canada during this travel period.|offer|test_10
+SYS|Would you like to leave on the 19th or the 27th?|offer|test_10
+USR|How much does each option cost?|request_compare|test_10
+SYS|I have two options available for you: one costs $4253.69 and the other costs $5295.89.|inform|test_10
+SYS|Which one would you prefer?|inform|test_10
+USR|What kind of hotel is offered for each?|request_compare|test_10
+SYS|Both hotels are 4.0 star hotels with 8.8/10 ratings.|inform|test_10
+USR|What kind of flight is offered for each?|request_compare|test_10
+SYS|These are both Economy flights.|inform|test_10
+USR|I can increase my budget by $200, does that open up any new options?|inform|test_10
+SYS|No.|null|test_10
+SYS||null|test_10
+USR|Are there any other flights to Vancouver leaving  around the same time from another departure city?|inform|test_10
+SYS|How do you feel about Dallas?|suggest|test_10
+USR|I would like to depart from Baltimore|inform|test_10
+SYS|You can only go to Toronto, Calgary, or Kingston Canada from Baltimore.|request|test_10
+SYS|Which would you prefer?|request|test_10
+SYS|Do you have preferred travel dates?|request|test_10
+USR|Any time between August 18 and September 4.|inform|test_10
+SYS|I can offer you a 2.5 star hotel with a guest rating of 6.37/10 or a 3.0 star hotel with a guest rating of 8.86/10.|offer|test_10
+SYS|Which would you prefer?|offer|test_10
+USR|For which destination?|request_compare|test_10
+SYS|Kingston has the 2.5 star hotel and Toronto has the 3.0 star hotel.|offer|test_10
+SYS|Or I can offer you a 4.0 star hotel with a 0/10 rating if you would like to travel to Calgary.|offer|test_10
+USR|How much does each of these packages cost?|request_compare|test_10
+SYS|Package number #1 to Kingston costs $6251.33 USD, Package number #2 to Toronto costs $5695.54, and Package number #3 to Calgary costs $6494.94 USD.|inform|test_10
+USR|What class would I be flying in for each of these destinations?|request_compare|test_10
+SYS|All three flights are Economy flights.|hearmore|test_10
+SYS|If you would like a Business Class flight, I can offer you one to Calgary.|hearmore|test_10
+SYS|The cost of this travel package would be $8666.20 USD.|hearmore|test_10
+SYS|Would you like more information on this option?|hearmore|test_10
+USR|I would like to buy the Toronto package|inform|test_10
+USR|I am one person voyaging to Tampa.|inform|test_11
+USR|I can depart from Indianapolis.|inform|test_11
+USR|Must be between 20th and 31 August.|inform|test_11
+SYS|Do you have a budget for this travel package?|request|test_11
+USR|No, and I have expensive taste|inform|test_11
+SYS|Between the 20th and 31st of August, I have only travel packages to Vancouver, Canada.|suggest|test_11
+SYS|You would leave on August 27th and return on August 30th.|suggest|test_11
+SYS|I have one travel package at $3515.84, which would be five days at the Obsidian Gem Inn.|suggest|test_11
+USR|On second thought, I would like to go to Busan.|inform|test_11
+SYS|I just checked and it is not possible to travel to Busan from Indianapolis.|suggest|test_11
+SYS|Would you like to depart from Calgary, Canada or Queenstown, New Zealand?|suggest|test_11
+USR|Would I be allowed to got with me and four colleagues?|inform|test_11
+SYS|Are they all adults?|confirm|test_11
+USR|Nevermind, I would like to depart from Queenstown|switch_frame|test_11
+USR|Hey, what deals can you offer me on trips to curitiba?|inform|test_12
+SYS|Where will you be leaving from?|request|test_12
+USR|I will be leaving from columbus|inform|test_12
+SYS|Are you the only member?|suggest|test_12
+USR|Yup, just me this time|affirm|test_12
+SYS|Do you have a budget?|request|test_12
+USR|Nope, just get me outta here|inform|test_12
+SYS|Do have any specific dates for your trip?|request|test_12
+USR|It has to be between August 18 and September 8|inform|test_12
+SYS|So you want Curitiba, yes?|confirm|test_12
+USR|If that doesn't work I guess I could go to Las Vegas|inform|test_12
+SYS|Unfortunately, there are no results for any flights from Columbus to any of your preferred destinations.|sorry|test_12
+SYS|Is there anywhere else you might be willing to go?|sorry|test_12
+USR|Hmmm, those are the only days I can get off work.|inform|test_12
+USR|See where else you can send me in that time frame|inform|test_12
+SYS|There are no flights out of Columbus.|suggest|test_12
+SYS|Is there another place you could leave from?|suggest|test_12
+USR|No, unfortunately I can't.|thankyou|test_12
+USR|Guess I'll just take a staycation this time :disappointed: Thanks anyway|thankyou|test_12
+SYS|Sorry for the inconvenience.|goodbye|test_12
+SYS|good bye|goodbye|test_12
+USR|I need to get away from work, how about Paris?|inform|test_13
+SYS|Where is it that you will be leaving from?|request|test_13
+USR|I'm in naples|inform|test_13
+SYS|Great!|request|test_13
+SYS|Will you be travelling alone?|request|test_13
+USR|Just me this time|inform|test_13
+SYS|Do you have a budget?|request|test_13
+USR|I'll spend whatever I need to|inform|test_13
+SYS|Are there specific dates you have in mind?|request|test_13
+USR|It's gotta be between August 27 and September 9|inform|test_13
+SYS|Are your dates flexible?|request|test_13
+USR|No, my boss wouldn't have it|inform|test_13
+SYS|We have a 6 day stay at the Autumn Treasure Hotel starting on August 27th.|offer|test_13
+SYS|This is a 4 star hotel and offers free breakfast and wifi.|offer|test_13
+SYS|The cost is 1071.36.|offer|test_13
+SYS|Does this interest you?|offer|test_13
+USR|Hmm, what can you offer me in Cleveland?|inform|test_13
+SYS|We have a 6 day stay at a 3 star hotel.|offer|test_13
+SYS|They offer free breakfast, wifi and parking.|offer|test_13
+SYS|This flight leaves at 8:00 am, August 30th.|offer|test_13
+USR|How much would this cost me?|request|test_13
+SYS|This would cost 3174.47.|inform|test_13
+USR|Guess I'll take the Autumn Treasure Hotel stay then.|request|test_13
+USR|Could you upgrade my flight to business class?|request|test_13
+USR|How much would that cost?|request|test_13
+SYS|This cost is 1291.31 and the flight leaves at 9:00 am.|suggest|test_13
+SYS|Would you like me to book this for you?|suggest|test_13
+USR|Sounds good|affirm|test_13
+SYS|Great!|inform|test_13
+SYS|You're flight is booked!|inform|test_13
+SYS|Have a great day and enjoy your vacation!|inform|test_13
+USR|Thanks!|thankyou|test_13
+USR|I want to book a travel package to melbourne from puebla|inform|test_14
+SYS|Okay.|request|test_14
+SYS|Do you have a budget for your trip?|request|test_14
+USR|yes 3400.|inform|test_14
+USR|leaving on sunday august 21|inform|test_14
+SYS|Will you be travelling alone?|suggest|test_14
+USR|yes.|inform|test_14
+USR|can you tell me the prices of all the hotels available in melbourne|inform|test_14
+SYS|The prices for each hotel are 868.86, 953.63, 1052.51,  1144.95, 1155.19, 1382.78.|offer|test_14
+USR|868.86 sounds like a nice price, I'll go with that|switch_frame|test_14
+SYS|No, but there is a great package at a 4 star hotel, with a park, free wifi, breakfast and parking.|inform|test_14
+SYS|The cost is 868.86 and leaves August 24th.|inform|test_14
+SYS|Does this interest you?|inform|test_14
+USR|i would like to leave on august 21 though...|inform|test_14
+SYS|None of the packages in my database leave on August 21st.|inform|test_14
+SYS|The earliest flight leaves on the 24th.|inform|test_14
+USR|can i get the price for one night at each hotel in melbourne|request_compare|test_14
+SYS|We have two 4 star hotels near a park that include free breakfast, free wifi, and free parking.|inform|test_14
+SYS|Both packages are from August 24th to September 5th.|inform|test_14
+SYS|One package costs 868.86 and 1052.51.|inform|test_14
+SYS|The cheaper package is for economy class flight and the expensive package is for the business class flight.|inform|test_14
+USR|ok.|inform|test_14
+USR|i will stay there for as long as 3500 will get me.|inform|test_14
+USR|the best hotel in town.|inform|test_14
+USR|5 stars|inform|test_14
+SYS|The highest rated hotel in my database for your request is 4 stars.|inform|test_14
+USR|ok.|inform|test_14
+USR|fine.|inform|test_14
+USR|I have a 4500 $ budjet and I will star as long as that money lasts.|inform|test_14
+USR|thx|inform|test_14
+SYS|The packages are at the same 4 star hotel.|inform|test_14
+SYS|One package is for economy seats and the other package is for business class.|inform|test_14
+USR|hey.|inform|test_15
+USR|id like to book a trip to philadelphia from vancouver.|inform|test_15
+USR|for 8|inform|test_15
+SYS|Will this be 8 adults, 8 kids, or both adults and children?|suggest|test_15
+USR|3 adults and 5 children|inform|test_15
+SYS|Do you have a budget in mind?|request|test_15
+USR|6500|inform|test_15
+SYS|When would you like to travel?|request|test_15
+USR|what are some packages available|inform|test_15
+SYS|We have 3 different packages at the same hotel.|offer|test_15
+SYS|Two are the same package except one is the economy flight and one is the business flight and these are from August 31st to September 10th.|offer|test_15
+SYS|The 3rd option is an economy flight from August 30th to September 4th.|offer|test_15
+USR|business flight.|switch_frame|test_15
+USR|august 31 - sept 10|switch_frame|test_15
+SYS|This package includes free wifi, parking, and breakfast at a 2 star hotel near a museum and park.|suggest|test_15
+SYS|This costs 5529.83.|suggest|test_15
+SYS|Would you like me to book this for you?|suggest|test_15
+USR|can i have a better rated hotel|inform|test_15
+SYS|This is the only hotel available for your request.|null|test_15
+USR|ok.|inform|test_15
+USR|then economy class.|inform|test_15
+USR|but higher rated hotel|inform|test_15
+SYS|All packages for your request are at the same hotel.|inform|test_15
+USR|what about at a later or earlier date|inform|test_15
+SYS|Unfortunately, the results I have given are the only options for a trip to Philadelphia from Vancouver.|sorry|test_15
+USR|ok.|inform|test_15
+USR|what if i increase my budget|inform|test_15
+SYS|I can check.|request|test_15
+SYS|How much would you like to increase your budget?|request|test_15
+USR|can increase by 1500|inform|test_15
+SYS|This gives you one more option for a business class flight to the same hotel for the August 30th to September 4th package.|offer|test_15
+USR|i really need better rated hotel.|inform|test_15
+USR|im travelling with 2 lawyers and 5 children|inform|test_15
+SYS|I'm very sorry but there are no other options aside from the ones I gave you.|sorry|test_15
+USR|ok.|thankyou|test_15
+USR|thenlet me ask my associates and come back to you.. thanks|thankyou|test_15
+USR|hello|greeting|test_16
+SYS|Hi!|greeting|test_16
+SYS|How can I help you?|greeting|test_16
+USR|i would like tto go from beijing to san juan.|inform|test_16
+USR|on friday september 2for at most 2100$ with 1 adult|inform|test_16
+SYS|Unfortunately we only have flights from North Vancouver, Montreal, and Cleveland.|sorry|test_16
+USR|ok.|inform|test_16
+USR|leaving from campinas and arriving at Baltimore|inform|test_16
+SYS|I have 3 packages from Campinas to Baltimore but they are not within your budget.|offer|test_16
+USR|oh ok, that's fine.|request|test_16
+USR|How much is it?|request|test_16
+SYS|The cheapest option is 3048.00.|offer|test_16
+USR|ok.|inform|test_16
+USR|what about from campinas to san juan|inform|test_16
+SYS|Campinas to San Juan has no results within your budget,|no_result|test_16
+USR|ok.|switch_frame|test_16
+USR|im ok with 3048.|switch_frame|test_16
+USR|ill book the one from campinas to beltimore|switch_frame|test_16
+SYS|Okay.|hearmore|test_16
+SYS|Would you like information on this package before you book it?|hearmore|test_16
+USR|yes|affirm|test_16
+SYS|It is a 3 star hotel stay from September 12th to September 20th.|suggest|test_16
+SYS|Amenities include free breakfast, wifi, and parking.|suggest|test_16
+SYS|This package is 3048.00, would you like to book this package now?|suggest|test_16
+USR|ok|affirm|test_16
+SYS|Great!|thankyou|test_16
+SYS|Your trip has been booked!|thankyou|test_16
+SYS|Thank you and have a great day!|thankyou|test_16
+USR|thank you|thankyou|test_16
+USR|hi id like to go to baltimore from brasilia.|inform|test_17
+USR|i would like to get 1 children ticket and 1 adult ticket|inform|test_17
+SYS|Hello!|request|test_17
+SYS|Do you have a budget?|request|test_17
+USR|7500.|thankyou|test_17
+USR|thanks|thankyou|test_17
+SYS|When would you like to leave?|request|test_17
+USR|i dont mind|inform|test_17
+SYS|We have two hotels available.|offer|test_17
+SYS|Both hotels have a 3 star rating.|offer|test_17
+USR|ok.|request|test_17
+USR|what is the price|request|test_17
+SYS|The first option is from September 2nd to 7th, free breakfast, wifi, and parking at a price of 4265.98 for economy seats.|suggest|test_17
+SYS|The second option is from August 30th to September 5th, free breakfast, wifi, and parking at a price of 5173.70 for economy seats.|suggest|test_17
+SYS|Would you like more options?|suggest|test_17
+USR|ill get the cheapest optionthanks|switch_frame|test_17
+SYS|There is a third option from September 2nd to 7th, free breakfast, wifi and parking at a price of 5512.62 for business class seats.|offer|test_17
+SYS|Do any of these options interest you?|offer|test_17
+USR|the one at 4268 looks good|inform|test_17
+SYS|Would you like me to book it for you?|suggest|test_17
+USR|ya|affirm|test_17
+SYS|Your trip has been booked!|inform|test_17
+SYS|Have fun and thank you for using our services!|inform|test_17
+USR|thanks|thankyou|test_17
+USR|hi.|inform|test_18
+USR|i have a 6 days vacation.|inform|test_18
+USR|starting friday sept 2 2016.|inform|test_18
+USR|and id like to go to paris|inform|test_18
+SYS|Where are you leaving from?|request|test_18
+USR|from toronto|inform|test_18
+SYS|Do you have a budget?|request|test_18
+USR|no|inform|test_18
+SYS|There are only packages from Toronto to Denver and one to Atlanta|suggest|test_18
+USR|what not to parises?|inform|test_18
+USR|or Marseille|inform|test_18
+SYS|There are two options for trips from Toronto to Marseille.|hearmore|test_18
+SYS|Would you like more information?|hearmore|test_18
+USR|yes|affirm|test_18
+SYS|Both hotels are 4 stars.|offer|test_18
+SYS|The first option is from September 16th to 18th.|offer|test_18
+SYS|The hotel offers free wifi and there is also a museum nearby.|offer|test_18
+SYS|The economy seats cost 2365.33 and business seats cost 2985.90.|offer|test_18
+SYS|The second option is from September 17th to 18th, the hotel is near a cathedral and offers free wifi and spa.|offer|test_18
+SYS|Economy seats for this package costs 2454.40 and business seats cost 3106.38.|offer|test_18
+USR|ok economy please, cathedral and spa option|switch_frame|test_18
+SYS|Great!|suggest|test_18
+SYS|Do you want to book this trip?|suggest|test_18
+USR|yes|affirm|test_18
+SYS|Lovely!|inform|test_18
+SYS|Your trip has now been booked!|inform|test_18
+SYS|Thank you and have a nice day!|inform|test_18
+USR|thx.|thankyou|test_18
+USR|bye.|thankyou|test_18
+USR|please find me a vacation between wed aug 31 and wed sept 21 for 2 adult and 2 kids for 4400$ max.|inform|test_19
+USR|leaving frmom fortaleza.|inform|test_19
+USR|if|inform|test_19
+SYS|Absolutely!|suggest|test_19
+SYS|Would you be interested in travelling to Sao Paulo?|suggest|test_19
+USR|ya sure sao paulo|switch_frame|test_19
+SYS|I can offer you a great deal on a package from September 7-13!|offer|test_19
+USR|k|switch_frame|test_19
+SYS|Great :slightly_smiling_face: Would you like to know some more information about this package before I book?|hearmore|test_19
+USR|yes|affirm|test_19
+SYS|You would be staying at the Deluxe Hotel, located near a cathedral and a theatre.|inform|test_19
+SYS|You would have free wifi, parking and breakfast.|inform|test_19
+SYS|This package costs 1769.68USD.|inform|test_19
+USR|ok|affirm|test_19
+SYS|Would you like to book?|suggest|test_19
+USR|for 2 adults and 2 kids???|confirm|test_19
+SYS|Yes, for 2 adults and 2 children.|affirm|test_19
+USR|ok lets book it!!|inform|test_19
+SYS|Great :slightly_smiling_face: Consider it done|inform|test_19
+USR|ok thanks so much|thankyou|test_19
+USR|hello, please find me a vacation between saturday august 27 2016 and wednesday september 7 2016 for under 6000$ leaving from madrid|inform|test_20
+SYS|Hello, what can I help you with today?|greeting|test_20
+USR|hello, please find me a vacation between saturday august 27 2016 and wednesday sept 7 for under 6000$ leaving from madrid|inform|test_20
+SYS|Ok!|offer|test_20
+SYS|Absolutely :slightly_smiling_face: I can book you a trip to Rome from September 2-7 for only $407.55 if you are interested.|offer|test_20
+USR|ok.|inform|test_20
+USR|can it be for a longer period|inform|test_20
+SYS|What about Essen for 610.86USD?|offer|test_20
+SYS|You would leave August 30th and return on September 7th.|offer|test_20
+USR|ok|switch_frame|test_20
+SYS|Shall I go ahead and book that for you?|suggest|test_20
+USR|ok|affirm|test_20
+SYS|Wonderful, all booked :slightly_smiling_face: Enjoy your stay.|inform|test_20
+USR|thanks|thankyou|test_20
+USR|hello|greeting|test_21
+SYS|Hi there :slightly_smiling_face: How can I help you today?|greeting|test_21
+USR|i am planning my honey moon.|inform|test_21
+USR|leaving from miami on sunday august 28 2016.|inform|test_21
+USR|for 5 days to stuttgart.|inform|test_21
+USR|max 2900|inform|test_21
+SYS|I have a one day stay available in Stuttgart from September 2-September 1, does that interest you?|offer|test_21
+USR|september 2 - 1?|switch_frame|test_21
+SYS|Yes.|sorry|test_21
+SYS|Those are the dates.|sorry|test_21
+SYS|Sorry.|sorry|test_21
+USR|what about kingston?|inform|test_21
+SYS|I only have trips that leave in September.|inform|test_21
+SYS|Would this be ok?|inform|test_21
+USR|ok for 5 dayss?|inform|test_21
+SYS|Yes.|offer|test_21
+SYS|You could go from September 7-11|offer|test_21
+USR|ok|switch_frame|test_21
+SYS|Great!|suggest|test_21
+SYS|Would you like to book?|suggest|test_21
+USR|yes what are the activities and prices|request|test_21
+SYS|The price would be 1191.32 USD.|suggest|test_21
+SYS|You would be staying in the heart of Kingston near a park.|suggest|test_21
+SYS|The hotel has free wifi, breakfast, and parking.|suggest|test_21
+SYS|Shall I go ahead and book that for you?|suggest|test_21
+USR|yep|affirm|test_21
+SYS|Great, booked|inform|test_21
+USR|ok thanks|thankyou|test_21
+USR|hey, I want to get myself to Porto Alegre from Toronto for less than $3900|inform|test_22
+SYS|I can book you 5 days in Porto leaving from Toronto for 2689.45USD.|offer|test_22
+USR|what about valencia|inform|test_22
+SYS|8 days in Valencia would cost you 2012.95USD.|offer|test_22
+USR|ok and calgary?|inform|test_22
+USR|2 adults and 3 children.|inform|test_22
+SYS|Ok!|offer|test_22
+SYS|In that case I can book you 8 days in Calgary for 1103.38USD|offer|test_22
+USR|i have a 3900 budge|inform|test_22
+USR|hey.|inform|test_23
+USR|i wanna go from birmingham|inform|test_23
+SYS|Ok, where would you like to go?|request|test_23
+USR|for 10 days vacation|inform|test_23
+SYS|There are 10 day trips available in Sacramento and Las Vegas for just over $500.|offer|test_23
+USR|thats too expensive|negate|test_23
+SYS|I’m sorry but I have no 10 day trips from birmingham for less than that price.|sorry|test_23
+USR|what about santiago|inform|test_23
+SYS|You can spend 6 days in Santiago for 1342.39USD|offer|test_23
+USR|no.|inform|test_23
+USR|i only have 400$. maybe from bh for lesser days|inform|test_23
+SYS|In that case your only options are Denver or Calgary.|offer|test_23
+USR|oh ok|null|test_23
+SYS|Would you like to hear more about these packages?|hearmore|test_23
+USR|yup|affirm|test_23
+SYS|You can spend 3 days in Denver for $177.60 and stay at a 3 star hotel near a museum and university.|inform|test_23
+SYS|In Calgary you could spend 8 days for $303.45 at a 4 star hotel near a university with free wifi and free parking.|inform|test_23
+USR|i will go to calgary|switch_frame|test_23
+SYS|Great :slightly_smiling_face: I will book that for you|inform|test_23
+USR|hello|greeting|test_24
+SYS|Hi there!|greeting|test_24
+USR|can you recommend a 6 days vacation packaging starting on wednesday august 31, 2016 from fortaleza|inform|test_24
+SYS|Yes!|request|test_24
+SYS|I can book you 3 days in Manaus from August 31 to September 2nd!|request|test_24
+SYS|Are you flexible with your departure date?|request|test_24
+USR|ok|inform|test_24
+SYS|I have a 6 day package to Manaus available from Sept 11-16|offer|test_24
+USR|ok.|inform|test_24
+USR|not flexible on depart date.|inform|test_24
+USR|maybe another destinatio|inform|test_24
+SYS|I can book you in Curitiba from August 31 - September 12.|offer|test_24
+USR|ok.|request_alts|test_24
+USR|any other destinations|request_alts|test_24
+SYS|I am not finding anything else for your departure date.|no_result|test_24
+USR|ok.|switch_frame|test_24
+USR|ill book that|switch_frame|test_24
+SYS|To Curitiba?|confirm|test_24
+USR|yup|affirm|test_24
+SYS|Ok!|inform|test_24
+SYS|I will do that :slightly_smiling_face:|inform|test_24
+USR|ok|thankyou|test_24
+USR|hello|greeting|test_25
+SYS|How can I help you&gt;|greeting|test_25
+USR|i have 9 days of vacation|inform|test_25
+SYS|Awesome!|request|test_25
+SYS|Where would you like to travel?|request|test_25
+USR|from sendai to anywhere.|inform|test_25
+USR|starting friday sept 2 2016|inform|test_25
+SYS|I have a 9 day package available in Kobe from Sept 13-21|offer|test_25
+USR|ok.|inform|test_25
+USR|but i have to leave on sept 2|inform|test_25
+SYS|I can give you 13 days in Kyoto if you leave on Sept 2|offer|test_25
+USR|ok|switch_frame|test_25
+SYS|Would you like to book it?|suggest|test_25
+USR|what are the details|moreinfo|test_25
+SYS|A 3.0 star hotel near a museum with free wifi and free breakfast for $442.70.|inform|test_25
+USR|ok I'd like to book it please|inform|test_25
+SYS|Ok, booked!|inform|test_25
+USR|thanks|thankyou|test_25
+USR|helllo|greeting|test_26
+SYS|Hey there, what are you looking for?|greeting|test_26
+USR|id like to go to porto from santiago, from monday september 5th 2016 to monday sept 19, 2016|inform|test_26
+SYS|Ok!|request|test_26
+SYS|Are you flexible with your dates?|request|test_26
+USR|not really|inform|test_26
+SYS|Unfortunately I have nothing available from Santiago to Porto in your date range.|sorry|test_26
+USR|ok yes flexible|inform|test_26
+SYS|Ok!|offer|test_26
+SYS|How about Aug 30-Sept 12?|offer|test_26
+USR|ok|switch_frame|test_26
+SYS|Would you like to hear more about this package?|hearmore|test_26
+USR|yes sure.|affirm|test_26
+SYS|You can stay at the Breakwater Hotel from August 30th to September 12 for $2607.|inform|test_26
+SYS|This is a 3.5 star hotel in Porto Alegre with free wifi and free breakfast.|inform|test_26
+USR|or san francisco as well|inform|test_26
+SYS|Would you like to go to Long Beach from Santiago?|suggest|test_26
+USR|ok can you tell me more about Long Beach|switch_frame|test_26
+SYS|Would you travel from Aug 24-30|suggest|test_26
+USR|no..only sept 5 to 19th|inform|test_26
+SYS|I can book you August 30th to September 3rd in Long Beach.|offer|test_26
+USR|what about valencia|inform|test_26
+SYS|I can book Valencia from September 6-11|offer|test_26
+USR|ok san francisco?|inform|test_26
+SYS|I can book San Francisco from Sept 5-9 at a 2.5 star hotel near a museum for 3289.59USD.|offer|test_26
+USR|I will take valencia|switch_frame|test_26
+SYS|Absolutely.|offer|test_26
+SYS|The cheapest package is $667|offer|test_26
+USR|ok I will take that|switch_frame|test_26
+SYS|Great :slightly_smiling_face: I will book that for you|inform|test_26
+USR|ok thanks|thankyou|test_26
+USR|hi|greeting|test_27
+SYS|Hi !|greeting|test_27
+USR|I would like to go to burlington from new york on august 27.|inform|test_27
+USR|four adults.|inform|test_27
+USR|budget is 10800|inform|test_27
+SYS|Ok!|offer|test_27
+SYS|I can book Sept 7-9 for 1801 dollars|offer|test_27
+USR|what about naples from new york|inform|test_27
+SYS|For 4 adults I can book Aug 31-Sep 6 for 7559 dollars|offer|test_27
+USR|and Burlington from New York for 4 adults?|inform|test_27
+SYS|Sept 7-9 for 1801 as mentioned earlier.|inform|test_27
+USR|for 4?|confirm|test_27
+SYS|yes|affirm|test_27
+USR|i need to go from august 27 to 31 though|inform|test_27
+SYS|Ok!|offer|test_27
+SYS|I can book New York to Naples for  Aug 31 to Sept 6 or Sept 5|offer|test_27
+USR|ok.|confirm|test_27
+USR|sounds goodfor four people|confirm|test_27
+SYS|Yes, for four people the price could be $7559.38|offer|test_27
+USR|sounds good|affirm|test_27
+SYS|Would you like to hear about the hotels?|hearmore|test_27
+USR|yes|affirm|test_27
+SYS|From Aug 31-Sept 6 the Tower Hotel is available which is 4.0 stars.|inform|test_27
+SYS|If you went until the 5 of September the Courtyard Resort would be available which is 3.0 stars and located in the heart of the city.|inform|test_27
+USR|tower hotel.|switch_frame|test_27
+USR|looksgood|switch_frame|test_27
+SYS|Ok!|inform|test_27
+SYS|I will book that for you.|inform|test_27
+SYS|The total will be 7559.38 USD.|inform|test_27
+USR|thanks|thankyou|test_27
+USR|I would like to go to San Juan|inform|test_28
+SYS|Ok!|request|test_28
+SYS|Where would you be leaving from?|request|test_28
+USR|between August 31 to September 19.|inform|test_28
+USR|leaving from Rio de JaneiroI have a 2800 $ budget|inform|test_28
+SYS|Ok!|offer|test_28
+SYS|I can book you Sept 1-7 for 2417.95USD or Sept 12-14 for  2423.96USD or Sept 6-13 for 2660.43USD.|offer|test_28
+USR|ill book that|inform|test_28
+SYS|Which one?|inform|test_28
+SYS|There are three trips listed.|inform|test_28
+USR|the 1st one|switch_frame|test_28
+SYS|Ok, I can book that for you!|inform|test_28
+USR|ok, thanks.|thankyou|test_28
+USR|I want to go to brasilia from mannheim, can you recommend me packages from Saturday august 27 to Monday, September 12 for 2500 for 1 adult|inform|test_29
+SYS|Sorry, I have nothing available.|sorry|test_29
+USR|um dates are flexible|inform|test_29
+SYS|How about August 27-31?|offer|test_29
+USR|ok|switch_frame|test_29
+SYS|That would cost 1943 dollars.|inform|test_29
+USR|ok great|null|test_29
+SYS|You want to book?|suggest|test_29
+USR|pls book that one for me thx|inform|test_29
+SYS|Yes, I will|inform|test_29
+USR|Hi I am the happy father of one children.|inform|test_30
+USR|I need to book a trip to Santos from Philadelphia with a 1900 budget|inform|test_30
+SYS|Will it just be you and your child?|confirm|test_30
+USR|nope, I'm with my wife|inform|test_30
+SYS|When would you like to go?|request|test_30
+USR|August 27 & sept 6|inform|test_30
+SYS|There are no flights from Philadelphia.|no_result|test_30
+USR|ok im gonna have to look elsewhere.|thankyou|test_30
+USR|thanks|thankyou|test_30
+SYS|Have a nice day!|goodbye|test_30
+USR|hello I id like to go to manaus from ciudad juarez.|inform|test_31
+USR|4,600$|inform|test_31
+SYS|Are you travelling alone?|suggest|test_31
+USR|ya|affirm|test_31
+SYS|When would you prefer to travel?|request|test_31
+USR|this week|inform|test_31
+SYS|What day would you like to leave?|request|test_31
+USR|tomorrow|inform|test_31
+SYS|There aren't any trips that leave tomorrow but there is one that leaves on the 24th.|offer|test_31
+USR|ok|switch_frame|test_31
+SYS|This is a 3.5 star hotel from the 24th to 30th.|offer|test_31
+SYS|The hotel offers free wifi, parking, and breakfast and is near a park and museum.|offer|test_31
+SYS|The economy class is 2089.41 and the business class is 2695.90.|offer|test_31
+USR|i need to book a trip to rio de janeiro|inform|test_32
+SYS|Where are you leaving from?|request|test_32
+USR|from belem.|inform|test_32
+USR|we are 97 childrentwo adults|inform|test_32
+SYS|When would you like to leave?|request|test_32
+USR|august 31 and sept 19|inform|test_32
+SYS|Do you have a budget?|request|test_32
+USR|4900|inform|test_32
+SYS|We have one hotel to Rio de Janeiro.|offer|test_32
+SYS|This hotel is 2.5 stars and offers free wifi, breakfast, and parking, there is also a park and shopping mall.|offer|test_32
+SYS|Economy class is 2848.99 and business class is 3798.11.|offer|test_32
+SYS|The trip is from September 1st to 13th.|offer|test_32
+USR|and this is for 9?|confirm|test_32
+SYS|yes|affirm|test_32
+USR|okii need my wife's approval.|goodbye|test_32
+USR|so wont be booking right now|goodbye|test_32
+USR|from san antoni to anywhere.|inform|test_33
+USR|leaving friday sept 2.|inform|test_33
+USR|coming back on tues sept 15|inform|test_33
+SYS|What is your budget?|request|test_33
+USR|1100|inform|test_33
+SYS|We have a flight to Calgary, Punta Cana, San Diego, Atlanta, Denver, Burlington, and Houston.|suggest|test_33
+USR|to atlanta|switch_frame|test_33
+SYS|This is a 3.5 star hotel that offers free wifi and free parking and is also on the beach and near a park.|inform|test_33
+SYS|The cost of this package is 500.70 and is from September 8th to 13th.|inform|test_33
+USR|well, im gonna book the one you suggested|inform|test_33
+SYS|The package to Atlanta?|confirm|test_33
+USR|yup from san antoni|inform|test_33
+SYS|Great!|inform|test_33
+SYS|Your trip is booked!|inform|test_33
+SYS|Glad I could help and have a nice day!|inform|test_33
+USR|hi|greeting|test_34
+SYS|Hello|greeting|test_34
+USR|my name is Cosmos and I need to go to Kobe from Tampa|inform|test_34
+SYS|Do you have a budget?|request|test_34
+USR|lol ya 3 adults 4 children willing to pay 31400 $$$|inform|test_34
+SYS|Unfortunately there are no results for this request.|sorry|test_34
+SYS|Is there another destination you'd like me to check for you?|sorry|test_34
+USR|no actually i meant to go to Fukuoka|inform|test_34
+SYS|There are no results for this destination either.|no_result|test_34
+USR|Hello,|greeting|test_35
+SYS|Hi|greeting|test_35
+USR|Can I please have a vacation from Busan to Pittsburgh for $1500|inform|test_35
+SYS|are you travelling alone?|suggest|test_35
+USR|yes|affirm|test_35
+SYS|When would you like to leave?|request|test_35
+USR|I dont mind|inform|test_35
+SYS|Sorry but there are no flights from Busan to Pittsburgh.|sorry|test_35
+SYS|Is there another destination you might like to try out?|sorry|test_35
+USR|can i go to sendai|inform|test_35
+SYS|Yes you can!|offer|test_35
+SYS|We have two 4 star hotels.|offer|test_35
+USR|ok how much is it?|request|test_35
+SYS|490.35, 554.37, 603.65, 682.46, 692.41, and 785.39.|offer|test_35
+USR|ok I will book that one|inform|test_35
+SYS|Which price interests you?|null|test_35
+USR|786.39|switch_frame|test_35
+SYS|Great I will book this for you!|inform|test_35
+SYS|Your trip is from the 30th of August to the 11th of September.|inform|test_35
+SYS|Have a great trip!|inform|test_35
+USR|ok thank you|thankyou|test_35
+SYS|You're welcome!|you_are_welcome|test_35
+USR|I want to go to Paris from Maceio with 6200$.|inform|test_36
+SYS|We have two 4 star hotels.|suggest|test_36
+USR|what about from Maceio to Detrut|inform|test_36
+SYS|There are no results from Maceio to Detrut.|no_result|test_36
+USR|from maceio to Paris?|switch_frame|test_36
+SYS|I have packages to paris|inform|test_36
+USR|what about to Minneapolis?|inform|test_36
+SYS|How about a 2.5 star for 3422.75?|offer|test_36
+USR|3422.75.|switch_frame|test_36
+USR|looks good to me|switch_frame|test_36
+SYS|This package has a museum, park, and mall, plus free wifi, breakfast, and parking.|inform|test_36
+SYS|This trip is from August 27th to September 4th.|inform|test_36
+USR|ok|null|test_36
+SYS|Would you like me to book this package for you?|suggest|test_36
+USR|yes please|affirm|test_36
+SYS|Your flight is booked!|inform|test_36
+USR|thak you|thankyou|test_36
+USR|hi.|inform|test_37
+USR|I want to go to Tofino from Burlington.|inform|test_37
+USR|please recommend me packages from Sunday 21 to August 24 for 2200 for 7 adults.|inform|test_37
+SYS|The only result I have is one trip from Burlington to Calgary.|offer|test_37
+USR|ok what if I increase my budget by 300$|inform|test_37
+SYS|No sorry but you can afford a trip to Denver from Burlington.|sorry|test_37
+USR|ok I will go to Calgary|switch_frame|test_37
+SYS|This is a 4 star hotel for 2179.40.|suggest|test_37
+SYS|This trip is from September 2nd to 8th.|suggest|test_37
+SYS|Would you like me to book it for you?|suggest|test_37
+USR|ok for seven adults|confirm|test_37
+SYS|Yes.|affirm|test_37
+SYS|Your trip is now booked!|affirm|test_37
+SYS|I'm glad I could help you today and thank you for using our services|affirm|test_37
+USR|ok Thank you!|thankyou|test_37
+USR|hello|greeting|test_38
+SYS|Hi, how can I help you|greeting|test_38
+USR|to seoul for at most 6600if not, I will leave from Berlin|inform|test_38
+SYS|We have one 3 star hotel.|offer|test_38
+SYS|Package prices are 2107.88, 2703.71, 3434.27, and 4405.40.|offer|test_38
+USR|ok.|inform|test_38
+USR|for two adults|inform|test_38
+SYS|This narrows it down to a 4215.76 package from the 24th of August to the 30th for the economy class seats or 5407.42 for the business class seats.|offer|test_38
+SYS|Which do you prefer?|offer|test_38
+USR|the business class|switch_frame|test_38
+SYS|Great, would you like this trip booked now?|suggest|test_38
+USR|yes please|affirm|test_38
+SYS|I just booked your trip and you will receive a confirmation email and detailed information about your trip.|inform|test_38
+SYS|Have a nice day!|inform|test_38
+USR|GREAT THANKS|thankyou|test_38
+USR|I dream of a better life and I want to go to Sendai|inform|test_39
+SYS|Where are you leaving from?|request|test_39
+USR|belo horizonte|inform|test_39
+SYS|Do you have a budget?|request|test_39
+USR|$1,200|inform|test_39
+SYS|Are you going to be travelling alone?|request|test_39
+USR|ya unfortunately...|null|test_39
+SYS|When would you like to leave for your travels/|request|test_39
+USR|as soon as possible.|inform|test_39
+SYS|There are no results within your budget.|no_result|test_39
+USR|belem?|inform|test_39
+SYS|Our best packages for Belem are at a 4 star hotel on the beach near the airport.|offer|test_39
+SYS|The economy seats cost 791.57 and the business seats cost 871.30.|offer|test_39
+USR|ok what about calgary|inform|test_39
+SYS|There is nothing within your budget for flights to Calgary.|no_result|test_39
+USR|ok i will take the belem flights|switch_frame|test_39
+SYS|Would you like the business class seats or the economy seats?|request|test_39
+USR|business class|inform|test_39
+SYS|Great!|inform|test_39
+SYS|It is done!|inform|test_39
+SYS|This trip is from August 27th to September 2nd!|inform|test_39
+SYS|Have a good vacation|inform|test_39
+USR|awwwwsome can i also inquire for goiania|inform|test_39
+SYS|Goiania has a 3.5 star hotel from August 27th to September 8th.|offer|test_39
+SYS|The price for economy class is 914.20 and the price for the business class is 1091.50.|offer|test_39
+USR|hello.|inform|test_40
+USR|please find me a vacation from Fort Lauderdale to Rome!!!|inform|test_40
+SYS|Do you have a budget?|request|test_40
+USR|noooo|inform|test_40
+SYS|Yes, it's great!|request|test_40
+SYS|Are you travelling with anyone?|request|test_40
+USR|I LOVE travelling alone without having to worry about any budgets!!|inform|test_40
+SYS|When would you like to leave?|request|test_40
+USR|oh ok like, tommorow?!|inform|test_40
+SYS|Unfortunately there are no results in my database for flights from Fort Lauderdale to Rome.|no_result|test_40
+USR|Okay, send me to Birmingham|inform|test_40
+SYS|I'm sorry but I can't get you there out of Fort Lauderdale.|sorry|test_40
+USR|omg.|inform|test_40
+USR|Alright, I can leave from anywhere!|inform|test_40

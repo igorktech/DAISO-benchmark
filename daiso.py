@@ -60,11 +60,11 @@ LABELS_MAPPING = {
         },
         "stl": {
             "base": "Stall",
-            "ISO": None
+            "ISO": "OOD"
         },
         "fra": {
             "base": "Fragment",
-            "ISO": None
+            "ISO": "OOD"
         },
         "inf": {
             "base": "Inform",
@@ -80,7 +80,7 @@ LABELS_MAPPING = {
         },
         "el.inf": {
             "base": "Elicit-Inform",
-            "ISO": None
+            "ISO": "OOD"
         },
         "el.sug": {
             "base": "Elicit-Offer-Or-Suggestion",
@@ -88,11 +88,11 @@ LABELS_MAPPING = {
         },
         "el.ass": {
             "base": "Elicit-Assessment",
-            "ISO": None
+            "ISO": "OOD"
         },
         "el.und": {
             "base": "Elicit-Comment-Understanding",
-            "ISO": None
+            "ISO": "OOD"
         },
         "off": {
             "base": "Offer",
@@ -104,19 +104,19 @@ LABELS_MAPPING = {
         },
         "be.pos": {
             "base": "Be-Positive",
-            "ISO": None
+            "ISO": "OOD"
         },
         "be.neg": {
             "base": "Be-Negative",
-            "ISO": None
+            "ISO": "OOD"
         },
         "oth": {
             "base": "Other",
-            "ISO": None
+            "ISO": "OOD"
         },
         None: {
-            "base": "None",
-            "ISO": None
+            "base": "OOD",
+            "ISO": "OOD"
         }
     },
     "oasis": {
@@ -202,7 +202,7 @@ LABELS_MAPPING = {
         },
         "refer": {
             "base": "Refer",
-            "ISO": None
+            "ISO": "OOD"
         },
         "suggest": {
             "base": "Suggest",
@@ -218,7 +218,7 @@ LABELS_MAPPING = {
         },
         "exclaim": {
             "base": "Exclaim",
-            "ISO": None
+            "ISO": "OOD"
         },
         "pardon": {
             "base": "Pardon",
@@ -226,7 +226,7 @@ LABELS_MAPPING = {
         },
         "identifySelf": {
             "base": "Identify Self",
-            "ISO": None
+            "ISO": "OOD"
         },
         "expressPossibility": {
             "base": "Express Possibility",
@@ -234,7 +234,7 @@ LABELS_MAPPING = {
         },
         "raiseIssue": {
             "base": "Raise Issue",
-            "ISO": None
+            "ISO": "OOD"
         },
         "expressWish": {
             "base": "Express Wish",
@@ -246,7 +246,7 @@ LABELS_MAPPING = {
         },
         "complete": {
             "base": "Complete",
-            "ISO": None
+            "ISO": "OOD"
         },
         "directElab": {
             "base": "Direct Elaborate",
@@ -254,27 +254,27 @@ LABELS_MAPPING = {
         },
         "correct": {
             "base": "Correct",
-            "ISO": None
+            "ISO": "OOD"
         },
         "refuse": {
             "base": "Refuse",
-            "ISO": None
+            "ISO": "OOD"
         },
         "informIntent-hold": {
             "base": "Inform Intent Hold",
-            "ISO": None
+            "ISO": "OOD"
         },
         "informDisc": {
             "base": "Inform Continue",
-            "ISO": None
+            "ISO": "OOD"
         },
         "informCont": {
             "base": "Inform Discontinue",
-            "ISO": None
+            "ISO": "OOD"
         },
         "selfTalk": {
             "base": "Self Talk",
-            "ISO": None
+            "ISO": "OOD"
         },
         "correctSelf": {
             "base": "Correct Self",
@@ -282,11 +282,11 @@ LABELS_MAPPING = {
         },
         "expressRegret-inform": {
             "base": "Express Regret Inform",
-            "ISO": None
+            "ISO": "OOD"
         },
         "thank-identifySelf": {
             "base": "Thank Identify Self",
-            "ISO": None
+            "ISO": "OOD"
         }
     },
     "maptask": {
@@ -316,7 +316,7 @@ LABELS_MAPPING = {
         },
         "align": {
             "base": "Check Attention",
-            "ISO": None
+            "ISO": "OOD"
         },
         "query_yn": {
             "base": "Yes-No-Question",
@@ -370,11 +370,11 @@ LABELS_MAPPING = {
         },
         "%": {
             "base": "Interrupted/Abandoned/Uninterpretable",
-            "ISO": None
+            "ISO": "OOD"
         },
         "rt": {
             "base": "Rising Tone",
-            "ISO": None
+            "ISO": "OOD"
         },
         "fg": {
             "base": "Floor Grabber",
@@ -410,7 +410,7 @@ LABELS_MAPPING = {
         },
         "2": {
             "base": "Collaborative Completion",
-            "ISO": None
+            "ISO": "OOD"
         },
         "no": {
             "base": "Other Answers",
@@ -434,7 +434,7 @@ LABELS_MAPPING = {
         },
         "j": {
             "base": "Humorous Material",
-            "ISO": None
+            "ISO": "OOD"
         },
         "bd": {
             "base": "Downplayer",
@@ -450,7 +450,7 @@ LABELS_MAPPING = {
         },
         "am": {
             "base": "Maybe",
-            "ISO": None
+            "ISO": "OOD"
         },
         "qrr": {
             "base": "Or-Clause",
@@ -462,7 +462,7 @@ LABELS_MAPPING = {
         },
         "m": {
             "base": "Mimic Other",
-            "ISO": None
+            "ISO": "OOD"
         },
         "fa": {
             "base": "Apology",
@@ -470,7 +470,7 @@ LABELS_MAPPING = {
         },
         "t": {
             "base": "About-task",
-            "ISO": None
+            "ISO": "OOD"
         },
         "br": {
             "base": "Signal-non-understanding",
@@ -478,7 +478,7 @@ LABELS_MAPPING = {
         },
         "aap": {
             "base": "Accept-part",
-            "ISO": None
+            "ISO": "OOD"
         },
         "qh": {
             "base": "Rhetorical-Question",
@@ -494,11 +494,11 @@ LABELS_MAPPING = {
         },
         "t1": {
             "base": "Self-talk",
-            "ISO": None
+            "ISO": "OOD"
         },
         "t3": {
             "base": "3rd-party-talk",
-            "ISO": None
+            "ISO": "OOD"
         },
         "bh": {
             "base": "Rhetorical-question Continue",
@@ -506,11 +506,11 @@ LABELS_MAPPING = {
         },
         "bsc": {
             "base": "Reject-part",
-            "ISO": None
+            "ISO": "OOD"
         },
         "arp": {
             "base": "Misspeak Self-Correction",
-            "ISO": None
+            "ISO": "OOD"
         },
         "bs": {
             "base": "Reformulate/Summarize",
@@ -518,7 +518,7 @@ LABELS_MAPPING = {
         },
         "f": {
             "base": "Follow Me",
-            "ISO": None
+            "ISO": "OOD"
         },
         "qr": {
             "base": "Or-Question",
@@ -534,11 +534,11 @@ LABELS_MAPPING = {
         },
         "qo": {
             "base": "Open-Question",
-            "ISO": None
+            "ISO": "OOD"
         },
         "bc": {
             "base": "Correct-misspeaking",
-            "ISO": None
+            "ISO": "OOD"
         },
         "by": {
             "base": "Sympathy",
@@ -564,7 +564,7 @@ LABELS_MAPPING = {
         },
         "%": {
             "base": "Uninterpretable",
-            "ISO": None
+            "ISO": "OOD"
         },
         "aa": {
             "base": "Agree/Accept",
@@ -612,7 +612,7 @@ LABELS_MAPPING = {
         },
         "^q": {
             "base": "Quotation",
-            "ISO": None
+            "ISO": "OOD"
         },
         "bf": {
             "base": "Summarize/Reformulate",
@@ -632,7 +632,7 @@ LABELS_MAPPING = {
         },
         "o_\"_bc": {
             "base": "Other",
-            "ISO": None
+            "ISO": "OOD"
         },
         "na": {
             "base": "Affirmative Non-yes Answers",
@@ -644,7 +644,7 @@ LABELS_MAPPING = {
         },
         "^2": {
             "base": "Collaborative Completion",
-            "ISO": None
+            "ISO": "OOD"
         },
         "b^m": {
             "base": "Repeat-phrase",
@@ -652,7 +652,7 @@ LABELS_MAPPING = {
         },
         "qo": {
             "base": "Open-Question",
-            "ISO": None
+            "ISO": "OOD"
         },
         "qh": {
             "base": "Rhetorical-Question",
@@ -692,7 +692,7 @@ LABELS_MAPPING = {
         },
         "t3": {
             "base": "3rd-party-talk",
-            "ISO": None
+            "ISO": "OOD"
         },
         "oo": {
             "base": "Offers",
@@ -704,7 +704,7 @@ LABELS_MAPPING = {
         },
         "aap_am": {
             "base": "Maybe/Accept-part",
-            "ISO": None
+            "ISO": "OOD"
         },
         "t1": {
             "base": "Downplayer",
@@ -712,7 +712,7 @@ LABELS_MAPPING = {
         },
         "bd": {
             "base": "Self-talk",
-            "ISO": None
+            "ISO": "OOD"
         },
         "^g": {
             "base": "Tag-Question",
@@ -762,7 +762,7 @@ LABELS_MAPPING = {
         },
         "switch_frame": {
             "base": "Switch Frame",
-            "ISO": None
+            "ISO": "OOD"
         },
         "offer": {
             "base": "Offer",
@@ -774,7 +774,7 @@ LABELS_MAPPING = {
         },
         "null": {
             "base": "Other",
-            "ISO": None
+            "ISO": "OOD"
         },
         "goodbye": {
             "base": "Goodbye",
@@ -786,7 +786,7 @@ LABELS_MAPPING = {
         },
         "no_result": {
             "base": "No Result",
-            "ISO": None
+            "ISO": "OOD"
         },
         "affirm": {
             "base": "Affirm",
@@ -802,11 +802,11 @@ LABELS_MAPPING = {
         },
         "hearmore": {
             "base": "Hear More",
-            "ISO": None
+            "ISO": "OOD"
         },
         "canthelp": {
             "base": "Can not help",
-            "ISO": None
+            "ISO": "OOD"
         },
         "you_are_welcome": {
             "base": "Welcome",
@@ -818,7 +818,7 @@ LABELS_MAPPING = {
         },
         None: {
             "base": "None",
-            "ISO": None
+            "ISO": "OOD"
         }
     },
     "dyda": {
@@ -836,7 +836,7 @@ LABELS_MAPPING = {
         },
         "question": {
             "base": "Question",
-            "ISO": None
+            "ISO": "OOD"
         }
     },
     "dstc3": {
@@ -850,7 +850,7 @@ LABELS_MAPPING = {
         },
         "select": {
             "base": "Select",
-            "ISO": None
+            "ISO": "OOD"
         },
         "expl-conf": {
             "base": "Explicit Confirmation",
@@ -862,7 +862,7 @@ LABELS_MAPPING = {
         },
         "canthelp": {
             "base": "Can not help",
-            "ISO": None
+            "ISO": "OOD"
         },
         "request": {
             "base": "Request",
@@ -886,7 +886,7 @@ LABELS_MAPPING = {
         },
         "null": {
             "base": "Other",
-            "ISO": None
+            "ISO": "OOD"
         },
         "reqalts": {
             "base": "Request Alternative",
@@ -894,11 +894,11 @@ LABELS_MAPPING = {
         },
         "canthelp.missing_slot_value": {
             "base": "Can not help",
-            "ISO": None
+            "ISO": "OOD"
         },
         "restart": {
             "base": "Restart",
-            "ISO": None
+            "ISO": "OOD"
         },
         "ack": {
             "base": "Acknowledge",
@@ -926,7 +926,7 @@ LABELS_MAPPING = {
         },
         None: {
             "base": "None",
-            "ISO": None
+            "ISO": "OOD"
         }
     },
     "dstc8-sgd": {
@@ -980,7 +980,7 @@ LABELS_MAPPING = {
         },
         "SELECT": {
             "base": "Select",
-            "ISO": None
+            "ISO": "OOD"
         },
         "OFFER_INTENT": {
             "base": "Offer Intent",
@@ -1089,6 +1089,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Speaker",
                 "Utterance",
                 "Dialogue_Act",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             data_url={
@@ -1122,6 +1123,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Speaker",
                 "Utterance",
                 "Dialogue_Act",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             data_url={
@@ -1159,6 +1161,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Basic_DA",
                 "General_DA",
                 "Dialogue_Act",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             data_url={
@@ -1192,6 +1195,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Speaker",
                 "Utterance",
                 "Dialogue_Act",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             data_url={
@@ -1227,6 +1231,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Speaker",
                 "Utterance",
                 "Dialogue_Act",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             speakers=['USR', 'SYS'],
@@ -1319,6 +1324,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
                 "Speaker",
                 "Utterance",
                 "Dialogue_Act",
+                "Dialogue_Id",
                 "Dialogue_Act_ISO"
             ],
             speakers=['SYS', 'USR'],
@@ -1382,9 +1388,12 @@ class DAISO(datasets.GeneratorBasedBuilder):
         # TODO: This method specifies the datasets.DatasetInfo object which contains informations and typings for the dataset
         features = {feature: datasets.Value("string") for feature in self.config.features}
         if self.config.label_classes:
-            features["Label"] = datasets.features.ClassLabel(names=list(self.config.label_classes.keys()))
+            features["Label"] = datasets.features.ClassLabel(names=list(
+                set(['OOD' if label == 'null' or label is None else label for label in
+                     list(self.config.label_classes.keys())])
+            ))
             features["Label_ISO"] = datasets.features.ClassLabel(
-                names=list(set([map.get("ISO") for map in self.config.label_classes.values()])))
+                names=list(set([map.get("ISO", "OOD") for map in self.config.label_classes.values()])))
         features["Idx"] = datasets.Value("int32")
         features["Speaker_Id"] = datasets.features.ClassLabel(names=self.config.speakers)
         # if self.config.name == "":  # This is the name of the configuration selected in BUILDER_CONFIGS above
@@ -1454,8 +1463,8 @@ class DAISO(datasets.GeneratorBasedBuilder):
         df = pd.read_csv(file, delimiter=",", header=0, quotechar='"', dtype=str)[
             self.config.features
         ]
-        df['Dialogue_Act'] = df['Dialogue_Act'].apply(lambda x: None if pd.isna(x) else x)
-        df['Dialogue_Act_ISO'] = df['Dialogue_Act_ISO'].apply(lambda x: None if pd.isna(x) else x)
+        df['Dialogue_Act'] = df['Dialogue_Act'].apply(lambda x: "OOD" if pd.isna(x) else x)
+        df['Dialogue_Act_ISO'] = df['Dialogue_Act_ISO'].apply(lambda x: "OOD" if pd.isna(x) else x)
 
         rows = df.to_dict(orient="records")
 
@@ -1466,7 +1475,7 @@ class DAISO(datasets.GeneratorBasedBuilder):
             if "Dialogue_Act" in example:
                 label = example["Dialogue_Act"]
                 example["Label"] = label
-                example["Label_ISO"] = self.config.label_classes.get(label, {}).get("ISO")
+                example["Label_ISO"] = self.config.label_classes.get(label,{}).get("ISO","OOD")
 
             if "Speaker" in example:
                 speaker = example["Speaker"]

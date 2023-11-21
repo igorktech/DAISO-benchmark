@@ -2,8 +2,8 @@ import os
 import json
 import pandas as pd
 
-folder_names = ['ami', 'mrda', 'maptask', 'frames', 'swda', 'oasis', 'dyda',
-                'dstc3',"dstc8-sgd"]
+folder_names = ["frames", "mrda", "swda", "maptask", "oasis", "dstc3"]#['ami', 'mrda', 'maptask', 'frames', 'swda', 'oasis', 'dyda',
+                #'dstc3',"dstc8-sgd"]
 
 with open('iso_mapping.json', 'r') as file:
     iso_mapping = json.load(file)
@@ -17,15 +17,15 @@ for folder_name in folder_names:
 
         for file_name in os.listdir(folder_path):
             file_path = os.path.join(folder_path, file_name)
-            if os.path.isfile(file_path) and os.path.splitext(file_name)[1] in ['.txt', '.csv']:
+            if os.path.isfile(file_path) and os.path.splitext(file_name)[1] in ['.txt']:
                 print(folder_name, os.path.splitext(file_name)[0])
 
                 if folder_name not in ['ami', 'dyda',"dstc8-sgd"]:
                     df = pd.read_csv(file_path, delimiter="|")
                     if folder_name == 'mrda':
-                        df.columns = ['Speaker', 'Utterance', 'Basic_DA', 'General_DA', 'Dialogue_Act']
+                        df.columns = ['Speaker', 'Utterance', 'Basic_DA', 'General_DA', 'Dialogue_Act', 'Dialogue_Id']
                     else:
-                        df.columns = ['Speaker', 'Utterance', 'Dialogue_Act']
+                        df.columns = ['Speaker', 'Utterance', 'Dialogue_Act', "Dialogue_Id"]
                 else:
                     df = pd.read_csv(file_path)
 
