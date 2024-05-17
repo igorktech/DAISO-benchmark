@@ -1,0 +1,280 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_1
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_1
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_1
+SYS|How may I help you?|welcomemsg|train_1
+USR|pub food cherry hinton|inform|train_1
+SYS|Are you looking for a pub or a restaurant?|select|train_1
+USR|pub|inform|train_1
+SYS|Let me confirm.|expl-conf|train_1
+SYS|You are looking for a venue in the Cherry Hinton area.|expl-conf|train_1
+USR|yes|affirm|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|pub food restaurant|inform|train_1
+SYS|Would you like a cherry hinton area, or you don't care?|select|train_1
+USR|cherry hinton|inform|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|restaurant cherry hinton|inform|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|restaurant cherry hinton|inform|train_1
+SYS|Are you looking for a pub or a restaurant?|select|train_1
+USR|restaurant|inform|train_1
+SYS|What kind of price range are you looking for?|request|train_1
+SYS|For example, cheap.|request|train_1
+USR|cheap|inform|train_1
+SYS|What type of food would you like?|request|train_1
+SYS|For example, Northern european, Continental, or Italian.|request|train_1
+USR|pub|inform|train_1
+SYS|Let me confirm.|expl-conf|train_1
+SYS|You don't care about children and you are looking for a venue.|expl-conf|train_1
+USR|yes|affirm|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|pub food cherry hinton|inform|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|pub food restaurant|inform|train_1
+SYS|Would you like a cherry hinton area, or you don't care?|select|train_1
+USR|cherry hinton|inform|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|restaurant|inform|train_1
+SYS|Are you looking for a pub or a restaurant?|select|train_1
+USR|resaurant|inform|train_1
+SYS|Would you like a cherry hinton area, or you don't care?|select|train_1
+USR|cherry hinton|inform|train_1
+SYS|What type of food would you like?|request|train_1
+SYS|For example, pub, English, or Fastfood.|request|train_1
+USR|pub|inform|train_1
+SYS|Are you looking for a pub or a restaurant?|select|train_1
+USR|restaurant|inform|train_1
+SYS|Are you looking for somewhere near a particular venue?|request|train_1
+SYS|For example, Cambridge Contemporary Art, the Gallery at twelve A High Street, or Williams Art and Antiques.|request|train_1
+USR|williams art and antiques|inform|train_1
+SYS|Are you looking for somewhere near a particular venue?|request|train_1
+SYS|For example, the Broughton House Gallery, Downing College, or Old Schools.|request|train_1
+USR|old schools|inform|train_1
+SYS|Are you looking for somewhere near a particular venue?|request|train_1
+SYS|For example, All Saints Church, Holy Trinity Church, or Kettle's Yard.|request|train_1
+USR|all saints church|inform|train_1
+SYS|What type of food would you like?|request|train_1
+SYS|For example, Chinese take away, Drinks and snacks only, or English.|request|train_1
+USR|pub|inform|train_1
+SYS|There is no pub in the Cherry Hinton area.|canthelp|train_1
+USR|thank you good bye|bye|train_1
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_2
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_2
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_2
+SYS|How may I help you?|welcomemsg|train_2
+USR|restaurant|inform|train_2
+SYS|What kind of price range are you looking for?|request|train_2
+SYS|For example, cheap, expensive, or moderate.|request|train_2
+USR|middle eastern restaurant dont care about the price range|inform|train_2
+SYS|What kind of price range are you looking for?|request|train_2
+SYS|For example, expensive, free, or moderate.|request|train_2
+USR|moderate|inform|train_2
+SYS|What type of food would you like?|request|train_2
+SYS|For example, Cafe food, English, or Japanese.|request|train_2
+USR|middle eastern|inform|train_2
+SYS|Let me confirm.|expl-conf|train_2
+SYS|You are looking for a middleeastern venue.|expl-conf|train_2
+USR|middle eastern|inform|train_2
+SYS|Let me confirm.|expl-conf|train_2
+SYS|You are looking for a venue in the central area.|expl-conf|train_2
+USR|what is the address and phone number and price of the venue|request|train_2
+SYS|Let me confirm.|expl-conf|train_2
+SYS|You are looking for a venue in the central area.|expl-conf|train_2
+USR|yes|affirm|train_2
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp|train_2
+USR|thank you and have a good day|bye|train_2
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_3
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_3
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_3
+SYS|How may I help you?|welcomemsg|train_3
+USR|moderately priced restaurant|inform|train_3
+SYS|What type of food would you like?|request|train_3
+SYS|For example, Northern european, Fusion, or International.|request|train_3
+USR|fenditton|inform|train_3
+SYS|What type of food would you like?|request|train_3
+SYS|For example, Drinks and snacks only, or Turkish.|request|train_3
+USR|turkish|inform|train_3
+SYS|Are you looking for somewhere near a particular venue?|request|train_3
+SYS|For example, Cafe Jello, Cherry Hinton Water Play, or Clare College.|request|train_3
+USR|fenditton area|inform|train_3
+SYS|There is no restaurant in the Girton area and serving turkish food.|canthelp|train_3
+USR|fenditton|inform|train_3
+SYS|There is no restaurant in the Girton area and serving turkish food.|canthelp|train_3
+USR|moderately priced restaurant|inform|train_3
+SYS|Would you like a turkish food, or you don't care?|select|train_3
+USR|dont care|inform|train_3
+SYS|Would you like a girton area, or you don't care?|select|train_3
+USR|fenditton area|inform|train_3
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer|train_3
+SYS|It's in the moderate price range.|offer|train_3
+USR|type of food|request|train_3
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer|train_3
+SYS|It's in the moderate price range.|offer|train_3
+USR|food|inform|train_3
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer|train_3
+SYS|It's in the moderate price range.|offer|train_3
+USR|thank you good bye|bye|train_3
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_4
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_4
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_4
+SYS|How may I help you?|welcomemsg|train_4
+USR|im looking for a thai restaurant|inform|train_4
+SYS|What part of town do you have in mind?|request|train_4
+SYS|For example, something in the Cherry Hinton, King's Hedges, or riverside area.|request|train_4
+USR|riverside|inform|train_4
+SYS|The Wrestlers is a great restaurant and it's in the riverside part of town.|offer|train_4
+SYS|It serves thai food.|offer|train_4
+USR|can i get a price and an address|request|train_4
+SYS|The Wrestlers is located on 337 Newmarket Road.|offer|train_4
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer|train_4
+USR|thank you goodbye|bye|train_4
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_5
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_5
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_5
+SYS|How may I help you?|welcomemsg|train_5
+USR|yes im looking for an expensive greek restaurant|affirm|train_5
+SYS|The Varsity, which serves greek food, is a great restaurant.|offer|train_5
+SYS|It's in the expensive price range.|offer|train_5
+USR|may i get the address and phone number|request|train_5
+SYS|The Varsity is located on 35 Saint Andrew's Street and its phone number is 01223356060.|offer|train_5
+USR|may i have the post code|request|train_5
+SYS|The Varsity is in the area with the postcode CB2 3AR.|offer|train_5
+USR|thank you good bye|bye|train_5
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_6
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_6
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_6
+SYS|How may I help you?|welcomemsg|train_6
+SYS|What kind of venue are you looking for?|request|train_6
+SYS|For example, a cafe, or a restaurant.|request|train_6
+USR|contemporary|inform|train_6
+SYS|Are you looking for a cafe or a restaurant?|select|train_6
+USR|thank partial|thankyou|train_6
+SYS|Are you looking for a cafe or a restaurant?|select|train_6
+USR|thank you goodbye|bye|train_6
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_7
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_7
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_7
+SYS|How may I help you?|welcomemsg|train_7
+USR|i need to find a pub that has a internet connection and allows children|inform|train_7
+SYS|What kind of price range are you looking for?|request|train_7
+SYS|For example, cheap, expensive, or moderate.|request|train_7
+USR|it does not matter|inform|train_7
+SYS|What part of town do you have in mind?|request|train_7
+SYS|For example, Arbury, or New Chesterton.|request|train_7
+USR|it does not matter|inform|train_7
+SYS|Are you looking for somewhere near a particular venue?|request|train_7
+SYS|For example, Little Saint Mary's, or Milton Country Park.|request|train_7
+USR|no|negate|train_7
+SYS|The Bakers, which allows children, is an outstanding pub.|offer|train_7
+USR|can i have the address phone number and postcode|request|train_7
+SYS|The Bakers, which is in the area with the postcode CB1 1BG, is located on 176 East Road.|offer|train_7
+SYS|Its phone number is 01223304121.|offer|train_7
+USR|thank you goodbye|bye|train_7
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_8
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_8
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_8
+SYS|How may I help you?|welcomemsg|train_8
+SYS|What kind of venue are you looking for?|request|train_8
+SYS|For example, a cafe.|request|train_8
+SYS|What kind of venue are you looking for?|request|train_8
+SYS|For example, a cafe, or a pub.|request|train_8
+USR|im looking for a restaurant in the new chesterton area|inform|train_8
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer|train_8
+USR|im looking for a restaurant serving any kind of food in the new ches|inform|train_8
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer|train_8
+USR|what is the address and price range|request|train_8
+SYS|Hakka is located on 24 Milton Road.|offer|train_8
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer|train_8
+USR|what is the address and price range|request|train_8
+SYS|Hakka is located on 24 Milton Road.|offer|train_8
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer|train_8
+SYS|Hakka is an outstanding restaurant.|offer|train_8
+USR|what is the price range|request|train_8
+SYS|Hakka is in the moderate price range.|offer|train_8
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer|train_8
+SYS|Hakka is a great restaurant.|offer|train_8
+SYS|Hakka is a great restaurant.|offer|train_8
+USR|what is the price range|request|train_8
+SYS|Hakka is in the moderate price range.|offer|train_8
+USR|what is the p|null|train_8
+SYS|Hakka is an outstanding venue.|offer|train_8
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer|train_8
+USR|thank you goodbye|bye|train_8
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_9
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_9
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_9
+SYS|How may I help you?|welcomemsg|train_9
+USR|im looking for a pub with an internet connection and television|inform|train_9
+SYS|What part of town do you have in mind?|request|train_9
+SYS|For example, something in the Arbury, Barnwell, or Trumpington area.|request|train_9
+USR|i dont care|inform|train_9
+SYS|The Alma is an outstanding pub.|offer|train_9
+USR|does that have an internet connection|request|train_9
+SYS|The Alma doesn't have any internet connection.|offer|train_9
+USR|i would like to look for another venue|reqalts|train_9
+SYS|The Alma is a great pub.|offer|train_9
+USR|i would like to look for a pub|inform|train_9
+SYS|The Alma is a great pub.|offer|train_9
+USR|i would like to look for a different one|reqalts|train_9
+SYS|The Alma is an outstanding pub.|offer|train_9
+USR|no thank you|negate|train_9
+SYS|The Alma is an outstanding pub.|offer|train_9
+USR|no|negate|train_9
+SYS|The Alma is an outstanding pub.|offer|train_9
+USR|i would like to look for a different pub please|reqalts|train_9
+SYS|The Alma is an outstanding pub.|offer|train_9
+USR|im looking for a pub with an internet connection|inform|train_9
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer|train_9
+USR|does it have television|request|train_9
+SYS|I am sorry but there is no information on The Bakers's food.|canthelp.missing_slot_value|train_9
+USR|does it have a tv|request|train_9
+SYS|The Bakers has a television.|offer|train_9
+USR|what is the address|request|train_9
+SYS|The Bakers is located on 176 East Road.|offer|train_9
+USR|what is the price range|request|train_9
+SYS|The Bakers is in the cheap price range.|offer|train_9
+SYS|The Bakers is an outstanding pub.|offer|train_9
+USR|thank you|thankyou|train_9
+SYS|The Baron of Beef is a great pub and it's in the cheap price range.|offer|train_9
+USR|thank you goodbye|bye|train_9
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_10
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_10
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_10
+SYS|How may I help you?|welcomemsg|train_10
+USR|im looking for a pub that has internet connection and allows children|inform|train_10
+SYS|The Bakers, which allows children, is a great pub with an internet connection.|offer|train_10
+USR|can you give the address phone number and the area|request|train_10
+SYS|The Bakers is located on 176 East Road and its phone number is 01223304121.|offer|train_10
+USR|what area is it located in|request|train_10
+SYS|The Bakers is in the riverside part of town.|offer|train_10
+SYS|The Bakers is an outstanding pub.|offer|train_10
+SYS|The Bakers is a great pub.|offer|train_10
+USR|what area is it in|request|train_10
+SYS|The Bakers is in the riverside part of town.|offer|train_10
+USR|i thank you goodbye|thankyou|train_10
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg|train_11
+SYS|Your call will be recorded for research purposes.|welcomemsg|train_11
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg|train_11
+SYS|How may I help you?|welcomemsg|train_11
+SYS|What kind of venue are you looking for?|request|train_11
+SYS|For example, a pub, or a restaurant.|request|train_11
+USR|a restaurant food for free|inform|train_11
+SYS|Are you looking for somewhere near a particular venue?|request|train_11
+SYS|For example, Great Saint Mary's Church, Pembroke College, or Saint John's College.|request|train_11
+USR|no|negate|train_11
+SYS|What part of town do you have in mind?|request|train_11
+SYS|For example, something in the Cherry Hinton, central, or Trumpington area.|request|train_11
+USR|i dont care|inform|train_11
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer|train_11
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer|train_11
+USR|i dont care i dont have a preference|inform|train_11
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer|train_11
+USR|whats the phone number|request|train_11
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer|train_11
+USR|phone number|request|train_11
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer|train_11
+USR|<unk> the address|request|train_11
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer|train_11
+USR|the address|request|train_11
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer|train_11
+USR|thank you good bye|bye|train_11
